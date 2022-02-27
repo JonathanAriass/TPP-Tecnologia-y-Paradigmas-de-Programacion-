@@ -1,0 +1,14 @@
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\4\Practica4\generic.methods\bin\Debug\netcoreapp3.1\generic.methods.exe
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\4\Practica4\generic.methods\bin\Debug\netcoreapp3.1\generic.methods.deps.json
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\4\Practica4\generic.methods\bin\Debug\netcoreapp3.1\generic.methods.runtimeconfig.json
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\4\Practica4\generic.methods\bin\Debug\netcoreapp3.1\generic.methods.runtimeconfig.dev.json
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\4\Practica4\generic.methods\bin\Debug\netcoreapp3.1\generic.methods.dll
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\4\Practica4\generic.methods\bin\Debug\netcoreapp3.1\generic.methods.pdb
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\4\Practica4\generic.methods\obj\Debug\netcoreapp3.1\generic.methods.csproj.AssemblyReference.cache
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\4\Practica4\generic.methods\obj\Debug\netcoreapp3.1\generic.methods.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\4\Practica4\generic.methods\obj\Debug\netcoreapp3.1\generic.methods.AssemblyInfoInputs.cache
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\4\Practica4\generic.methods\obj\Debug\netcoreapp3.1\generic.methods.AssemblyInfo.cs
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\4\Practica4\generic.methods\obj\Debug\netcoreapp3.1\generic.methods.csproj.CoreCompileInputs.cache
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\4\Practica4\generic.methods\obj\Debug\netcoreapp3.1\generic.methods.dll
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\4\Practica4\generic.methods\obj\Debug\netcoreapp3.1\generic.methods.pdb
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\4\Practica4\generic.methods\obj\Debug\netcoreapp3.1\generic.methods.genruntimeconfig.cache

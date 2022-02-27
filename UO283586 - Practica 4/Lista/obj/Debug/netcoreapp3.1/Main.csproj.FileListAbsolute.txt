@@ -1,0 +1,17 @@
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\4\Practica4\Lista\bin\Debug\netcoreapp3.1\Main.exe
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\4\Practica4\Lista\bin\Debug\netcoreapp3.1\Main.deps.json
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\4\Practica4\Lista\bin\Debug\netcoreapp3.1\Main.runtimeconfig.json
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\4\Practica4\Lista\bin\Debug\netcoreapp3.1\Main.runtimeconfig.dev.json
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\4\Practica4\Lista\bin\Debug\netcoreapp3.1\Main.dll
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\4\Practica4\Lista\bin\Debug\netcoreapp3.1\Main.pdb
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\4\Practica4\Lista\bin\Debug\netcoreapp3.1\ListaEnlazada.dll
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\4\Practica4\Lista\bin\Debug\netcoreapp3.1\ListaEnlazada.pdb
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\4\Practica4\Lista\obj\Debug\netcoreapp3.1\Main.csproj.AssemblyReference.cache
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\4\Practica4\Lista\obj\Debug\netcoreapp3.1\Main.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\4\Practica4\Lista\obj\Debug\netcoreapp3.1\Main.AssemblyInfoInputs.cache
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\4\Practica4\Lista\obj\Debug\netcoreapp3.1\Main.AssemblyInfo.cs
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\4\Practica4\Lista\obj\Debug\netcoreapp3.1\Main.csproj.CoreCompileInputs.cache
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\4\Practica4\Lista\obj\Debug\netcoreapp3.1\Main.csproj.CopyComplete
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\4\Practica4\Lista\obj\Debug\netcoreapp3.1\Main.dll
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\4\Practica4\Lista\obj\Debug\netcoreapp3.1\Main.pdb
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\4\Practica4\Lista\obj\Debug\netcoreapp3.1\Main.genruntimeconfig.cache
