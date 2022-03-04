@@ -1,0 +1,14 @@
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 5\delegates\bin\Debug\netcoreapp3.1\delegates.exe
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 5\delegates\bin\Debug\netcoreapp3.1\delegates.deps.json
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 5\delegates\bin\Debug\netcoreapp3.1\delegates.runtimeconfig.json
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 5\delegates\bin\Debug\netcoreapp3.1\delegates.runtimeconfig.dev.json
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 5\delegates\bin\Debug\netcoreapp3.1\delegates.dll
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 5\delegates\bin\Debug\netcoreapp3.1\delegates.pdb
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 5\delegates\obj\Debug\netcoreapp3.1\delegates.csproj.AssemblyReference.cache
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 5\delegates\obj\Debug\netcoreapp3.1\delegates.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 5\delegates\obj\Debug\netcoreapp3.1\delegates.AssemblyInfoInputs.cache
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 5\delegates\obj\Debug\netcoreapp3.1\delegates.AssemblyInfo.cs
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 5\delegates\obj\Debug\netcoreapp3.1\delegates.csproj.CoreCompileInputs.cache
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 5\delegates\obj\Debug\netcoreapp3.1\delegates.dll
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 5\delegates\obj\Debug\netcoreapp3.1\delegates.pdb
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 5\delegates\obj\Debug\netcoreapp3.1\delegates.genruntimeconfig.cache

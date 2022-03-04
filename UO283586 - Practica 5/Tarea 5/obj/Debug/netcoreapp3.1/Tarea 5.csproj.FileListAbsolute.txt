@@ -1,0 +1,10 @@
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 5\Tarea 5\bin\Debug\netcoreapp3.1\Tarea 5.deps.json
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 5\Tarea 5\bin\Debug\netcoreapp3.1\Tarea 5.dll
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 5\Tarea 5\bin\Debug\netcoreapp3.1\Tarea 5.pdb
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 5\Tarea 5\obj\Debug\netcoreapp3.1\Tarea 5.csproj.AssemblyReference.cache
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 5\Tarea 5\obj\Debug\netcoreapp3.1\Tarea 5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 5\Tarea 5\obj\Debug\netcoreapp3.1\Tarea 5.AssemblyInfoInputs.cache
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 5\Tarea 5\obj\Debug\netcoreapp3.1\Tarea 5.AssemblyInfo.cs
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 5\Tarea 5\obj\Debug\netcoreapp3.1\Tarea 5.csproj.CoreCompileInputs.cache
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 5\Tarea 5\obj\Debug\netcoreapp3.1\Tarea 5.dll
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 5\Tarea 5\obj\Debug\netcoreapp3.1\Tarea 5.pdb
