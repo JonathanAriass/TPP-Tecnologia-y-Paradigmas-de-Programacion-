@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\byjon\\Desktop\\UNI\\2-cuatri\\TPP\\Practica\\Repo Github\\UO283586 - Practica 5\\Practica 5\\delegates\\delegates.csproj",
+      "projectUniqueName": "C:\\Users\\byjon\\Desktop\\UNI\\2-cuatri\\TPP\\Practica\\Repo Github\\UO283586 - Practica 5\\delegates\\delegates.csproj",
       "projectName": "delegates",
-      "projectPath": "C:\\Users\\byjon\\Desktop\\UNI\\2-cuatri\\TPP\\Practica\\Repo Github\\UO283586 - Practica 5\\Practica 5\\delegates\\delegates.csproj",
+      "projectPath": "C:\\Users\\byjon\\Desktop\\UNI\\2-cuatri\\TPP\\Practica\\Repo Github\\UO283586 - Practica 5\\delegates\\delegates.csproj",
       "packagesPath": "C:\\Users\\byjon\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\byjon\\Desktop\\UNI\\2-cuatri\\TPP\\Practica\\Repo Github\\UO283586 - Practica 5\\Practica 5\\delegates\\obj\\",
+      "outputPath": "C:\\Users\\byjon\\Desktop\\UNI\\2-cuatri\\TPP\\Practica\\Repo Github\\UO283586 - Practica 5\\delegates\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
