@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mc/wLweMBbmvpfecSteZ7GEUeBrBN7ebMa7tqEdTwV463Q3Dm8kibQovle9CAC4fIqL+eERAr5IyaxkY/CHvgQ==",
+  "dgSpecHash": "TZ/njqssQlhQuwFfQHRpATxDmM3vsaejjAQG+t7KCAlsXRuM7OnvGV0hj6zKIlm7Z1voMBeULeG81503yDiQaw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\byjon\\Desktop\\UNI\\2-cuatri\\TPP\\Practica\\4\\Practica4\\TestLista\\TestLista.csproj",
+  "projectFilePath": "C:\\Users\\byjon\\Desktop\\UNI\\2-cuatri\\TPP\\Practica\\Repo Github\\UO283586 - Practica 4\\TestLista\\TestLista.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\byjon\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",
     "C:\\Users\\byjon\\.nuget\\packages\\microsoft.codecoverage\\16.9.4\\microsoft.codecoverage.16.9.4.nupkg.sha512",

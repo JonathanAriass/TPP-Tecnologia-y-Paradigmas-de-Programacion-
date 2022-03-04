@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YJLzwJ/Rat7rpH0U2Q1IS89hiOr0XOpnUnZnovVjU78b/ydYgEKtgayrY6kNIw9zGaIbCkgGe7uOrmL/D0ANBA==",
+  "dgSpecHash": "6bFUwX1vZQLAKhmLxY7uZaeu3BYpYbjM2l7I6QRzPY0Xk4Xczjw0TOE+u+KQmlHZFalHeiXZrNpubHDtsQnX2g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\byjon\\Desktop\\UNI\\2-cuatri\\TPP\\Practica\\4\\Practica4\\test.diccionario\\test.diccionario.csproj",
+  "projectFilePath": "C:\\Users\\byjon\\Desktop\\UNI\\2-cuatri\\TPP\\Practica\\Repo Github\\UO283586 - Practica 4\\test.diccionario\\test.diccionario.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\byjon\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",
     "C:\\Users\\byjon\\.nuget\\packages\\microsoft.codecoverage\\16.9.4\\microsoft.codecoverage.16.9.4.nupkg.sha512",
