@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace TPP.Laboratory.Functional.Lab05
@@ -7,16 +8,7 @@ namespace TPP.Laboratory.Functional.Lab05
     public class Algorithm
     {
 
-        public static bool BuscarLetra(Person persona) 
-        {
-            string ultimaLetra = persona.IDNumber.Substring(persona.IDNumber.Length - 1, 1);
-
-            if (ultimaLetra.Equals("R"))
-            {
-                return true;
-            }
-            return false;
-        }
+        
 
         public static bool BuscarAngulo(Angle angle)
         {
@@ -27,6 +19,7 @@ namespace TPP.Laboratory.Functional.Lab05
             return false;
         }
 
+        /**
         public static T Buscar<T>(IEnumerable<T> list, Func<T,bool> function)
         {
             foreach (var a in list)
@@ -38,6 +31,20 @@ namespace TPP.Laboratory.Functional.Lab05
             }
             return default(T);
         }
+       */
+
+        public static TDomain Buscar<TDomain>(IEnumerable<TDomain> list, Func<TDomain, bool> function)
+        {
+            foreach (var a in list)
+            {
+                if (function(a))
+                {
+                    return a;
+                }
+            }
+            return default(TDomain);
+        }
+        
 
 
         // Mismo metodo pero con un Predicate en vez de con una Func
@@ -54,37 +61,72 @@ namespace TPP.Laboratory.Functional.Lab05
             return default(T);
         }
 
+        public static bool BuscarLetra(Person persona)
+        {
+            string ultimaLetra = persona.IDNumber.Substring(persona.IDNumber.Length - 1, 1);
+
+            if (ultimaLetra.Equals("R"))
+            {
+                return true;
+            }
+            return false;
+        }
+
 
         // METODO FILTER
 
-        public static IEnumerable<T> Filtrar<T>(IEnumerable<T> list, Func<T, bool> function)
+        public static TDomain[] Filtrar<TDomain>(IEnumerable<TDomain> list, Func<TDomain, bool> function)
         {
-            IList<T> aux = new List<T>();
+            var aux = new TDomain[list.Count()];
+            int i = 0;
 
             foreach (var a in list)
             {
                 if (function(a))
                 {
-                    aux.Add(a);
+                    aux[i] = a;
+                    i++;
                 }
             }
+            Array.Resize(ref aux, i);
             return aux;
         }
 
         // Forma con el Predicate
-        public static IEnumerable<T> Filtrar<T>(IEnumerable<T> list, Predicate<T> function)
+        /** 
+        public static IEnumerable<TDomain> FiltrarPred<TDomain>(this IEnumerable<TDomain> list, Predicate<TDomain> function)
         {
-            IList<T> aux = new List<T>();
+            var aux = new TDomain[list.Count()];
+            int i = 0;
 
             foreach (var a in list)
             {
                 if (function(a))
                 {
-                    aux.Add(a);
+                    aux[i] = a;
+                    i++;
                 }
             }
+            Array.Resize(ref aux, i);
             return aux;
         }
+        */
+
+        /**
+        public static TCD Reduce<TD, TCD>(this IEnumerable<TD> list, Func<TCD,TD> func)
+        {
+            var aux = default(TCD);
+            foreach (TD obj in list)
+            {
+                if (func(obj))
+                { 
+                    
+                }
+            }
+
+
+        }
+        */
 
     }
 }

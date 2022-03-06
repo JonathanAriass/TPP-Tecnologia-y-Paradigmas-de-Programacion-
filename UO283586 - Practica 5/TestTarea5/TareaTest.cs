@@ -63,7 +63,7 @@ namespace TPP.Laboratory.Functional.Lab05
             Assert.AreEqual(90, angle.Degrees);
             Assert.AreEqual(1, angle.Quadrant);
 
-            angle = Array.Find(angles, x => x.Quadrant.Equals(3) && x.Degrees == 220);
+            angle = Algorithm.Buscar(angles, x => x.Quadrant.Equals(3) && x.Degrees == 220);
             Assert.AreEqual(220, angle.Degrees);
             Assert.AreEqual(3, angle.Quadrant);
 
@@ -83,8 +83,29 @@ namespace TPP.Laboratory.Functional.Lab05
 
         [TestMethod]
         public void FilterPeopleTest()
-        { 
-            
+        {
+            Func<Person, bool> aux = x => x.IDNumber.EndsWith('A');
+            Person[] personAux = Algorithm.Filtrar(people, aux);
+            Assert.AreEqual("María", personAux[0].FirstName);
+            Assert.AreEqual("Luis", personAux[1].FirstName);
+        }
+
+        [TestMethod]
+        public void FilterAngleTest()
+        {
+            Func<Angle, bool> aux1 = x => x.Degrees <= 90 && x.Quadrant.Equals(1);
+            Angle[] angleAux = Algorithm.Filtrar(angles, aux1);
+            int angle = 0;
+            foreach (Angle an in angleAux)
+            {
+                Assert.AreEqual(angle, an.Degrees);
+                angle++;
+            }
+            /* Saldrian 91 grados, puesto que la ultima vez que se hace el foreach se comprueba
+            *  que el angulo sea 90 y se suma uno mas al contador, es decir, acaba en 91.
+            *  Una forma de solucionar esto es restarle uno cuando lo imprimamos para ver el contenido.
+            */
+            Console.WriteLine(angle-1);
         }
     }
 }
