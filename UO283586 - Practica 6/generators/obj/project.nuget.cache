@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "ewt48WkZg1seiN9s++ZIO7vDFMo6Wl6lbOzwYyjnxKnBzi3iSkPplZuLphauRr0pWb8rKXa10SgQCOWx3j8sdQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\byjon\\Desktop\\UNI\\2-cuatri\\TPP\\Practica\\Repo Github\\UO283586 - Practica 6\\generators\\generators.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\byjon\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\byjon\\.nuget\\packages\\system.data.datasetextensions\\4.5.0\\system.data.datasetextensions.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "4VUaxb2/k+ZtdaG7tMAadprPu9cak5Njc7la8kQO8QCmWudIPloHKypvW7WuyJSoy+Fo+TJx/u0EqFOAjcUO+g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\byjon\\Desktop\\UNI\\2-cuatri\\TPP\\Practica\\Repo Github\\UO283586 - Practica 6\\memoization\\memoization.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\byjon\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\byjon\\.nuget\\packages\\system.data.datasetextensions\\4.5.0\\system.data.datasetextensions.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
