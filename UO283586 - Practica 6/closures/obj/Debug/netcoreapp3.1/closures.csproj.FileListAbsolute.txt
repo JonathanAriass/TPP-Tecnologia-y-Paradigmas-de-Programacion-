@@ -1,0 +1,12 @@
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 6\closures\bin\Debug\netcoreapp3.1\closures.exe
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 6\closures\bin\Debug\netcoreapp3.1\closures.deps.json
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 6\closures\bin\Debug\netcoreapp3.1\closures.runtimeconfig.json
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 6\closures\bin\Debug\netcoreapp3.1\closures.runtimeconfig.dev.json
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 6\closures\bin\Debug\netcoreapp3.1\closures.dll
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 6\closures\bin\Debug\netcoreapp3.1\closures.pdb
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 6\closures\obj\Debug\netcoreapp3.1\closures.csproj.AssemblyReference.cache
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 6\closures\obj\Debug\netcoreapp3.1\closures.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 6\closures\obj\Debug\netcoreapp3.1\closures.csproj.CoreCompileInputs.cache
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 6\closures\obj\Debug\netcoreapp3.1\closures.dll
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 6\closures\obj\Debug\netcoreapp3.1\closures.pdb
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 6\closures\obj\Debug\netcoreapp3.1\closures.genruntimeconfig.cache

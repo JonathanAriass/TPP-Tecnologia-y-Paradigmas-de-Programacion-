@@ -1,0 +1,12 @@
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 6\currying\bin\Debug\netcoreapp3.1\currying.exe
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 6\currying\bin\Debug\netcoreapp3.1\currying.deps.json
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 6\currying\bin\Debug\netcoreapp3.1\currying.runtimeconfig.json
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 6\currying\bin\Debug\netcoreapp3.1\currying.runtimeconfig.dev.json
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 6\currying\bin\Debug\netcoreapp3.1\currying.dll
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 6\currying\bin\Debug\netcoreapp3.1\currying.pdb
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 6\currying\obj\Debug\netcoreapp3.1\currying.csproj.AssemblyReference.cache
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 6\currying\obj\Debug\netcoreapp3.1\currying.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 6\currying\obj\Debug\netcoreapp3.1\currying.csproj.CoreCompileInputs.cache
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 6\currying\obj\Debug\netcoreapp3.1\currying.dll
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 6\currying\obj\Debug\netcoreapp3.1\currying.pdb
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 6\currying\obj\Debug\netcoreapp3.1\currying.genruntimeconfig.cache

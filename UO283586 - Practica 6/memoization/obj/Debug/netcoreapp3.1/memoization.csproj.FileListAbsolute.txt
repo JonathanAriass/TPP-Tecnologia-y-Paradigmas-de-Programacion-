@@ -1,0 +1,12 @@
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 6\memoization\bin\Debug\netcoreapp3.1\memoization.exe
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 6\memoization\bin\Debug\netcoreapp3.1\memoization.deps.json
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 6\memoization\bin\Debug\netcoreapp3.1\memoization.runtimeconfig.json
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 6\memoization\bin\Debug\netcoreapp3.1\memoization.runtimeconfig.dev.json
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 6\memoization\bin\Debug\netcoreapp3.1\memoization.dll
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 6\memoization\bin\Debug\netcoreapp3.1\memoization.pdb
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 6\memoization\obj\Debug\netcoreapp3.1\memoization.csproj.AssemblyReference.cache
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 6\memoization\obj\Debug\netcoreapp3.1\memoization.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 6\memoization\obj\Debug\netcoreapp3.1\memoization.csproj.CoreCompileInputs.cache
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 6\memoization\obj\Debug\netcoreapp3.1\memoization.dll
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 6\memoization\obj\Debug\netcoreapp3.1\memoization.pdb
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 6\memoization\obj\Debug\netcoreapp3.1\memoization.genruntimeconfig.cache
