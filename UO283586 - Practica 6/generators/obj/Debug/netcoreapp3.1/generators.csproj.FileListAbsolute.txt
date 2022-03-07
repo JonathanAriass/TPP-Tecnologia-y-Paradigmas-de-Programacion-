@@ -1,0 +1,12 @@
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 6\generators\bin\Debug\netcoreapp3.1\generators.exe
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 6\generators\bin\Debug\netcoreapp3.1\generators.deps.json
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 6\generators\bin\Debug\netcoreapp3.1\generators.runtimeconfig.json
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 6\generators\bin\Debug\netcoreapp3.1\generators.runtimeconfig.dev.json
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 6\generators\bin\Debug\netcoreapp3.1\generators.dll
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 6\generators\bin\Debug\netcoreapp3.1\generators.pdb
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 6\generators\obj\Debug\netcoreapp3.1\generators.csproj.AssemblyReference.cache
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 6\generators\obj\Debug\netcoreapp3.1\generators.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 6\generators\obj\Debug\netcoreapp3.1\generators.csproj.CoreCompileInputs.cache
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 6\generators\obj\Debug\netcoreapp3.1\generators.dll
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 6\generators\obj\Debug\netcoreapp3.1\generators.pdb
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 6\generators\obj\Debug\netcoreapp3.1\generators.genruntimeconfig.cache
