@@ -26,7 +26,16 @@ namespace TPP.Laboratory.Functional.Lab06 {
 
         // Hay que comparar el lazyfibonacci con el eagerfibonacci con el chrono
         // hay que implementar el LazyFibonacci de forma eager
-
+        static public IEnumerable<int> EagerFibonacci(int n) 
+        {
+            var res = new int[n];
+            res[0] = res[1] = 1;
+            for (int i = 2; i < n; i++) 
+            {
+                res[i] = res[i - 2] + res[i - 1];
+            }
+            return res;
+        }
     }
 
 }
