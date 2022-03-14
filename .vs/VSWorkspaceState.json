@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\UO283586 - Practica 6"
+    "\\UO283586 - Practica 6",
+    "\\UO283586 - Practica 6\\generators"
   ],
+  "SelectedNode": "\\UO283586 - Practica 6\\generators\\Fibonacci.cs",
   "PreviewInSolutionExplorer": false
 }
