@@ -33,6 +33,7 @@ namespace TPP.Laboratory.Functional.Lab05
         }
        */
 
+        /*
         public static TDomain Buscar<TDomain>(IEnumerable<TDomain> list, Func<TDomain, bool> function)
         {
             foreach (var a in list)
@@ -43,7 +44,7 @@ namespace TPP.Laboratory.Functional.Lab05
                 }
             }
             return default(TDomain);
-        }
+        }*/
         
 
 
@@ -74,7 +75,7 @@ namespace TPP.Laboratory.Functional.Lab05
 
 
         // METODO FILTER
-
+        /*
         public static TDomain[] Filtrar<TDomain>(IEnumerable<TDomain> list, Func<TDomain, bool> function)
         {
             var aux = new TDomain[list.Count()];
@@ -91,10 +92,11 @@ namespace TPP.Laboratory.Functional.Lab05
             Array.Resize(ref aux, i);
             return aux;
         }
+        */
 
         // Forma con el Predicate
-        /** 
-        public static IEnumerable<TDomain> FiltrarPred<TDomain>(this IEnumerable<TDomain> list, Predicate<TDomain> function)
+        
+        public static IEnumerable<TDomain> FiltrarPred<TDomain>(IEnumerable<TDomain> list, Predicate<TDomain> function)
         {
             var aux = new TDomain[list.Count()];
             int i = 0;
@@ -110,23 +112,20 @@ namespace TPP.Laboratory.Functional.Lab05
             Array.Resize(ref aux, i);
             return aux;
         }
-        */
+        
 
-        /**
-        public static TCD Reduce<TD, TCD>(this IEnumerable<TD> list, Func<TCD,TD> func)
+        
+        public static TCD Reducir<TD, TCD>(IEnumerable<TD> list, Func<TCD,TD,TCD> func, TCD option = default(TCD) )
         {
             var aux = default(TCD);
             foreach (TD obj in list)
             {
-                if (func(obj))
-                { 
-                    
-                }
+                aux = func(aux, obj);
             }
 
-
+            return aux;
         }
-        */
+        
 
     }
 }

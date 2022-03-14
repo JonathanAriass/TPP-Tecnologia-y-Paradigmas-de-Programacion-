@@ -1,5 +1,6 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
+using System.Collections.Generic;
 
 namespace TPP.Laboratory.Functional.Lab05
 {
@@ -11,7 +12,7 @@ namespace TPP.Laboratory.Functional.Lab05
         Angle[] angles;
 
         [TestInitialize]
-        public void Initialize() 
+        public void Initialize()
         {
             people = Factory.CreatePeople();
             angles = Factory.CreateAngles();
@@ -21,7 +22,7 @@ namespace TPP.Laboratory.Functional.Lab05
         public void FindPeopleTest()
         {
             // Test con Find() de C#
-            Person person = Array.Find(people, x=>x.FirstName.Equals("Pepe") && x.IDNumber.EndsWith('R'));
+            Person person = Array.Find(people, x => x.FirstName.Equals("Pepe") && x.IDNumber.EndsWith('R'));
             Assert.AreEqual(person.FirstName, "Pepe");
             Assert.AreEqual(person.Surname, "Hevia");
             Assert.AreEqual(person.IDNumber, "23476293R");
@@ -32,19 +33,11 @@ namespace TPP.Laboratory.Functional.Lab05
             Assert.AreEqual(person.IDNumber, "9876384A");
 
             // Test con funcion lambda
-            person = Algorithm.Buscar(people, x => x.FirstName.Equals("Pepe") && x.IDNumber.EndsWith('R'));
+            Predicate<Person> Person = x => x.FirstName.Equals("Pepe") && x.IDNumber.EndsWith('R');
+            person = Algorithm.BuscarPred(people, x => x.FirstName.Equals("Pepe") && x.IDNumber.EndsWith('R'));
             Assert.AreEqual(person.FirstName, "Pepe");
             Assert.AreEqual(person.Surname, "Hevia");
             Assert.AreEqual(person.IDNumber, "23476293R");
-
-            // Test con Func<>
-            Func<Person,bool> find = Algorithm.BuscarLetra;
-
-            person = Algorithm.Buscar(people, find);
-            Assert.AreEqual(person.FirstName, "Pepe");
-            Assert.AreEqual(person.Surname, "Hevia");
-            Assert.AreEqual(person.IDNumber, "23476293R");
-
 
             // Test con el Predicate<>
             Predicate<Person> buscar = Algorithm.BuscarLetra;
@@ -63,15 +56,9 @@ namespace TPP.Laboratory.Functional.Lab05
             Assert.AreEqual(90, angle.Degrees);
             Assert.AreEqual(1, angle.Quadrant);
 
-            angle = Algorithm.Buscar(angles, x => x.Quadrant.Equals(3) && x.Degrees == 220);
+            angle = Algorithm.BuscarPred(angles, x => x.Quadrant.Equals(3) && x.Degrees == 220);
             Assert.AreEqual(220, angle.Degrees);
             Assert.AreEqual(3, angle.Quadrant);
-
-            // Test con Func<>
-            Func<Angle, bool> find = Algorithm.BuscarAngulo;
-            angle = Algorithm.Buscar(angles, find);
-            Assert.AreEqual(90, angle.Degrees);
-            Assert.AreEqual(1, angle.Quadrant);
 
             // Test con Predicate
             Predicate<Angle> buscar = Algorithm.BuscarAngulo;
@@ -84,19 +71,30 @@ namespace TPP.Laboratory.Functional.Lab05
         [TestMethod]
         public void FilterPeopleTest()
         {
-            Func<Person, bool> aux = x => x.IDNumber.EndsWith('A');
-            Person[] personAux = Algorithm.Filtrar(people, aux);
-            Assert.AreEqual("María", personAux[0].FirstName);
-            Assert.AreEqual("Luis", personAux[1].FirstName);
+            Predicate<Person> aux = x => x.IDNumber.EndsWith('A');
+            IEnumerable<Person> personAux = Algorithm.FiltrarPred(people, aux);
+            var x1 = "";
+            var x2 = "";
+            var cont = 0;
+            foreach (var i in personAux)
+            {
+                Console.WriteLine(i.FirstName);
+                if (cont == 0) { x1 = i.FirstName; cont++; }
+                else if (cont == 1) { x2 = i.FirstName; cont++; }
+            }
+            
+            Assert.AreEqual("María", x1);
+            Assert.AreEqual("Luis", x2);
+            
         }
 
         [TestMethod]
         public void FilterAngleTest()
         {
-            Func<Angle, bool> aux1 = x => x.Degrees <= 90 && x.Quadrant.Equals(1);
-            Angle[] angleAux = Algorithm.Filtrar(angles, aux1);
+            Predicate<Angle> aux1 = x => x.Degrees <= 90 && x.Quadrant.Equals(1);
+            IEnumerable<Angle> angleAux = Algorithm.FiltrarPred(angles, aux1);
             int angle = 0;
-            foreach (Angle an in angleAux)
+            foreach (var an in angleAux)
             {
                 Assert.AreEqual(angle, an.Degrees);
                 angle++;
@@ -105,7 +103,20 @@ namespace TPP.Laboratory.Functional.Lab05
             *  que el angulo sea 90 y se suma uno mas al contador, es decir, acaba en 91.
             *  Una forma de solucionar esto es restarle uno cuando lo imprimamos para ver el contenido.
             */
-            Console.WriteLine(angle-1);
+            Console.WriteLine(angle - 1);
         }
+
+
+        [TestMethod]
+        public void ReduceAngleTest() 
+        {
+            Func<double, Angle, double> angulos = (double aux, Angle a) => { return aux += a.Degrees; };
+            var aux = Algorithm.Reducir(angles, angulos);
+            Assert.AreEqual(64980, aux);
+        }
+
+
+       
+
     }
 }
