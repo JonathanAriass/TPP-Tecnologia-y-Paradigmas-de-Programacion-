@@ -5,7 +5,7 @@ using System.Text;
 
 namespace TPP.Laboratory.Functional.Lab05
 {
-    public class Algorithm
+    public static class Algorithm
     {
 
         
@@ -115,15 +115,14 @@ namespace TPP.Laboratory.Functional.Lab05
         
 
         
-        public static TCD Reducir<TD, TCD>(IEnumerable<TD> list, Func<TCD,TD,TCD> func, TCD option = default(TCD) )
+        public static TCD Reducir<TD, TCD>(this IEnumerable<TD> list, Func<TCD,TD,TCD> func, TCD acc = default(TCD) )
         {
-            var aux = default(TCD);
             foreach (TD obj in list)
             {
-                aux = func(aux, obj);
+                acc = func(acc, obj);
             }
 
-            return aux;
+            return acc;
         }
         
 

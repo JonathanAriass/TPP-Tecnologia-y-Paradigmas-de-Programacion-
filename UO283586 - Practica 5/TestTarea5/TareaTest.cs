@@ -110,8 +110,9 @@ namespace TPP.Laboratory.Functional.Lab05
         [TestMethod]
         public void ReduceAngleTest() 
         {
-            Func<double, Angle, double> angulos = (double aux, Angle a) => { return aux += a.Degrees; };
-            var aux = Algorithm.Reducir(angles, angulos);
+            Func<double, Angle, double> angulos = (double aux, Angle a) => aux = aux + a.Degrees;
+            var aux = angles.Reducir(angulos);
+            Console.WriteLine(aux);
             Assert.AreEqual(64980, aux);
         }
 
