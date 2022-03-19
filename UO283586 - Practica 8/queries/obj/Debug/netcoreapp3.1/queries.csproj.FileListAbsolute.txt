@@ -1,0 +1,15 @@
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 8\queries\bin\Debug\netcoreapp3.1\queries.exe
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 8\queries\bin\Debug\netcoreapp3.1\queries.deps.json
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 8\queries\bin\Debug\netcoreapp3.1\queries.runtimeconfig.json
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 8\queries\bin\Debug\netcoreapp3.1\queries.runtimeconfig.dev.json
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 8\queries\bin\Debug\netcoreapp3.1\queries.dll
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 8\queries\bin\Debug\netcoreapp3.1\queries.pdb
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 8\queries\bin\Debug\netcoreapp3.1\model.dll
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 8\queries\bin\Debug\netcoreapp3.1\model.pdb
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 8\queries\obj\Debug\netcoreapp3.1\queries.csproj.AssemblyReference.cache
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 8\queries\obj\Debug\netcoreapp3.1\queries.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 8\queries\obj\Debug\netcoreapp3.1\queries.csproj.CoreCompileInputs.cache
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 8\queries\obj\Debug\netcoreapp3.1\queries.csproj.CopyComplete
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 8\queries\obj\Debug\netcoreapp3.1\queries.dll
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 8\queries\obj\Debug\netcoreapp3.1\queries.pdb
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 8\queries\obj\Debug\netcoreapp3.1\queries.genruntimeconfig.cache
