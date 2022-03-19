@@ -1,0 +1,20 @@
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\4\Practica4\Objetos\bin\Debug\netcoreapp3.1\Objetos.deps.json
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\4\Practica4\Objetos\bin\Debug\netcoreapp3.1\Objetos.dll
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\4\Practica4\Objetos\bin\Debug\netcoreapp3.1\Objetos.pdb
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\4\Practica4\Objetos\obj\Debug\netcoreapp3.1\Objetos.csproj.AssemblyReference.cache
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\4\Practica4\Objetos\obj\Debug\netcoreapp3.1\Objetos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\4\Practica4\Objetos\obj\Debug\netcoreapp3.1\Objetos.AssemblyInfoInputs.cache
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\4\Practica4\Objetos\obj\Debug\netcoreapp3.1\Objetos.AssemblyInfo.cs
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\4\Practica4\Objetos\obj\Debug\netcoreapp3.1\Objetos.csproj.CoreCompileInputs.cache
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\4\Practica4\Objetos\obj\Debug\netcoreapp3.1\Objetos.dll
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\4\Practica4\Objetos\obj\Debug\netcoreapp3.1\Objetos.pdb
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 7\Objetos\bin\Debug\netcoreapp3.1\Objetos.deps.json
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 7\Objetos\bin\Debug\netcoreapp3.1\Objetos.dll
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 7\Objetos\bin\Debug\netcoreapp3.1\Objetos.pdb
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 7\Objetos\obj\Debug\netcoreapp3.1\Objetos.csproj.AssemblyReference.cache
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 7\Objetos\obj\Debug\netcoreapp3.1\Objetos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 7\Objetos\obj\Debug\netcoreapp3.1\Objetos.AssemblyInfoInputs.cache
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 7\Objetos\obj\Debug\netcoreapp3.1\Objetos.AssemblyInfo.cs
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 7\Objetos\obj\Debug\netcoreapp3.1\Objetos.csproj.CoreCompileInputs.cache
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 7\Objetos\obj\Debug\netcoreapp3.1\Objetos.dll
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 7\Objetos\obj\Debug\netcoreapp3.1\Objetos.pdb

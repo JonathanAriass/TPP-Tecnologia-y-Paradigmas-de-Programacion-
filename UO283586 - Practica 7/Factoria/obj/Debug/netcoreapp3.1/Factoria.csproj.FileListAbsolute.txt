@@ -1,0 +1,10 @@
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 7\Factoria\bin\Debug\netcoreapp3.1\Factoria.deps.json
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 7\Factoria\bin\Debug\netcoreapp3.1\Factoria.dll
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 7\Factoria\bin\Debug\netcoreapp3.1\Factoria.pdb
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 7\Factoria\obj\Debug\netcoreapp3.1\Factoria.csproj.AssemblyReference.cache
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 7\Factoria\obj\Debug\netcoreapp3.1\Factoria.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 7\Factoria\obj\Debug\netcoreapp3.1\Factoria.AssemblyInfoInputs.cache
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 7\Factoria\obj\Debug\netcoreapp3.1\Factoria.AssemblyInfo.cs
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 7\Factoria\obj\Debug\netcoreapp3.1\Factoria.csproj.CoreCompileInputs.cache
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 7\Factoria\obj\Debug\netcoreapp3.1\Factoria.dll
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 7\Factoria\obj\Debug\netcoreapp3.1\Factoria.pdb

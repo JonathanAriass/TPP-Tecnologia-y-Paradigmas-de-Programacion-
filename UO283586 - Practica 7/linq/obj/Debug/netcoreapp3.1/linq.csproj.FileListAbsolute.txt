@@ -1,0 +1,12 @@
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 7\linq\bin\Debug\netcoreapp3.1\linq.exe
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 7\linq\bin\Debug\netcoreapp3.1\linq.deps.json
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 7\linq\bin\Debug\netcoreapp3.1\linq.runtimeconfig.json
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 7\linq\bin\Debug\netcoreapp3.1\linq.runtimeconfig.dev.json
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 7\linq\bin\Debug\netcoreapp3.1\linq.dll
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 7\linq\bin\Debug\netcoreapp3.1\linq.pdb
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 7\linq\obj\Debug\netcoreapp3.1\linq.csproj.AssemblyReference.cache
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 7\linq\obj\Debug\netcoreapp3.1\linq.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 7\linq\obj\Debug\netcoreapp3.1\linq.csproj.CoreCompileInputs.cache
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 7\linq\obj\Debug\netcoreapp3.1\linq.dll
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 7\linq\obj\Debug\netcoreapp3.1\linq.pdb
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 7\linq\obj\Debug\netcoreapp3.1\linq.genruntimeconfig.cache

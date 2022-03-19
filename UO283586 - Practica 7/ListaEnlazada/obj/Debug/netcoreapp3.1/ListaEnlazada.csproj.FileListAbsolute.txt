@@ -1,0 +1,20 @@
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\4\Practica4\ListaEnlazada\bin\Debug\netcoreapp3.1\ListaEnlazada.deps.json
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\4\Practica4\ListaEnlazada\bin\Debug\netcoreapp3.1\ListaEnlazada.dll
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\4\Practica4\ListaEnlazada\bin\Debug\netcoreapp3.1\ListaEnlazada.pdb
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\4\Practica4\ListaEnlazada\obj\Debug\netcoreapp3.1\ListaEnlazada.csproj.AssemblyReference.cache
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\4\Practica4\ListaEnlazada\obj\Debug\netcoreapp3.1\ListaEnlazada.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\4\Practica4\ListaEnlazada\obj\Debug\netcoreapp3.1\ListaEnlazada.AssemblyInfoInputs.cache
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\4\Practica4\ListaEnlazada\obj\Debug\netcoreapp3.1\ListaEnlazada.AssemblyInfo.cs
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\4\Practica4\ListaEnlazada\obj\Debug\netcoreapp3.1\ListaEnlazada.csproj.CoreCompileInputs.cache
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\4\Practica4\ListaEnlazada\obj\Debug\netcoreapp3.1\ListaEnlazada.dll
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\4\Practica4\ListaEnlazada\obj\Debug\netcoreapp3.1\ListaEnlazada.pdb
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 7\ListaEnlazada\bin\Debug\netcoreapp3.1\ListaEnlazada.deps.json
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 7\ListaEnlazada\bin\Debug\netcoreapp3.1\ListaEnlazada.dll
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 7\ListaEnlazada\bin\Debug\netcoreapp3.1\ListaEnlazada.pdb
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 7\ListaEnlazada\obj\Debug\netcoreapp3.1\ListaEnlazada.csproj.AssemblyReference.cache
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 7\ListaEnlazada\obj\Debug\netcoreapp3.1\ListaEnlazada.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 7\ListaEnlazada\obj\Debug\netcoreapp3.1\ListaEnlazada.AssemblyInfoInputs.cache
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 7\ListaEnlazada\obj\Debug\netcoreapp3.1\ListaEnlazada.AssemblyInfo.cs
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 7\ListaEnlazada\obj\Debug\netcoreapp3.1\ListaEnlazada.csproj.CoreCompileInputs.cache
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 7\ListaEnlazada\obj\Debug\netcoreapp3.1\ListaEnlazada.dll
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 7\ListaEnlazada\obj\Debug\netcoreapp3.1\ListaEnlazada.pdb
