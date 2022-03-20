@@ -18,7 +18,7 @@ namespace TPP.Laboratory.Functional.Lab08 {
 
         static void Main(string[] args) {
             Query query = new Query();
-            query.Query2a();
+            /*query.Query2a();
             query.Query2b();
             query.Query2c();
             query.Query3();
@@ -26,7 +26,11 @@ namespace TPP.Laboratory.Functional.Lab08 {
             query.Query4b();
             query.Query4c();
             query.Query5();
-            query.Query6();
+            query.Query6();*/
+            query.Homework1();
+            query.Homework2();
+            query.Homework3();
+            query.Homework4();
         }
 
         private void Query1() {
@@ -180,25 +184,64 @@ namespace TPP.Laboratory.Functional.Lab08 {
 
         /************ Homework **********************************/
 
-        private void Homework1() {
+        private void Homework1()
+        {
             // Show, ordered by age, the names of the employees in the Computer Science department, 
             // who have an office in the Faculty of Science, 
             // and who have done phone calls longer than one minute
+
+            var employees = model.Employees
+                .OrderByDescending(e => e.Age)
+                .Where(e => e.Department.Name.Equals("Computer Science") && e.Office.Building.Equals("Faculty of Science"))
+                .Where(e => model.PhoneCalls.Any(p => p.SourceNumber.Equals(e.TelephoneNumber) && p.Seconds > 60))
+                .Select(e => e.Name);
+            
+            Console.WriteLine("Employees:");
+            Show(employees);
         }
 
         private void Homework2() {
             // Show the summation, in seconds, of the phone calls done by the employees of the Computer Science department
+            var summation = model.PhoneCalls
+                .Join(model.Employees,
+                p => p.SourceNumber,
+                e => e.TelephoneNumber,
+                (p, e) => (p.Seconds, e.Department))
+                .Where(d => d.Department.Name.ToLower().Equals("computer science"))
+                .Select(p => p.Seconds).Sum();
+
+            Console.WriteLine("Summation:" + summation);
         }
 
         private void Homework3() {
             // Show the phone calls done by each department, ordered by department names. 
             // Each line must show “Department = <Name>, Duration = <Seconds>”
+            var calls = model.PhoneCalls
+                .Join(model.Employees,
+                p => p.SourceNumber,
+                e => e.TelephoneNumber,
+                (p, e) => (p.Seconds, e.Department.Name))
+                .OrderBy(d => d.Name);
+
+            foreach (var obj in calls)
+            {
+                Console.WriteLine($"Department = {obj.Name}, Duration = {obj.Seconds}");
+            }
         }
 
         private void Homework4() {
             // Show the departments with the youngest employee, 
             // together with the name of the youngest employee and his/her age 
             // (more than one youngest employee may exist)
+            int lowestAge = model.Employees.OrderBy(e => e.Age).First().Age;
+
+
+            var departs = model.Departments
+                .Where(d => d.Employees.Where(e => e.Age <= lowestAge).Count() >= 1)
+                .Select(d => (d.Name, d.Employees.OrderBy(e => e.Age).First(), d.Employees.OrderBy(e => e.Age).First().Age));
+            
+            Console.WriteLine("Departs:");
+            Show(departs);
         }
 
         private void Homework5() {
