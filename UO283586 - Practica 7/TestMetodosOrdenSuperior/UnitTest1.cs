@@ -2,6 +2,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using ListaEnlazada;
 using System;
 using TPP.Laboratory.Functional.Lab05;
+using System.Linq;
 
 namespace TestMetodosOrdenSuperior
 {
@@ -183,8 +184,142 @@ namespace TestMetodosOrdenSuperior
             Assert.AreEqual(res.FirstName, "Pepe");
             Assert.AreEqual(res.Surname, "Reverte");
             Assert.AreEqual(res.IDNumber, "6521233");
-
         }
+
+
+        [TestMethod]
+        public void FindAngle()
+        {
+            Lista<Angle> angles = new Lista<Angle>();
+            angles.AddNode(new Angle(89),0);
+            angles.AddNode(new Angle(90), 0);
+            angles.AddNode(new Angle(120), 1);
+            angles.AddNode(new Angle(265), 0);
+            Predicate<Angle> buscar = x => x.Quadrant.Equals(1);
+            var res = angles.Buscar(buscar);
+            Assert.AreEqual(res.Degrees, 90);
+            Assert.AreEqual(res.Quadrant, 1);
+        }
+
+
+        [TestMethod]
+        public void FilterPeople() 
+        {
+            Lista<Person> lista2 = new Lista<Person>();
+            lista2.AddNode(new Person("Pepe", "Ramirez", "8191233"), 0);
+            lista2.AddNode(new Person("Maria", "Gonzalez", "1738132"), 0);
+            lista2.AddNode(new Person("Pepe", "Reverte", "6521233"), 0);
+            Predicate<Person> filtrar = x => x.FirstName.Equals("Pepe");
+            var res = lista2.Filtrar(filtrar);
+
+            var x1 = "";
+            var a1 = "";
+            var x2 = "";
+            var a2 = "";
+            var cont = 0;
+            foreach (Person i in res)
+            {
+                Console.WriteLine(i.FirstName);
+                if (cont == 0) { x1 = i.FirstName; a1 = i.Surname; cont++; }
+                else if (cont == 1) { x2 = i.FirstName; a2 = i.Surname; cont++; }
+            }
+
+            Assert.AreEqual(2, res.Count());
+            Assert.AreEqual("Pepe", x1);
+            Assert.AreEqual("Reverte", a1);
+            Assert.AreEqual("Pepe", x2);
+            Assert.AreEqual("Ramirez", a2);
+        }
+
+        [TestMethod]
+        public void FilterAngle()
+        {
+            Lista<Angle> angles = new Lista<Angle>();
+            angles.AddNode(new Angle(89), 0);
+            angles.AddNode(new Angle(90), 0);
+            angles.AddNode(new Angle(120), 1);
+            angles.AddNode(new Angle(265), 0);
+            Predicate<Angle> filtrar = x => x.Quadrant.Equals(1);
+            var res = angles.Filtrar(filtrar);
+
+            float a1 = 0;
+            float a2 = 0;
+            var cont = 0;
+            foreach (Angle i in res)
+            {
+                Console.WriteLine(i.Degrees);
+                if (cont == 0) {a1 = i.Degrees; cont++; }
+                else if (cont == 1) {a2 = i.Degrees; cont++; }
+            }
+
+            Assert.AreEqual(2, res.Count());
+            Assert.AreEqual(90, a1);
+            Assert.AreEqual(89, a2);
+        }
+
+        [TestMethod]
+        public void ReducePeople()
+        {
+            Lista<Person> lista2 = new Lista<Person>();
+            lista2.AddNode(new Person("Pepe", "Ramirez", "8191233"), 0);
+            lista2.AddNode(new Person("Maria", "Gonzalez", "1738132"), 0);
+            lista2.AddNode(new Person("Pepe", "Reverte", "6521233"), 0);
+
+            Func<int ,Person, int> reducir = (int acc, Person x) => acc += x.FirstName.Length;
+            var res = lista2.Reducir(reducir);
+
+            Assert.AreEqual(13, res); 
+        }
+
+        [TestMethod]
+        public void ReduceAngle()
+        {
+            Lista<Angle> angles = new Lista<Angle>();
+            angles.AddNode(new Angle(89), 0);
+            angles.AddNode(new Angle(90), 0);
+            angles.AddNode(new Angle(120), 1);
+            angles.AddNode(new Angle(265), 0);
+
+            Func<double, Angle, double> reducir = (double acc, Angle x) => acc += x.Degrees;
+            var res = angles.Reducir(reducir);
+
+            Assert.AreEqual(564, res);
+        }
+
+        [TestMethod]
+        public void InvertTest() 
+        {
+            Lista<Person> lista2 = new Lista<Person>();
+            lista2.AddNode(new Person("Pepe", "Ramirez", "8191233"), 0);
+            lista2.AddNode(new Person("Maria", "Gonzalez", "1738132"), 0);
+            lista2.AddNode(new Person("Pepe", "Reverte", "6521233"), 0);
+            var res = lista2.Invert();
+
+
+            var x1 = "";
+            var a1 = "";
+            var x2 = "";
+            var a2 = "";
+            var x3 = "";
+            var a3 = "";
+            var cont = 0;
+            foreach (Person i in res)
+            {
+                Console.WriteLine(i.FirstName);
+                if (cont == 0) { x1 = i.FirstName; a1 = i.Surname; cont++; }
+                else if (cont == 1) { x2 = i.FirstName; a2 = i.Surname; cont++; }
+                else if (cont == 2) { x3 = i.FirstName; a3 = i.Surname; cont++; }
+            }
+
+            Assert.AreEqual(3, res.Count());
+            Assert.AreEqual("Pepe", x1);
+            Assert.AreEqual("Ramirez", a1);
+            Assert.AreEqual("Maria", x2);
+            Assert.AreEqual("Gonzalez", a2);
+            Assert.AreEqual("Pepe", x3);
+            Assert.AreEqual("Reverte", a3);
+        }
+
 
     }
 }

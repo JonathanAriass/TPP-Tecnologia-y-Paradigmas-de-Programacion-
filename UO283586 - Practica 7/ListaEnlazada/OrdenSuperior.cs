@@ -79,5 +79,26 @@ namespace ListaEnlazada
             }
         }
 
+        public static IEnumerable<T> Invert<T>(this IEnumerable<T> lista)
+        {
+            T[] aux = new T[lista.Count()];
+
+            var i = 0;
+            foreach (T obj in lista) 
+            {
+                aux[i] = obj;
+                i++;
+            }
+
+            IList<T> res = new List<T>();
+
+            for (int j = aux.Length - 1; j >= 0; j--)
+            {
+                res.Add(aux[j]);
+            }
+
+            return res;
+        }
+
     }
 }
