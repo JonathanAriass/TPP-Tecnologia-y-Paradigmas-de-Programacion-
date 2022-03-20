@@ -320,6 +320,39 @@ namespace TestMetodosOrdenSuperior
             Assert.AreEqual("Reverte", a3);
         }
 
+        [TestMethod]
+        public void InvertTest2()
+        {
+            Lista<Person> lista2 = new Lista<Person>();
+            lista2.AddNode(new Person("Pepe", "Ramirez", "8191233"));
+            lista2.AddNode(new Person("Maria", "Gonzalez", "1738132"));
+            lista2.AddNode(new Person("Pepe", "Reverte", "6521233"));
+            var res = lista2.Invert();
+
+
+            var x1 = "";
+            var a1 = "";
+            var x2 = "";
+            var a2 = "";
+            var x3 = "";
+            var a3 = "";
+            var cont = 0;
+            foreach (Person i in res)
+            {
+                Console.WriteLine(i.FirstName);
+                if (cont == 0) { x1 = i.FirstName; a1 = i.Surname; cont++; }
+                else if (cont == 1) { x2 = i.FirstName; a2 = i.Surname; cont++; }
+                else if (cont == 2) { x3 = i.FirstName; a3 = i.Surname; cont++; }
+            }
+
+            Assert.AreEqual(3, res.Count());
+            Assert.AreEqual("Pepe", x1);
+            Assert.AreEqual("Reverte", a1);
+            Assert.AreEqual("Maria", x2);
+            Assert.AreEqual("Gonzalez", a2);
+            Assert.AreEqual("Pepe", x3);
+            Assert.AreEqual("Ramirez", a3);
+        }
 
     }
 }
