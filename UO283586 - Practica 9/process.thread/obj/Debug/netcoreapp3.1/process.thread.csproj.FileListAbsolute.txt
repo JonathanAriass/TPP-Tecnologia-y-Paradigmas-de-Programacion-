@@ -1,0 +1,11 @@
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 9\process.thread\bin\Debug\netcoreapp3.1\process.thread.exe
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 9\process.thread\bin\Debug\netcoreapp3.1\process.thread.deps.json
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 9\process.thread\bin\Debug\netcoreapp3.1\process.thread.runtimeconfig.json
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 9\process.thread\bin\Debug\netcoreapp3.1\process.thread.runtimeconfig.dev.json
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 9\process.thread\bin\Debug\netcoreapp3.1\process.thread.dll
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 9\process.thread\bin\Debug\netcoreapp3.1\process.thread.pdb
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 9\process.thread\obj\Debug\netcoreapp3.1\process.thread.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 9\process.thread\obj\Debug\netcoreapp3.1\process.thread.csproj.CoreCompileInputs.cache
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 9\process.thread\obj\Debug\netcoreapp3.1\process.thread.dll
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 9\process.thread\obj\Debug\netcoreapp3.1\process.thread.pdb
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 9\process.thread\obj\Debug\netcoreapp3.1\process.thread.genruntimeconfig.cache
