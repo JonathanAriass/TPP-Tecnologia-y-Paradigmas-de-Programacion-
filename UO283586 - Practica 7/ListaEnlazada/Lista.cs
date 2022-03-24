@@ -55,7 +55,7 @@ namespace ListaEnlazada
         /// Metodo que añade un nodo al final de la lista
         /// </summary>
         /// <param name="node">Nodo a añadir a la lista</param>
-        public void AddNode(T node)
+        public void Add(T node)
         {
             Invariant();
             int previousNumberOfElements = NumberOfElements;
@@ -99,7 +99,7 @@ namespace ListaEnlazada
         /// </summary>
         /// <param name="node">Nodo a añadir a la lista</param>
         /// <param name="index">Indice (posicion) donde añadir el nodo</param>
-        public void AddNode(T node, uint index)
+        public void Add(T node, uint index)
         {
             Invariant();
             int previousNumberOfElements = NumberOfElements;
@@ -202,7 +202,7 @@ namespace ListaEnlazada
 
                 aux = aux.NextNode;
             }
-            
+
             Console.WriteLine("El elemento: " + node + ", no existe en el stack.");
             Invariant();
         }
@@ -260,7 +260,7 @@ namespace ListaEnlazada
             {
                 throw new InvalidOperationException("Lista vacia, no hay nada que buscar");
             }
-            
+
             int previosuNumberOfElements = this.NumberOfElements;
 
             Node<T> aux = _lead;
@@ -330,7 +330,7 @@ namespace ListaEnlazada
         private void Invariant()
         {
             Debug.Assert(NumberOfElements >= 0);
-            Debug.Assert(NumberOfElements > 0 ? _lead!=null : _lead==null) ;
+            Debug.Assert(NumberOfElements > 0 ? _lead != null : _lead == null);
         }
 
         /// <summary>
@@ -352,9 +352,9 @@ namespace ListaEnlazada
         }
 
 
-        public static T Buscar<T>(IEnumerable<T> list, Predicate<T> function)
+        public static T Find<T>(IEnumerable<T> lista, Predicate<T> function)
         {
-            foreach (var a in list)
+            foreach (var a in lista)
             {
                 if (function(a))
                 {
@@ -364,7 +364,7 @@ namespace ListaEnlazada
             return default(T);
         }
 
-        public static IEnumerable<TDomain> Filtrar<TDomain>(IEnumerable<TDomain> list, Predicate<TDomain> function)
+        public static IEnumerable<TDomain> Filter<TDomain>(IEnumerable<TDomain> list, Predicate<TDomain> function)
         {
             var aux = new TDomain[list.Count()];
             int i = 0;
@@ -383,7 +383,7 @@ namespace ListaEnlazada
 
 
         // Reduce sin semilla
-        public static TCD Reducir<TD, TCD>(IEnumerable<TD> list, Func<TCD, TD, TCD> func)
+        public static TCD Reduce<TD, TCD>(IEnumerable<TD> list, Func<TCD, TD, TCD> func)
         {
             var acc = default(TCD);
             foreach (TD obj in list)
@@ -395,7 +395,7 @@ namespace ListaEnlazada
         }
 
         // Con semilla
-        public static TCD Reducir<TD, TCD>(IEnumerable<TD> list, Func<TCD, TD, TCD> func, TCD acc = default(TCD))
+        public static TCD Reduce<TD, TCD>(IEnumerable<TD> list, Func<TCD, TD, TCD> func, TCD acc = default(TCD))
         {
             foreach (TD obj in list)
             {

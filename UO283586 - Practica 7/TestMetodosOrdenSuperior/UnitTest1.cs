@@ -33,7 +33,7 @@ namespace TestMetodosOrdenSuperior
         [ExpectedException(typeof(ArgumentException))]
         public void GetElementExceptionTest()
         {
-            this.lista.AddNode(true);
+            this.lista.Add(true);
             this.lista.GetElement(2);
         }
 
@@ -53,11 +53,11 @@ namespace TestMetodosOrdenSuperior
         [TestMethod]
         public void AddNodeBaseTest()
         {
-            this.lista.AddNode(4);
-            this.lista.AddNode("Test");
-            this.lista.AddNode(true);
+            this.lista.Add(4);
+            this.lista.Add("Test");
+            this.lista.Add(true);
             Person p1 = new Person("Pepe", "Ramirez", "8191233");
-            this.lista.AddNode(p1);
+            this.lista.Add(p1);
             Assert.AreEqual(4, this.lista.NumberOfElements);
             Assert.AreEqual(true, this.lista.GetElement(2));
             Assert.AreEqual("Test", this.lista.GetElement(1));
@@ -68,7 +68,7 @@ namespace TestMetodosOrdenSuperior
         [ExpectedException(typeof(ArgumentException))]
         public void AddNodeExceptionTest()
         {
-            this.lista.AddNode(null);
+            this.lista.Add(null);
         }
 
 
@@ -78,17 +78,17 @@ namespace TestMetodosOrdenSuperior
         [TestMethod]
         public void AddNodeByIndexTest()
         {
-            this.lista.AddNode(4, 0);
-            this.lista.AddNode("Test", 0);
-            this.lista.AddNode(true, 0);
+            this.lista.Add(4, 0);
+            this.lista.Add("Test", 0);
+            this.lista.Add(true, 0);
             Assert.AreEqual(3, this.lista.NumberOfElements);
             Assert.AreEqual(true, this.lista.GetElement(0));
             Assert.AreEqual("Test", this.lista.GetElement(1));
             Assert.AreEqual(4, this.lista.GetElement(2));
-            this.lista.AddNode("Maria", 2);
-            this.lista.AddNode(3489, 1);
+            this.lista.Add("Maria", 2);
+            this.lista.Add(3489, 1);
             Person p1 = new Person("Pepe", "Ramirez", "8191233");
-            this.lista.AddNode(p1, 0);
+            this.lista.Add(p1, 0);
             Assert.AreEqual(new Person("Pepe", "Ramirez", "8191233"), this.lista.GetElement(0));
             Assert.AreEqual(true, this.lista.GetElement(1));
             Assert.AreEqual(3489, this.lista.GetElement(2));
@@ -107,11 +107,11 @@ namespace TestMetodosOrdenSuperior
         public void RemoveNodeTest()
         {
             // Nodes added in the past test that works fine
-            this.lista.AddNode(4, 0);
-            this.lista.AddNode("Test", 0);
-            this.lista.AddNode(true, 0);
-            this.lista.AddNode("Maria", 2);
-            this.lista.AddNode(3489, 1);
+            this.lista.Add(4, 0);
+            this.lista.Add("Test", 0);
+            this.lista.Add(true, 0);
+            this.lista.Add("Maria", 2);
+            this.lista.Add(3489, 1);
             Assert.AreEqual(5, this.lista.NumberOfElements);
             this.lista.Remove("Maria");
             Assert.AreEqual(4, this.lista.NumberOfElements);
@@ -137,13 +137,13 @@ namespace TestMetodosOrdenSuperior
         [TestMethod]
         public void ContainsTest()
         {
-            this.lista.AddNode(4, 0);
-            this.lista.AddNode("Test", 0);
-            this.lista.AddNode(true, 0);
-            this.lista.AddNode("Maria", 2);
-            this.lista.AddNode(3489, 1);
+            this.lista.Add(4, 0);
+            this.lista.Add("Test", 0);
+            this.lista.Add(true, 0);
+            this.lista.Add("Maria", 2);
+            this.lista.Add(3489, 1);
             Person p1 = new Person("Pepe", "Ramirez", "8191233");
-            this.lista.AddNode(p1);
+            this.lista.Add(p1);
             Assert.IsTrue(this.lista.Contains("Maria"));
             Assert.IsFalse(this.lista.Contains("Mari"));
             Assert.IsTrue(this.lista.Contains(3489));
@@ -172,9 +172,9 @@ namespace TestMetodosOrdenSuperior
         public void FindTest()
         {
             Lista<Person> lista2 = new Lista<Person>();
-            lista2.AddNode(new Person("Pepe", "Ramirez", "8191233"), 0);
-            lista2.AddNode(new Person("Maria", "Gonzalez", "1738132"), 0);
-            lista2.AddNode(new Person("Pepe", "Reverte", "6521233"), 0);
+            lista2.Add(new Person("Pepe", "Ramirez", "8191233"), 0);
+            lista2.Add(new Person("Maria", "Gonzalez", "1738132"), 0);
+            lista2.Add(new Person("Pepe", "Reverte", "6521233"), 0);
             foreach (Person p in lista2)
             {
                 Console.WriteLine(p.ToString());
@@ -191,10 +191,10 @@ namespace TestMetodosOrdenSuperior
         public void FindAngle()
         {
             Lista<Angle> angles = new Lista<Angle>();
-            angles.AddNode(new Angle(89),0);
-            angles.AddNode(new Angle(90), 0);
-            angles.AddNode(new Angle(120), 1);
-            angles.AddNode(new Angle(265), 0);
+            angles.Add(new Angle(89),0);
+            angles.Add(new Angle(90), 0);
+            angles.Add(new Angle(120), 1);
+            angles.Add(new Angle(265), 0);
             Predicate<Angle> buscar = x => x.Quadrant.Equals(1);
             var res = angles.Buscar(buscar);
             Assert.AreEqual(res.Degrees, 90);
@@ -206,9 +206,9 @@ namespace TestMetodosOrdenSuperior
         public void FilterPeople() 
         {
             Lista<Person> lista2 = new Lista<Person>();
-            lista2.AddNode(new Person("Pepe", "Ramirez", "8191233"), 0);
-            lista2.AddNode(new Person("Maria", "Gonzalez", "1738132"), 0);
-            lista2.AddNode(new Person("Pepe", "Reverte", "6521233"), 0);
+            lista2.Add(new Person("Pepe", "Ramirez", "8191233"), 0);
+            lista2.Add(new Person("Maria", "Gonzalez", "1738132"), 0);
+            lista2.Add(new Person("Pepe", "Reverte", "6521233"), 0);
             Predicate<Person> filtrar = x => x.FirstName.Equals("Pepe");
             var res = lista2.Filtrar(filtrar);
 
@@ -235,10 +235,10 @@ namespace TestMetodosOrdenSuperior
         public void FilterAngle()
         {
             Lista<Angle> angles = new Lista<Angle>();
-            angles.AddNode(new Angle(89), 0);
-            angles.AddNode(new Angle(90), 0);
-            angles.AddNode(new Angle(120), 1);
-            angles.AddNode(new Angle(265), 0);
+            angles.Add(new Angle(89), 0);
+            angles.Add(new Angle(90), 0);
+            angles.Add(new Angle(120), 1);
+            angles.Add(new Angle(265), 0);
             Predicate<Angle> filtrar = x => x.Quadrant.Equals(1);
             var res = angles.Filtrar(filtrar);
 
@@ -261,9 +261,9 @@ namespace TestMetodosOrdenSuperior
         public void ReducePeople()
         {
             Lista<Person> lista2 = new Lista<Person>();
-            lista2.AddNode(new Person("Pepe", "Ramirez", "8191233"), 0);
-            lista2.AddNode(new Person("Maria", "Gonzalez", "1738132"), 0);
-            lista2.AddNode(new Person("Pepe", "Reverte", "6521233"), 0);
+            lista2.Add(new Person("Pepe", "Ramirez", "8191233"), 0);
+            lista2.Add(new Person("Maria", "Gonzalez", "1738132"), 0);
+            lista2.Add(new Person("Pepe", "Reverte", "6521233"), 0);
 
             Func<int ,Person, int> reducir = (int acc, Person x) => acc += x.FirstName.Length;
             var res = lista2.Reducir(reducir);
@@ -275,10 +275,10 @@ namespace TestMetodosOrdenSuperior
         public void ReduceAngle()
         {
             Lista<Angle> angles = new Lista<Angle>();
-            angles.AddNode(new Angle(89), 0);
-            angles.AddNode(new Angle(90), 0);
-            angles.AddNode(new Angle(120), 1);
-            angles.AddNode(new Angle(265), 0);
+            angles.Add(new Angle(89), 0);
+            angles.Add(new Angle(90), 0);
+            angles.Add(new Angle(120), 1);
+            angles.Add(new Angle(265), 0);
 
             Func<double, Angle, double> reducir = (double acc, Angle x) => acc += x.Degrees;
             var res = angles.Reducir(reducir);
@@ -290,9 +290,9 @@ namespace TestMetodosOrdenSuperior
         public void InvertTest() 
         {
             Lista<Person> lista2 = new Lista<Person>();
-            lista2.AddNode(new Person("Pepe", "Ramirez", "8191233"), 0);
-            lista2.AddNode(new Person("Maria", "Gonzalez", "1738132"), 0);
-            lista2.AddNode(new Person("Pepe", "Reverte", "6521233"), 0);
+            lista2.Add(new Person("Pepe", "Ramirez", "8191233"), 0);
+            lista2.Add(new Person("Maria", "Gonzalez", "1738132"), 0);
+            lista2.Add(new Person("Pepe", "Reverte", "6521233"), 0);
             var res = lista2.Invert();
 
 
@@ -324,9 +324,9 @@ namespace TestMetodosOrdenSuperior
         public void InvertTest2()
         {
             Lista<Person> lista2 = new Lista<Person>();
-            lista2.AddNode(new Person("Pepe", "Ramirez", "8191233"));
-            lista2.AddNode(new Person("Maria", "Gonzalez", "1738132"));
-            lista2.AddNode(new Person("Pepe", "Reverte", "6521233"));
+            lista2.Add(new Person("Pepe", "Ramirez", "8191233"));
+            lista2.Add(new Person("Maria", "Gonzalez", "1738132"));
+            lista2.Add(new Person("Pepe", "Reverte", "6521233"));
             var res = lista2.Invert();
 
 
