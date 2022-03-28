@@ -180,7 +180,7 @@ namespace TestMetodosOrdenSuperior
                 Console.WriteLine(p.ToString());
             }
             Predicate<Person> buscar = x => x.FirstName.Equals("Pepe");
-            var res = lista2.Buscar(buscar);
+            var res = lista2.Find(buscar);
             Assert.AreEqual(res.FirstName, "Pepe");
             Assert.AreEqual(res.Surname, "Reverte");
             Assert.AreEqual(res.IDNumber, "6521233");
@@ -196,7 +196,7 @@ namespace TestMetodosOrdenSuperior
             angles.Add(new Angle(120), 1);
             angles.Add(new Angle(265), 0);
             Predicate<Angle> buscar = x => x.Quadrant.Equals(1);
-            var res = angles.Buscar(buscar);
+            var res = angles.Find(buscar);
             Assert.AreEqual(res.Degrees, 90);
             Assert.AreEqual(res.Quadrant, 1);
         }
@@ -210,7 +210,7 @@ namespace TestMetodosOrdenSuperior
             lista2.Add(new Person("Maria", "Gonzalez", "1738132"), 0);
             lista2.Add(new Person("Pepe", "Reverte", "6521233"), 0);
             Predicate<Person> filtrar = x => x.FirstName.Equals("Pepe");
-            var res = lista2.Filtrar(filtrar);
+            var res = lista2.Filter(filtrar);
 
             var x1 = "";
             var a1 = "";
@@ -240,7 +240,7 @@ namespace TestMetodosOrdenSuperior
             angles.Add(new Angle(120), 1);
             angles.Add(new Angle(265), 0);
             Predicate<Angle> filtrar = x => x.Quadrant.Equals(1);
-            var res = angles.Filtrar(filtrar);
+            var res = angles.Filter(filtrar);
 
             float a1 = 0;
             float a2 = 0;
@@ -281,7 +281,7 @@ namespace TestMetodosOrdenSuperior
             angles.Add(new Angle(265), 0);
 
             Func<double, Angle, double> reducir = (double acc, Angle x) => acc += x.Degrees;
-            var res = angles.Reducir(reducir);
+            var res = angles.Reduce(reducir);
 
             Assert.AreEqual(564, res);
         }

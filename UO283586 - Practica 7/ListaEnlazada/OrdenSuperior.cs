@@ -8,7 +8,7 @@ namespace ListaEnlazada
     public static class OrdenSuperior
     {
 
-        public static T Buscar<T>(this IEnumerable<T> list, Predicate<T> function)
+        public static T Find<T>(this IEnumerable<T> list, Predicate<T> function)
         {
             foreach (var a in list)
             {
@@ -20,7 +20,7 @@ namespace ListaEnlazada
             return default(T);
         }
 
-        public static IEnumerable<TDomain> Filtrar<TDomain>(this IEnumerable<TDomain> list, Predicate<TDomain> function)
+        public static IEnumerable<TDomain> Filter<TDomain>(this IEnumerable<TDomain> list, Predicate<TDomain> function)
         {
             var aux = new TDomain[list.Count()];
             int i = 0;
@@ -39,7 +39,7 @@ namespace ListaEnlazada
 
 
         // Reduce sin semilla
-        public static TCD Reducir<TD, TCD>(this IEnumerable<TD> list, Func<TCD, TD, TCD> func)
+        public static TCD Reduce<TD, TCD>(this IEnumerable<TD> list, Func<TCD, TD, TCD> func)
         {
             var acc = default(TCD);
             foreach (TD obj in list)
@@ -51,7 +51,7 @@ namespace ListaEnlazada
         }
 
         // Con semilla
-        public static TCD Reducir<TD, TCD>(this IEnumerable<TD> list, Func<TCD, TD, TCD> func, TCD acc = default(TCD))
+        public static TCD Reduce<TD, TCD>(this IEnumerable<TD> list, Func<TCD, TD, TCD> func, TCD acc = default(TCD))
         {
             foreach (TD obj in list)
             {

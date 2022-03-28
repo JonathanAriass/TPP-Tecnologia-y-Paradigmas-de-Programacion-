@@ -352,7 +352,7 @@ namespace ListaEnlazada
         }
 
 
-        public static T Find<T>(IEnumerable<T> lista, Predicate<T> function)
+        /*public static T Find<T>(IEnumerable<T> lista, Predicate<T> function)
         {
             foreach (var a in lista)
             {
@@ -442,7 +442,7 @@ namespace ListaEnlazada
             }
 
             return res;
-        }
+        }*/
 
     }
 }
