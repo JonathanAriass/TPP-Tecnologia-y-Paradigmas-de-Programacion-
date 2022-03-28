@@ -25,12 +25,13 @@ namespace TPP.Laboratory.Functional.Lab08 {
             query.Query4a();
             query.Query4b();
             query.Query4c();
-            query.Query5();
-            query.Query6();*/
-            query.Homework1();
+            query.Query5();*/
+            //query.Query6();
+            /*query.Homework1();
             query.Homework2();
             query.Homework3();
-            query.Homework4();
+            query.Homework4();*/
+            query.Homework5();
         }
 
         private void Query1() {
@@ -248,6 +249,34 @@ namespace TPP.Laboratory.Functional.Lab08 {
             // Show the greatest summation of phone call durations, in seconds, 
             // of the employees in the same department, together with the name of the department 
             // (it can be assumed that there is only one department fulfilling that condition)
+
+            /*var summation = model.Employees
+                .Join(model.Departments,
+                e => e.Department.Name,
+                d => d.Name,
+                (e, d) => (e.TelephoneNumber, d.Name))
+                .Join(model.PhoneCalls,
+                e => e.TelephoneNumber,
+                p => p.SourceNumber,
+                (e,p) => (e.TelephoneNumber, p.Seconds))
+                .OrderBy(d => d.TelephoneNumber);*/
+            var summation = model.Employees
+                .Join(model.Departments,
+                e => e.Department.Name,
+                d => d.Name,
+                (e, d) => (e.TelephoneNumber, d.Name))
+                .Where(d => d.Name.Equals("Computer Science"))
+                .Join(model.PhoneCalls,
+                e => e.TelephoneNumber,
+                p => p.SourceNumber,
+                (e, p) => (e.Name, p.Seconds))
+                .Select(p => p.Seconds).Sum();
+
+            Console.WriteLine(summation);
+            /*foreach (var obj in summation)
+            {
+                Console.WriteLine($"Employee = {obj.TelephoneNumber}, Duration = {obj.Name}");
+            }*/
         }
 
 
