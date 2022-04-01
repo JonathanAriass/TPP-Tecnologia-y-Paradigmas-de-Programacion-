@@ -1,0 +1,2447 @@
+- PID: 1	Name: systemd	Virtual memory: 168.297 MB
+- PID: 2	Name: kthreadd	Virtual memory: 0.000 MB
+- PID: 3	Name: rcu_gp	Virtual memory: 0.000 MB
+- PID: 4	Name: rcu_par_gp	Virtual memory: 0.000 MB
+- PID: 6	Name: kworker/0:0H-events_highpri	Virtual memory: 0.000 MB
+- PID: 9	Name: mm_percpu_wq	Virtual memory: 0.000 MB
+- PID: 10	Name: rcu_tasks_kthre	Virtual memory: 0.000 MB
+- PID: 11	Name: rcu_tasks_rude_	Virtual memory: 0.000 MB
+- PID: 12	Name: rcu_tasks_trace	Virtual memory: 0.000 MB
+- PID: 13	Name: ksoftirqd/0	Virtual memory: 0.000 MB
+- PID: 14	Name: rcu_preempt	Virtual memory: 0.000 MB
+- PID: 15	Name: migration/0	Virtual memory: 0.000 MB
+- PID: 16	Name: cpuhp/0	Virtual memory: 0.000 MB
+- PID: 17	Name: cpuhp/1	Virtual memory: 0.000 MB
+- PID: 18	Name: migration/1	Virtual memory: 0.000 MB
+- PID: 19	Name: ksoftirqd/1	Virtual memory: 0.000 MB
+- PID: 21	Name: kworker/1:0H-kblockd	Virtual memory: 0.000 MB
+- PID: 22	Name: cpuhp/2	Virtual memory: 0.000 MB
+- PID: 23	Name: migration/2	Virtual memory: 0.000 MB
+- PID: 24	Name: ksoftirqd/2	Virtual memory: 0.000 MB
+- PID: 26	Name: kworker/2:0H-events_highpri	Virtual memory: 0.000 MB
+- PID: 27	Name: cpuhp/3	Virtual memory: 0.000 MB
+- PID: 28	Name: migration/3	Virtual memory: 0.000 MB
+- PID: 29	Name: ksoftirqd/3	Virtual memory: 0.000 MB
+- PID: 31	Name: kworker/3:0H-events_highpri	Virtual memory: 0.000 MB
+- PID: 32	Name: cpuhp/4	Virtual memory: 0.000 MB
+- PID: 33	Name: migration/4	Virtual memory: 0.000 MB
+- PID: 34	Name: ksoftirqd/4	Virtual memory: 0.000 MB
+- PID: 36	Name: kworker/4:0H-events_highpri	Virtual memory: 0.000 MB
+- PID: 37	Name: cpuhp/5	Virtual memory: 0.000 MB
+- PID: 38	Name: migration/5	Virtual memory: 0.000 MB
+- PID: 39	Name: ksoftirqd/5	Virtual memory: 0.000 MB
+- PID: 41	Name: kworker/5:0H-events_highpri	Virtual memory: 0.000 MB
+- PID: 42	Name: cpuhp/6	Virtual memory: 0.000 MB
+- PID: 43	Name: migration/6	Virtual memory: 0.000 MB
+- PID: 44	Name: ksoftirqd/6	Virtual memory: 0.000 MB
+- PID: 46	Name: kworker/6:0H-kblockd	Virtual memory: 0.000 MB
+- PID: 47	Name: cpuhp/7	Virtual memory: 0.000 MB
+- PID: 48	Name: migration/7	Virtual memory: 0.000 MB
+- PID: 49	Name: ksoftirqd/7	Virtual memory: 0.000 MB
+- PID: 51	Name: kworker/7:0H-events_highpri	Virtual memory: 0.000 MB
+- PID: 52	Name: kdevtmpfs	Virtual memory: 0.000 MB
+- PID: 53	Name: netns	Virtual memory: 0.000 MB
+- PID: 54	Name: inet_frag_wq	Virtual memory: 0.000 MB
+- PID: 55	Name: kauditd	Virtual memory: 0.000 MB
+- PID: 56	Name: oom_reaper	Virtual memory: 0.000 MB
+- PID: 57	Name: writeback	Virtual memory: 0.000 MB
+- PID: 58	Name: kcompactd0	Virtual memory: 0.000 MB
+- PID: 59	Name: ksmd	Virtual memory: 0.000 MB
+- PID: 60	Name: khugepaged	Virtual memory: 0.000 MB
+- PID: 61	Name: cryptd	Virtual memory: 0.000 MB
+- PID: 62	Name: kintegrityd	Virtual memory: 0.000 MB
+- PID: 63	Name: kblockd	Virtual memory: 0.000 MB
+- PID: 64	Name: blkcg_punt_bio	Virtual memory: 0.000 MB
+- PID: 66	Name: tpm_dev_wq	Virtual memory: 0.000 MB
+- PID: 67	Name: ata_sff	Virtual memory: 0.000 MB
+- PID: 68	Name: md	Virtual memory: 0.000 MB
+- PID: 69	Name: edac-poller	Virtual memory: 0.000 MB
+- PID: 71	Name: watchdogd	Virtual memory: 0.000 MB
+- PID: 73	Name: kworker/0:1H-events_highpri	Virtual memory: 0.000 MB
+- PID: 74	Name: kswapd0	Virtual memory: 0.000 MB
+- PID: 75	Name: kthrotld	Virtual memory: 0.000 MB
+- PID: 81	Name: irq/123-aerdrv	Virtual memory: 0.000 MB
+- PID: 82	Name: irq/123-pcie-dp	Virtual memory: 0.000 MB
+- PID: 83	Name: irq/124-aerdrv	Virtual memory: 0.000 MB
+- PID: 84	Name: irq/124-pcie-dp	Virtual memory: 0.000 MB
+- PID: 85	Name: irq/125-aerdrv	Virtual memory: 0.000 MB
+- PID: 86	Name: irq/125-pcie-dp	Virtual memory: 0.000 MB
+- PID: 91	Name: acpi_thermal_pm	Virtual memory: 0.000 MB
+- PID: 93	Name: scsi_eh_0	Virtual memory: 0.000 MB
+- PID: 94	Name: scsi_tmf_0	Virtual memory: 0.000 MB
+- PID: 95	Name: dm_bufio_cache	Virtual memory: 0.000 MB
+- PID: 96	Name: mld	Virtual memory: 0.000 MB
+- PID: 97	Name: ipv6_addrconf	Virtual memory: 0.000 MB
+- PID: 108	Name: kstrp	Virtual memory: 0.000 MB
+- PID: 121	Name: zswap-shrink	Virtual memory: 0.000 MB
+- PID: 226	Name: kworker/1:1H-kblockd	Virtual memory: 0.000 MB
+- PID: 277	Name: ipmi-msghandler	Virtual memory: 0.000 MB
+- PID: 278	Name: kworker/3:1H-events_highpri	Virtual memory: 0.000 MB
+- PID: 280	Name: kworker/2:1H-kblockd	Virtual memory: 0.000 MB
+- PID: 281	Name: kworker/7:1H-events_highpri	Virtual memory: 0.000 MB
+- PID: 284	Name: kworker/4:1H-events_highpri	Virtual memory: 0.000 MB
+- PID: 393	Name: kworker/5:1H-events_highpri	Virtual memory: 0.000 MB
+- PID: 431	Name: irq/128-ELAN120	Virtual memory: 0.000 MB
+- PID: 438	Name: nvme-wq	Virtual memory: 0.000 MB
+- PID: 439	Name: nvme-reset-wq	Virtual memory: 0.000 MB
+- PID: 440	Name: nvme-delete-wq	Virtual memory: 0.000 MB
+- PID: 446	Name: kworker/6:1H-kblockd	Virtual memory: 0.000 MB
+- PID: 460	Name: card0-crtc0	Virtual memory: 0.000 MB
+- PID: 461	Name: card0-crtc1	Virtual memory: 0.000 MB
+- PID: 462	Name: card0-crtc2	Virtual memory: 0.000 MB
+- PID: 463	Name: nvkm-disp	Virtual memory: 0.000 MB
+- PID: 464	Name: card1-crtc0	Virtual memory: 0.000 MB
+- PID: 465	Name: card1-crtc1	Virtual memory: 0.000 MB
+- PID: 466	Name: card1-crtc2	Virtual memory: 0.000 MB
+- PID: 467	Name: card1-crtc3	Virtual memory: 0.000 MB
+- PID: 476	Name: btrfs-worker	Virtual memory: 0.000 MB
+- PID: 477	Name: btrfs-worker-hi	Virtual memory: 0.000 MB
+- PID: 478	Name: btrfs-delalloc	Virtual memory: 0.000 MB
+- PID: 479	Name: btrfs-flush_del	Virtual memory: 0.000 MB
+- PID: 480	Name: btrfs-cache	Virtual memory: 0.000 MB
+- PID: 481	Name: btrfs-fixup	Virtual memory: 0.000 MB
+- PID: 482	Name: btrfs-endio	Virtual memory: 0.000 MB
+- PID: 483	Name: btrfs-endio-met	Virtual memory: 0.000 MB
+- PID: 484	Name: btrfs-endio-met	Virtual memory: 0.000 MB
+- PID: 485	Name: btrfs-endio-rai	Virtual memory: 0.000 MB
+- PID: 486	Name: btrfs-rmw	Virtual memory: 0.000 MB
+- PID: 487	Name: btrfs-endio-wri	Virtual memory: 0.000 MB
+- PID: 488	Name: btrfs-freespace	Virtual memory: 0.000 MB
+- PID: 489	Name: btrfs-delayed-m	Virtual memory: 0.000 MB
+- PID: 490	Name: btrfs-readahead	Virtual memory: 0.000 MB
+- PID: 491	Name: btrfs-qgroup-re	Virtual memory: 0.000 MB
+- PID: 492	Name: btrfs-cleaner	Virtual memory: 0.000 MB
+- PID: 493	Name: btrfs-transacti	Virtual memory: 0.000 MB
+- PID: 562	Name: kworker/u16:7-btrfs-endio	Virtual memory: 0.000 MB
+- PID: 606	Name: systemd-journald	Virtual memory: 103.098 MB
+- PID: 618	Name: systemd-udevd	Virtual memory: 33.918 MB
+- PID: 653	Name: asus_wireless_w	Virtual memory: 0.000 MB
+- PID: 672	Name: irq/141-mei_me	Virtual memory: 0.000 MB
+- PID: 682	Name: cfg80211	Virtual memory: 0.000 MB
+- PID: 686	Name: led_workqueue	Virtual memory: 0.000 MB
+- PID: 717	Name: napi/phy0-8194	Virtual memory: 0.000 MB
+- PID: 718	Name: napi/phy0-8195	Virtual memory: 0.000 MB
+- PID: 719	Name: napi/phy0-8196	Virtual memory: 0.000 MB
+- PID: 744	Name: mt76-tx phy0	Virtual memory: 0.000 MB
+- PID: 761	Name: jbd2/sda7-8	Virtual memory: 0.000 MB
+- PID: 762	Name: ext4-rsv-conver	Virtual memory: 0.000 MB
+- PID: 785	Name: systemd-oomd	Virtual memory: 16.738 MB
+- PID: 786	Name: systemd-resolved	Virtual memory: 32.594 MB
+- PID: 787	Name: systemd-userdbd	Virtual memory: 16.582 MB
+- PID: 788	Name: auditd	Virtual memory: 16.387 MB
+- PID: 805	Name: rpciod	Virtual memory: 0.000 MB
+- PID: 806	Name: xprtiod	Virtual memory: 0.000 MB
+- PID: 811	Name: avahi-daemon: running [fedora.local]	Virtual memory: 8.410 MB
+- PID: 812	Name: bluetoothd	Virtual memory: 9.543 MB
+- PID: 814	Name: low-memory-monitor	Virtual memory: 224.199 MB
+- PID: 815	Name: mcelog	Virtual memory: 3.199 MB
+- PID: 818	Name: polkitd	Virtual memory: 2,845.211 MB
+- PID: 819	Name: power-profiles-daemon	Virtual memory: 441.297 MB
+- PID: 820	Name: rtkit-daemon	Virtual memory: 150.309 MB
+- PID: 821	Name: accounts-daemon	Virtual memory: 513.070 MB
+- PID: 822	Name: switcheroo-control	Virtual memory: 437.637 MB
+- PID: 823	Name: systemd-homed	Virtual memory: 17.141 MB
+- PID: 826	Name: systemd-logind	Virtual memory: 51.789 MB
+- PID: 829	Name: systemd-machined	Virtual memory: 16.895 MB
+- PID: 831	Name: thermald	Virtual memory: 446.730 MB
+- PID: 832	Name: udisksd	Virtual memory: 384.984 MB
+- PID: 833	Name: upowerd	Virtual memory: 443.211 MB
+- PID: 834	Name: avahi-daemon: chroot helper	Virtual memory: 8.148 MB
+- PID: 838	Name: dbus-broker-launch	Virtual memory: 10.590 MB
+- PID: 849	Name: abrtd	Virtual memory: 460.258 MB
+- PID: 855	Name: chronyd	Virtual memory: 82.773 MB
+- PID: 875	Name: dbus-broker	Virtual memory: 10.473 MB
+- PID: 883	Name: psimon	Virtual memory: 0.000 MB
+- PID: 895	Name: alsactl	Virtual memory: 4.711 MB
+- PID: 901	Name: abrt-dump-journal-core	Virtual memory: 322.078 MB
+- PID: 903	Name: abrt-dump-journal-oops	Virtual memory: 372.328 MB
+- PID: 904	Name: abrt-dump-journal-xorg	Virtual memory: 388.344 MB
+- PID: 906	Name: ModemManager	Virtual memory: 381.148 MB
+- PID: 908	Name: firewalld	Virtual memory: 343.625 MB
+- PID: 928	Name: NetworkManager	Virtual memory: 535.086 MB
+- PID: 935	Name: cupsd	Virtual memory: 240.242 MB
+- PID: 945	Name: gssproxy	Virtual memory: 262.645 MB
+- PID: 1023	Name: wpa_supplicant	Virtual memory: 13.684 MB
+- PID: 1074	Name: atd	Virtual memory: 4.539 MB
+- PID: 1077	Name: crond	Virtual memory: 218.645 MB
+- PID: 1080	Name: gdm	Virtual memory: 442.098 MB
+- PID: 1112	Name: uresourced	Virtual memory: 227.441 MB
+- PID: 1233	Name: packagekitd	Virtual memory: 992.984 MB
+- PID: 1426	Name: pcscd	Virtual memory: 596.008 MB
+- PID: 1453	Name: kworker/u16:11-btrfs-freespace-write	Virtual memory: 0.000 MB
+- PID: 1474	Name: colord	Virtual memory: 517.805 MB
+- PID: 1526	Name: krfcommd	Virtual memory: 0.000 MB
+- PID: 1597	Name: gdm-session-wor	Virtual memory: 377.539 MB
+- PID: 1611	Name: systemd	Virtual memory: 21.777 MB
+- PID: 1616	Name: (sd-pam)	Virtual memory: 27.602 MB
+- PID: 1643	Name: gnome-keyring-daemon	Virtual memory: 441.910 MB
+- PID: 1649	Name: gdm-x-session	Virtual memory: 365.406 MB
+- PID: 1651	Name: Xorg	Virtual memory: 1,522.668 MB
+- PID: 1739	Name: dbus-broker-launch	Virtual memory: 10.199 MB
+- PID: 1742	Name: dbus-broker	Virtual memory: 7.371 MB
+- PID: 1744	Name: gnome-session-binary	Virtual memory: 501.707 MB
+- PID: 1780	Name: ssh-agent	Virtual memory: 5.996 MB
+- PID: 1813	Name: at-spi-bus-launcher	Virtual memory: 301.250 MB
+- PID: 1818	Name: dbus-broker-launch	Virtual memory: 10.074 MB
+- PID: 1819	Name: dbus-broker	Virtual memory: 4.848 MB
+- PID: 1832	Name: gnome-session-ctl	Virtual memory: 296.477 MB
+- PID: 1833	Name: uresourced	Virtual memory: 155.438 MB
+- PID: 1835	Name: gnome-session-binary	Virtual memory: 790.367 MB
+- PID: 1860	Name: gnome-shell	Virtual memory: 5,858.176 MB
+- PID: 1875	Name: gvfsd	Virtual memory: 441.570 MB
+- PID: 1880	Name: gvfsd-fuse	Virtual memory: 371.016 MB
+- PID: 1906	Name: ibus-daemon	Virtual memory: 515.316 MB
+- PID: 1907	Name: xdg-permission-store	Virtual memory: 437.883 MB
+- PID: 1913	Name: gnome-shell-calendar-server	Virtual memory: 779.250 MB
+- PID: 1915	Name: ibus-dconf	Virtual memory: 438.562 MB
+- PID: 1916	Name: ibus-extension-gtk3	Virtual memory: 583.227 MB
+- PID: 1920	Name: ibus-x11	Virtual memory: 505.605 MB
+- PID: 1923	Name: ibus-portal	Virtual memory: 438.504 MB
+- PID: 1933	Name: evolution-source-registry	Virtual memory: 1,198.176 MB
+- PID: 1938	Name: at-spi2-registryd	Virtual memory: 157.914 MB
+- PID: 1945	Name: pipewire	Virtual memory: 321.215 MB
+- PID: 1946	Name: wireplumber	Virtual memory: 461.016 MB
+- PID: 1947	Name: pipewire-pulse	Virtual memory: 258.461 MB
+- PID: 1949	Name: goa-daemon	Virtual memory: 884.383 MB
+- PID: 1952	Name: dconf-service	Virtual memory: 152.461 MB
+- PID: 1959	Name: gvfsd-metadata	Virtual memory: 366.059 MB
+- PID: 1980	Name: evolution-calendar-factory	Virtual memory: 1,523.066 MB
+- PID: 1984	Name: gvfs-udisks2-volume-monitor	Virtual memory: 520.633 MB
+- PID: 1997	Name: gvfs-mtp-volume-monitor	Virtual memory: 437.715 MB
+- PID: 2005	Name: gvfs-gphoto2-volume-monitor	Virtual memory: 439.652 MB
+- PID: 2018	Name: gvfs-goa-volume-monitor	Virtual memory: 438.488 MB
+- PID: 2028	Name: evolution-addressbook-factory	Virtual memory: 996.203 MB
+- PID: 2051	Name: goa-identity-service	Virtual memory: 517.305 MB
+- PID: 2056	Name: gvfs-afc-volume-monitor	Virtual memory: 514.121 MB
+- PID: 2075	Name: sssd_kcm	Virtual memory: 253.039 MB
+- PID: 2079	Name: gjs	Virtual memory: 3,054.902 MB
+- PID: 2094	Name: gsd-a11y-settings	Virtual memory: 509.945 MB
+- PID: 2095	Name: gsd-color	Virtual memory: 934.395 MB
+- PID: 2099	Name: gsd-datetime	Virtual memory: 579.793 MB
+- PID: 2102	Name: gsd-housekeeping	Virtual memory: 512.445 MB
+- PID: 2104	Name: gsd-keyboard	Virtual memory: 721.426 MB
+- PID: 2107	Name: gsd-media-keys	Virtual memory: 790.766 MB
+- PID: 2111	Name: gsd-power	Virtual memory: 722.457 MB
+- PID: 2113	Name: gsd-print-notifications	Virtual memory: 454.617 MB
+- PID: 2115	Name: gsd-rfkill	Virtual memory: 653.926 MB
+- PID: 2116	Name: gsd-screensaver-proxy	Virtual memory: 437.664 MB
+- PID: 2117	Name: gsd-sharing	Virtual memory: 662.016 MB
+- PID: 2118	Name: gsd-smartcard	Virtual memory: 594.406 MB
+- PID: 2119	Name: gsd-sound	Virtual memory: 518.180 MB
+- PID: 2121	Name: gsd-usb-protection	Virtual memory: 583.801 MB
+- PID: 2125	Name: gsd-wacom	Virtual memory: 577.812 MB
+- PID: 2126	Name: gsd-xsettings	Virtual memory: 649.996 MB
+- PID: 2162	Name: gsd-disk-utility-notify	Virtual memory: 226.730 MB
+- PID: 2166	Name: gnome-software	Virtual memory: 2,071.219 MB
+- PID: 2170	Name: evolution-alarm-notify	Virtual memory: 967.809 MB
+- PID: 2172	Name: abrt-applet	Virtual memory: 514.180 MB
+- PID: 2202	Name: gjs	Virtual memory: 3,062.910 MB
+- PID: 2333	Name: ibus-engine-simple	Virtual memory: 366.449 MB
+- PID: 2354	Name: gsd-printer	Virtual memory: 583.402 MB
+- PID: 2422	Name: abrt-dbus	Virtual memory: 460.922 MB
+- PID: 2424	Name: fwupd	Virtual memory: 560.172 MB
+- PID: 2655	Name: gpg-agent	Virtual memory: 220.453 MB
+- PID: 2657	Name: scdaemon	Virtual memory: 76.758 MB
+- PID: 2670	Name: gpg-agent	Virtual memory: 220.453 MB
+- PID: 2672	Name: scdaemon	Virtual memory: 76.758 MB
+- PID: 2734	Name: gnome-calendar	Virtual memory: 1,165.574 MB
+- PID: 2767	Name: gvfsd-trash	Virtual memory: 514.035 MB
+- PID: 2777	Name: firefox	Virtual memory: 4,229.840 MB
+- PID: 2841	Name: obexd	Virtual memory: 44.777 MB
+- PID: 2866	Name: tracker-miner-fs-3	Virtual memory: 860.859 MB
+- PID: 2970	Name: xdg-desktop-portal	Virtual memory: 744.562 MB
+- PID: 2975	Name: xdg-document-portal	Virtual memory: 726.203 MB
+- PID: 2983	Name: fusermount	Virtual memory: 2.594 MB
+- PID: 2990	Name: xdg-desktop-portal-gnome	Virtual memory: 1,446.270 MB
+- PID: 3027	Name: xdg-desktop-portal-gtk	Virtual memory: 577.398 MB
+- PID: 3112	Name: Socket Process	Virtual memory: 221.477 MB
+- PID: 3145	Name: Privileged Cont	Virtual memory: 2,617.012 MB
+- PID: 3284	Name: WebExtensions	Virtual memory: 27,286.738 MB
+- PID: 3371	Name: Isolated Servic	Virtual memory: 2,598.000 MB
+- PID: 3387	Name: Isolated Web Co	Virtual memory: 2,607.441 MB
+- PID: 3461	Name: Isolated Web Co	Virtual memory: 3,040.582 MB
+- PID: 3598	Name: Isolated Web Co	Virtual memory: 9,012.660 MB
+- PID: 3675	Name: RDD Process	Virtual memory: 223.191 MB
+- PID: 3928	Name: bwrap	Virtual memory: 3.527 MB
+- PID: 3932	Name: flatpak-session-helper	Virtual memory: 437.863 MB
+- PID: 3936	Name: p11-kit-server	Virtual memory: 7.191 MB
+- PID: 3939	Name: bwrap	Virtual memory: 3.527 MB
+- PID: 3940	Name: xdg-dbus-proxy	Virtual memory: 365.512 MB
+- PID: 3942	Name: bwrap	Virtual memory: 3.527 MB
+- PID: 3944	Name: discord	Virtual memory: 7.359 MB
+- PID: 3945	Name: socat	Virtual memory: 7.441 MB
+- PID: 3951	Name: Discord --enable-gpu-rasterization --enable-zero-copy --enable-gpu-compositing --enable-native-gpu-memory-buffers --enable-oop-rasterization --enable-features=UseSkiaRenderer,CanvasOopRasterization	Virtual memory: 37,358.188 MB
+- PID: 3954	Name: cat	Virtual memory: 5.453 MB
+- PID: 3955	Name: cat	Virtual memory: 5.453 MB
+- PID: 3959	Name: flatpak-portal	Virtual memory: 458.141 MB
+- PID: 3967	Name: Discord --type=zygote --no-zygote-sandbox	Virtual memory: 203.367 MB
+- PID: 3969	Name: zypak-sandbox	Virtual memory: 9.004 MB
+- PID: 3971	Name: bwrap	Virtual memory: 3.527 MB
+- PID: 3975	Name: Isolated Web Co	Virtual memory: 2,600.359 MB
+- PID: 4025	Name: bwrap	Virtual memory: 3.527 MB
+- PID: 4034	Name: Discord --type=zygote	Virtual memory: 203.422 MB
+- PID: 4047	Name: Isolated Web Co	Virtual memory: 2,603.246 MB
+- PID: 4098	Name: Discord --type=gpu-process --field-trial-handle=12531360391013358232,1196727075616287288,131072 --enable-features=CanvasOopRasterization,UseSkiaRenderer --disable-features=CookiesWithoutSameSiteMustBeSecure,HardwareMediaKeyHandling,MediaSessionService,SameSiteByDefaultCookies,SpareRendererForSitePerProcess,WinRetrieveSuggestionsOnlyOnDemand --enable-gpu-rasterization --enable-crash-reporter=f9971e72-66fb-4ca8-8f3f-1eb230a9f4bd,no_channel --global-crash-keys=f9971e72-66fb-4ca8-8f3f-1eb230a9f4bd,no_channel,_companyName=Discord Inc.,_productName=Discord,_version=0.0.17 --gpu-preferences=UAAAAAAAAAAgAACQAAAAAAAAAAAAAAAAAABgAAAgAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAA= --shared-files	Virtual memory: 618.211 MB
+- PID: 4112	Name: Discord --type=utility --utility-sub-type=network.mojom.NetworkService --field-trial-handle=12531360391013358232,1196727075616287288,131072 --enable-features=CanvasOopRasterization,UseSkiaRenderer --disable-features=CookiesWithoutSameSiteMustBeSecure,HardwareMediaKeyHandling,MediaSessionService,SameSiteByDefaultCookies,SpareRendererForSitePerProcess,WinRetrieveSuggestionsOnlyOnDemand --lang=en-US --service-sandbox-type=none --enable-crash-reporter=f9971e72-66fb-4ca8-8f3f-1eb230a9f4bd,no_channel --global-crash-keys=f9971e72-66fb-4ca8-8f3f-1eb230a9f4bd,no_channel,_companyName=Discord Inc.,_productName=Discord,_version=0.0.17 --shared-files=v8_context_snapshot_data:100	Virtual memory: 278.051 MB
+- PID: 4177	Name: p11-kit-remote	Virtual memory: 10.094 MB
+- PID: 4179	Name: Discord	Virtual memory: 41,575.152 MB
+- PID: 4213	Name: Discord --type=utility --utility-sub-type=audio.mojom.AudioService --field-trial-handle=12531360391013358232,1196727075616287288,131072 --enable-features=CanvasOopRasterization,UseSkiaRenderer --disable-features=CookiesWithoutSameSiteMustBeSecure,HardwareMediaKeyHandling,MediaSessionService,SameSiteByDefaultCookies,SpareRendererForSitePerProcess,WinRetrieveSuggestionsOnlyOnDemand --lang=en-US --service-sandbox-type=none --enable-crash-reporter=f9971e72-66fb-4ca8-8f3f-1eb230a9f4bd,no_channel --global-crash-keys=f9971e72-66fb-4ca8-8f3f-1eb230a9f4bd,no_channel,_companyName=Discord Inc.,_productName=Discord,_version=0.0.17 --shared-files=v8_context_snapshot_data:100	Virtual memory: 327.016 MB
+- PID: 4802	Name: Isolated Web Co	Virtual memory: 2,766.043 MB
+- PID: 4852	Name: kworker/4:0-events	Virtual memory: 0.000 MB
+- PID: 7768	Name: code .	Virtual memory: 41,740.840 MB
+- PID: 7771	Name: code --type=zygote --no-zygote-sandbox	Virtual memory: 434.934 MB
+- PID: 7772	Name: code --type=zygote	Virtual memory: 434.934 MB
+- PID: 7774	Name: code --type=zygote	Virtual memory: 434.934 MB
+- PID: 7801	Name: Code --gpu-preferences=UAAAAAAAAAAgAAAQAAAAAAAAAAAAAAAAAABgAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAA= --shared-files	Virtual memory: 795.039 MB
+- PID: 7808	Name: Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --shared-files=v8_context_snapshot_data:100	Virtual memory: 493.477 MB
+- PID: 7866	Name: code	Virtual memory: 41,616.688 MB
+- PID: 7899	Name: code	Virtual memory: 37,164.738 MB
+- PID: 8908	Name: Isolated Web Co	Virtual memory: 2,672.395 MB
+- PID: 9469	Name: kworker/0:1-inet_frag_wq	Virtual memory: 0.000 MB
+- PID: 9935	Name: kworker/7:1-events	Virtual memory: 0.000 MB
+- PID: 10149	Name: kworker/u16:14-btrfs-endio-write	Virtual memory: 0.000 MB
+- PID: 10961	Name: bwrap	Virtual memory: 3.527 MB
+- PID: 10969	Name: bwrap	Virtual memory: 3.527 MB
+- PID: 10970	Name: xdg-dbus-proxy	Virtual memory: 365.508 MB
+- PID: 10972	Name: bwrap	Virtual memory: 3.527 MB
+- PID: 10973	Name: flatpak-spawn	Virtual memory: 152.035 MB
+- PID: 10978	Name: bwrap	Virtual memory: 3.527 MB
+- PID: 10982	Name: bwrap	Virtual memory: 3.527 MB
+- PID: 10983	Name: xdg-dbus-proxy	Virtual memory: 365.492 MB
+- PID: 10985	Name: bwrap	Virtual memory: 3.613 MB
+- PID: 10986	Name: bash	Virtual memory: 7.742 MB
+- PID: 16373	Name: steam	Virtual memory: 797.469 MB
+- PID: 16393	Name: steam	Virtual memory: 360.594 MB
+- PID: 16394	Name: steamwebhelper	Virtual memory: 824.312 MB
+- PID: 16640	Name: steamwebhelper	Virtual memory: 205.148 MB
+- PID: 16641	Name: steamwebhelper	Virtual memory: 205.148 MB
+- PID: 16653	Name: steamwebhelper	Virtual memory: 747.922 MB
+- PID: 16676	Name: steamwebhelper	Virtual memory: 284.793 MB
+- PID: 16736	Name: steamwebhelper	Virtual memory: 4,442.715 MB
+- PID: 16777	Name: steamwebhelper	Virtual memory: 4,580.707 MB
+- PID: 16783	Name: steamwebhelper	Virtual memory: 4,948.930 MB
+- PID: 16816	Name: p11-kit-remote	Virtual memory: 10.094 MB
+- PID: 16998	Name: kworker/1:0-events	Virtual memory: 0.000 MB
+- PID: 17014	Name: kworker/6:1-events	Virtual memory: 0.000 MB
+- PID: 17130	Name: kworker/3:2-mm_percpu_wq	Virtual memory: 0.000 MB
+- PID: 17201	Name: kworker/u16:0-btrfs-endio	Virtual memory: 0.000 MB
+- PID: 17203	Name: kworker/u16:1-btrfs-endio-write	Virtual memory: 0.000 MB
+- PID: 17210	Name: alacritty	Virtual memory: 1,442.750 MB
+- PID: 17223	Name: bash	Virtual memory: 219.086 MB
+- PID: 17258	Name: kworker/2:1-inet_frag_wq	Virtual memory: 0.000 MB
+- PID: 17283	Name: kworker/1:1-events	Virtual memory: 0.000 MB
+- PID: 17305	Name: kworker/u17:2-btrfs-worker-high	Virtual memory: 0.000 MB
+- PID: 17792	Name: kworker/5:0-events	Virtual memory: 0.000 MB
+- PID: 17794	Name: kworker/6:2-events	Virtual memory: 0.000 MB
+- PID: 18097	Name: kworker/u16:3-flush-btrfs-1	Virtual memory: 0.000 MB
+- PID: 18098	Name: kworker/u16:5-btrfs-endio-write	Virtual memory: 0.000 MB
+- PID: 18099	Name: kworker/u16:6-btrfs-endio-write	Virtual memory: 0.000 MB
+- PID: 18307	Name: kworker/4:2-events	Virtual memory: 0.000 MB
+- PID: 18546	Name: kworker/7:2-events	Virtual memory: 0.000 MB
+- PID: 18679	Name: code	Virtual memory: 51,920.215 MB
+- PID: 18703	Name: code	Virtual memory: 37,185.977 MB
+- PID: 18704	Name: code	Virtual memory: 37,180.211 MB
+- PID: 18816	Name: bash	Virtual memory: 217.305 MB
+- PID: 18821	Name: mono	Virtual memory: 1,917.875 MB
+- PID: 18957	Name: kworker/u17:1-btrfs-worker-high	Virtual memory: 0.000 MB
+- PID: 19017	Name: kworker/2:2-events	Virtual memory: 0.000 MB
+- PID: 19031	Name: Isolated Web Co	Virtual memory: 2,660.031 MB
+- PID: 19076	Name: gvfsd-network	Virtual memory: 514.297 MB
+- PID: 19091	Name: kworker/0:2-events	Virtual memory: 0.000 MB
+- PID: 19206	Name: gvfsd-dnssd	Virtual memory: 516.031 MB
+- PID: 19217	Name: alacritty	Virtual memory: 1,433.078 MB
+- PID: 19230	Name: bash	Virtual memory: 219.059 MB
+- PID: 19305	Name: evince	Virtual memory: 1,511.414 MB
+- PID: 19311	Name: evinced	Virtual memory: 152.070 MB
+- PID: 19344	Name: kworker/5:1-events	Virtual memory: 0.000 MB
+- PID: 19633	Name: kworker/1:2-events	Virtual memory: 0.000 MB
+- PID: 19638	Name: kworker/3:0-events	Virtual memory: 0.000 MB
+- PID: 19749	Name: kworker/7:0-events	Virtual memory: 0.000 MB
+- PID: 19753	Name: kworker/u17:0+i915_flip	Virtual memory: 0.000 MB
+- PID: 19754	Name: kworker/u16:2-flush-btrfs-1	Virtual memory: 0.000 MB
+- PID: 19886	Name: kworker/0:0-events	Virtual memory: 0.000 MB
+- PID: 19965	Name: kworker/4:1-events	Virtual memory: 0.000 MB
+- PID: 19968	Name: kworker/6:0-events	Virtual memory: 0.000 MB
+- PID: 19974	Name: kworker/5:2-events	Virtual memory: 0.000 MB
+- PID: 20053	Name: systemd-userwork	Virtual memory: 16.918 MB
+- PID: 20063	Name: kworker/u16:4-btrfs-endio-write	Virtual memory: 0.000 MB
+- PID: 20106	Name: kworker/1:3-events	Virtual memory: 0.000 MB
+- PID: 20120	Name: kworker/2:0-events	Virtual memory: 0.000 MB
+- PID: 20162	Name: systemd-userwork	Virtual memory: 16.918 MB
+- PID: 20163	Name: systemd-userwork	Virtual memory: 16.918 MB
+- PID: 20237	Name: Isolated Web Co	Virtual memory: 2,634.680 MB
+- PID: 20310	Name: kworker/u16:8-btrfs-delalloc	Virtual memory: 0.000 MB
+- PID: 20311	Name: kworker/u16:9	Virtual memory: 0.000 MB
+- PID: 20339	Name: kworker/3:1	Virtual memory: 0.000 MB
+- PID: 20352	Name: dotnet	Virtual memory: 3,987.922 MB
+- PID: 20376	Name: dotnet	Virtual memory: 24,447.113 MB
+- PID: 20411	Name: process.thread	Virtual memory: 2,703.211 MB
+- PID: 1	Name: systemd.
+	- ThreadId: 1	Priority: 0	State: Wait.
+- PID: 2	Name: kthreadd.
+	- ThreadId: 2	Priority: 0	State: Wait.
+- PID: 3	Name: rcu_gp.
+	- ThreadId: 3	Priority: -20	State: Ready.
+- PID: 4	Name: rcu_par_gp.
+	- ThreadId: 4	Priority: -20	State: Ready.
+- PID: 6	Name: kworker/0:0H-events_highpri.
+	- ThreadId: 6	Priority: -20	State: Ready.
+- PID: 9	Name: mm_percpu_wq.
+	- ThreadId: 9	Priority: -20	State: Ready.
+- PID: 10	Name: rcu_tasks_kthre.
+	- ThreadId: 10	Priority: 0	State: Wait.
+- PID: 11	Name: rcu_tasks_rude_.
+	- ThreadId: 11	Priority: 0	State: Wait.
+- PID: 12	Name: rcu_tasks_trace.
+	- ThreadId: 12	Priority: 0	State: Wait.
+- PID: 13	Name: ksoftirqd/0.
+	- ThreadId: 13	Priority: 0	State: Wait.
+- PID: 14	Name: rcu_preempt.
+	- ThreadId: 14	Priority: 0	State: Ready.
+- PID: 15	Name: migration/0.
+	- ThreadId: 15	Priority: 0	State: Wait.
+- PID: 16	Name: cpuhp/0.
+	- ThreadId: 16	Priority: 0	State: Wait.
+- PID: 17	Name: cpuhp/1.
+	- ThreadId: 17	Priority: 0	State: Wait.
+- PID: 18	Name: migration/1.
+	- ThreadId: 18	Priority: 0	State: Wait.
+- PID: 19	Name: ksoftirqd/1.
+	- ThreadId: 19	Priority: 0	State: Wait.
+- PID: 21	Name: kworker/1:0H-kblockd.
+	- ThreadId: 21	Priority: -20	State: Ready.
+- PID: 22	Name: cpuhp/2.
+	- ThreadId: 22	Priority: 0	State: Wait.
+- PID: 23	Name: migration/2.
+	- ThreadId: 23	Priority: 0	State: Wait.
+- PID: 24	Name: ksoftirqd/2.
+	- ThreadId: 24	Priority: 0	State: Wait.
+- PID: 26	Name: kworker/2:0H-events_highpri.
+	- ThreadId: 26	Priority: -20	State: Ready.
+- PID: 27	Name: cpuhp/3.
+	- ThreadId: 27	Priority: 0	State: Wait.
+- PID: 28	Name: migration/3.
+	- ThreadId: 28	Priority: 0	State: Wait.
+- PID: 29	Name: ksoftirqd/3.
+	- ThreadId: 29	Priority: 0	State: Wait.
+- PID: 31	Name: kworker/3:0H-events_highpri.
+	- ThreadId: 31	Priority: -20	State: Ready.
+- PID: 32	Name: cpuhp/4.
+	- ThreadId: 32	Priority: 0	State: Wait.
+- PID: 33	Name: migration/4.
+	- ThreadId: 33	Priority: 0	State: Wait.
+- PID: 34	Name: ksoftirqd/4.
+	- ThreadId: 34	Priority: 0	State: Wait.
+- PID: 36	Name: kworker/4:0H-events_highpri.
+	- ThreadId: 36	Priority: -20	State: Ready.
+- PID: 37	Name: cpuhp/5.
+	- ThreadId: 37	Priority: 0	State: Wait.
+- PID: 38	Name: migration/5.
+	- ThreadId: 38	Priority: 0	State: Wait.
+- PID: 39	Name: ksoftirqd/5.
+	- ThreadId: 39	Priority: 0	State: Wait.
+- PID: 41	Name: kworker/5:0H-events_highpri.
+	- ThreadId: 41	Priority: -20	State: Ready.
+- PID: 42	Name: cpuhp/6.
+	- ThreadId: 42	Priority: 0	State: Wait.
+- PID: 43	Name: migration/6.
+	- ThreadId: 43	Priority: 0	State: Wait.
+- PID: 44	Name: ksoftirqd/6.
+	- ThreadId: 44	Priority: 0	State: Wait.
+- PID: 46	Name: kworker/6:0H-kblockd.
+	- ThreadId: 46	Priority: -20	State: Ready.
+- PID: 47	Name: cpuhp/7.
+	- ThreadId: 47	Priority: 0	State: Wait.
+- PID: 48	Name: migration/7.
+	- ThreadId: 48	Priority: 0	State: Wait.
+- PID: 49	Name: ksoftirqd/7.
+	- ThreadId: 49	Priority: 0	State: Wait.
+- PID: 51	Name: kworker/7:0H-events_highpri.
+	- ThreadId: 51	Priority: -20	State: Ready.
+- PID: 52	Name: kdevtmpfs.
+	- ThreadId: 52	Priority: 0	State: Wait.
+- PID: 53	Name: netns.
+	- ThreadId: 53	Priority: -20	State: Ready.
+- PID: 54	Name: inet_frag_wq.
+	- ThreadId: 54	Priority: -20	State: Ready.
+- PID: 55	Name: kauditd.
+	- ThreadId: 55	Priority: 0	State: Wait.
+- PID: 56	Name: oom_reaper.
+	- ThreadId: 56	Priority: 0	State: Wait.
+- PID: 57	Name: writeback.
+	- ThreadId: 57	Priority: -20	State: Ready.
+- PID: 58	Name: kcompactd0.
+	- ThreadId: 58	Priority: 0	State: Wait.
+- PID: 59	Name: ksmd.
+	- ThreadId: 59	Priority: 5	State: Wait.
+- PID: 60	Name: khugepaged.
+	- ThreadId: 60	Priority: 19	State: Wait.
+- PID: 61	Name: cryptd.
+	- ThreadId: 61	Priority: -20	State: Ready.
+- PID: 62	Name: kintegrityd.
+	- ThreadId: 62	Priority: -20	State: Ready.
+- PID: 63	Name: kblockd.
+	- ThreadId: 63	Priority: -20	State: Ready.
+- PID: 64	Name: blkcg_punt_bio.
+	- ThreadId: 64	Priority: -20	State: Ready.
+- PID: 66	Name: tpm_dev_wq.
+	- ThreadId: 66	Priority: -20	State: Ready.
+- PID: 67	Name: ata_sff.
+	- ThreadId: 67	Priority: -20	State: Ready.
+- PID: 68	Name: md.
+	- ThreadId: 68	Priority: -20	State: Ready.
+- PID: 69	Name: edac-poller.
+	- ThreadId: 69	Priority: -20	State: Ready.
+- PID: 71	Name: watchdogd.
+	- ThreadId: 71	Priority: 0	State: Wait.
+- PID: 73	Name: kworker/0:1H-events_highpri.
+	- ThreadId: 73	Priority: -20	State: Ready.
+- PID: 74	Name: kswapd0.
+	- ThreadId: 74	Priority: 0	State: Wait.
+- PID: 75	Name: kthrotld.
+	- ThreadId: 75	Priority: -20	State: Ready.
+- PID: 81	Name: irq/123-aerdrv.
+	- ThreadId: 81	Priority: 0	State: Wait.
+- PID: 82	Name: irq/123-pcie-dp.
+	- ThreadId: 82	Priority: 0	State: Wait.
+- PID: 83	Name: irq/124-aerdrv.
+	- ThreadId: 83	Priority: 0	State: Wait.
+- PID: 84	Name: irq/124-pcie-dp.
+	- ThreadId: 84	Priority: 0	State: Wait.
+- PID: 85	Name: irq/125-aerdrv.
+	- ThreadId: 85	Priority: 0	State: Wait.
+- PID: 86	Name: irq/125-pcie-dp.
+	- ThreadId: 86	Priority: 0	State: Wait.
+- PID: 91	Name: acpi_thermal_pm.
+	- ThreadId: 91	Priority: -20	State: Ready.
+- PID: 93	Name: scsi_eh_0.
+	- ThreadId: 93	Priority: 0	State: Wait.
+- PID: 94	Name: scsi_tmf_0.
+	- ThreadId: 94	Priority: -20	State: Ready.
+- PID: 95	Name: dm_bufio_cache.
+	- ThreadId: 95	Priority: -20	State: Ready.
+- PID: 96	Name: mld.
+	- ThreadId: 96	Priority: -20	State: Ready.
+- PID: 97	Name: ipv6_addrconf.
+	- ThreadId: 97	Priority: -20	State: Ready.
+- PID: 108	Name: kstrp.
+	- ThreadId: 108	Priority: -20	State: Ready.
+- PID: 121	Name: zswap-shrink.
+	- ThreadId: 121	Priority: -20	State: Ready.
+- PID: 226	Name: kworker/1:1H-kblockd.
+	- ThreadId: 226	Priority: -20	State: Ready.
+- PID: 277	Name: ipmi-msghandler.
+	- ThreadId: 277	Priority: -20	State: Ready.
+- PID: 278	Name: kworker/3:1H-events_highpri.
+	- ThreadId: 278	Priority: -20	State: Ready.
+- PID: 280	Name: kworker/2:1H-kblockd.
+	- ThreadId: 280	Priority: -20	State: Ready.
+- PID: 281	Name: kworker/7:1H-events_highpri.
+	- ThreadId: 281	Priority: -20	State: Ready.
+- PID: 284	Name: kworker/4:1H-events_highpri.
+	- ThreadId: 284	Priority: -20	State: Ready.
+- PID: 393	Name: kworker/5:1H-events_highpri.
+	- ThreadId: 393	Priority: -20	State: Ready.
+- PID: 431	Name: irq/128-ELAN120.
+	- ThreadId: 431	Priority: 0	State: Wait.
+- PID: 438	Name: nvme-wq.
+	- ThreadId: 438	Priority: -20	State: Ready.
+- PID: 439	Name: nvme-reset-wq.
+	- ThreadId: 439	Priority: -20	State: Ready.
+- PID: 440	Name: nvme-delete-wq.
+	- ThreadId: 440	Priority: -20	State: Ready.
+- PID: 446	Name: kworker/6:1H-kblockd.
+	- ThreadId: 446	Priority: -20	State: Ready.
+- PID: 460	Name: card0-crtc0.
+	- ThreadId: 460	Priority: 0	State: Wait.
+- PID: 461	Name: card0-crtc1.
+	- ThreadId: 461	Priority: 0	State: Wait.
+- PID: 462	Name: card0-crtc2.
+	- ThreadId: 462	Priority: 0	State: Wait.
+- PID: 463	Name: nvkm-disp.
+	- ThreadId: 463	Priority: -20	State: Ready.
+- PID: 464	Name: card1-crtc0.
+	- ThreadId: 464	Priority: 0	State: Wait.
+- PID: 465	Name: card1-crtc1.
+	- ThreadId: 465	Priority: 0	State: Wait.
+- PID: 466	Name: card1-crtc2.
+	- ThreadId: 466	Priority: 0	State: Wait.
+- PID: 467	Name: card1-crtc3.
+	- ThreadId: 467	Priority: 0	State: Wait.
+- PID: 476	Name: btrfs-worker.
+	- ThreadId: 476	Priority: -20	State: Ready.
+- PID: 477	Name: btrfs-worker-hi.
+	- ThreadId: 477	Priority: -20	State: Ready.
+- PID: 478	Name: btrfs-delalloc.
+	- ThreadId: 478	Priority: -20	State: Ready.
+- PID: 479	Name: btrfs-flush_del.
+	- ThreadId: 479	Priority: -20	State: Ready.
+- PID: 480	Name: btrfs-cache.
+	- ThreadId: 480	Priority: -20	State: Ready.
+- PID: 481	Name: btrfs-fixup.
+	- ThreadId: 481	Priority: -20	State: Ready.
+- PID: 482	Name: btrfs-endio.
+	- ThreadId: 482	Priority: -20	State: Ready.
+- PID: 483	Name: btrfs-endio-met.
+	- ThreadId: 483	Priority: -20	State: Ready.
+- PID: 484	Name: btrfs-endio-met.
+	- ThreadId: 484	Priority: -20	State: Ready.
+- PID: 485	Name: btrfs-endio-rai.
+	- ThreadId: 485	Priority: -20	State: Ready.
+- PID: 486	Name: btrfs-rmw.
+	- ThreadId: 486	Priority: -20	State: Ready.
+- PID: 487	Name: btrfs-endio-wri.
+	- ThreadId: 487	Priority: -20	State: Ready.
+- PID: 488	Name: btrfs-freespace.
+	- ThreadId: 488	Priority: -20	State: Ready.
+- PID: 489	Name: btrfs-delayed-m.
+	- ThreadId: 489	Priority: -20	State: Ready.
+- PID: 490	Name: btrfs-readahead.
+	- ThreadId: 490	Priority: -20	State: Ready.
+- PID: 491	Name: btrfs-qgroup-re.
+	- ThreadId: 491	Priority: -20	State: Ready.
+- PID: 492	Name: btrfs-cleaner.
+	- ThreadId: 492	Priority: 0	State: Wait.
+- PID: 493	Name: btrfs-transacti.
+	- ThreadId: 493	Priority: 0	State: Wait.
+- PID: 562	Name: kworker/u16:7-btrfs-endio.
+	- ThreadId: 562	Priority: 0	State: Ready.
+- PID: 606	Name: systemd-journald.
+	- ThreadId: 606	Priority: 0	State: Wait.
+- PID: 618	Name: systemd-udevd.
+	- ThreadId: 618	Priority: 0	State: Wait.
+- PID: 653	Name: asus_wireless_w.
+	- ThreadId: 653	Priority: -20	State: Ready.
+- PID: 672	Name: irq/141-mei_me.
+	- ThreadId: 672	Priority: 0	State: Wait.
+- PID: 682	Name: cfg80211.
+	- ThreadId: 682	Priority: -20	State: Ready.
+- PID: 686	Name: led_workqueue.
+	- ThreadId: 686	Priority: -20	State: Ready.
+- PID: 717	Name: napi/phy0-8194.
+	- ThreadId: 717	Priority: 0	State: Wait.
+- PID: 718	Name: napi/phy0-8195.
+	- ThreadId: 718	Priority: 0	State: Wait.
+- PID: 719	Name: napi/phy0-8196.
+	- ThreadId: 719	Priority: 0	State: Wait.
+- PID: 744	Name: mt76-tx phy0.
+	- ThreadId: 744	Priority: 0	State: Wait.
+- PID: 761	Name: jbd2/sda7-8.
+	- ThreadId: 761	Priority: 0	State: Wait.
+- PID: 762	Name: ext4-rsv-conver.
+	- ThreadId: 762	Priority: -20	State: Ready.
+- PID: 785	Name: systemd-oomd.
+	- ThreadId: 785	Priority: 0	State: Wait.
+- PID: 786	Name: systemd-resolved.
+	- ThreadId: 786	Priority: 0	State: Wait.
+- PID: 787	Name: systemd-userdbd.
+	- ThreadId: 787	Priority: 0	State: Wait.
+- PID: 788	Name: auditd.
+	- ThreadId: 788	Priority: -4	State: Wait.
+	- ThreadId: 789	Priority: -4	State: Wait.
+- PID: 805	Name: rpciod.
+	- ThreadId: 805	Priority: -20	State: Ready.
+- PID: 806	Name: xprtiod.
+	- ThreadId: 806	Priority: -20	State: Ready.
+- PID: 811	Name: avahi-daemon: running [fedora.local].
+	- ThreadId: 811	Priority: 0	State: Wait.
+- PID: 812	Name: bluetoothd.
+	- ThreadId: 812	Priority: 0	State: Wait.
+- PID: 814	Name: low-memory-monitor.
+	- ThreadId: 814	Priority: 0	State: Wait.
+	- ThreadId: 841	Priority: 0	State: Wait.
+	- ThreadId: 879	Priority: 0	State: Wait.
+- PID: 815	Name: mcelog.
+	- ThreadId: 815	Priority: 0	State: Wait.
+- PID: 818	Name: polkitd.
+	- ThreadId: 818	Priority: 0	State: Wait.
+	- ThreadId: 874	Priority: 0	State: Wait.
+	- ThreadId: 885	Priority: 0	State: Wait.
+	- ThreadId: 887	Priority: 0	State: Wait.
+	- ThreadId: 888	Priority: 0	State: Wait.
+	- ThreadId: 889	Priority: 0	State: Wait.
+	- ThreadId: 890	Priority: 0	State: Wait.
+	- ThreadId: 891	Priority: 0	State: Wait.
+	- ThreadId: 892	Priority: 0	State: Wait.
+	- ThreadId: 893	Priority: 0	State: Wait.
+	- ThreadId: 894	Priority: 0	State: Wait.
+	- ThreadId: 902	Priority: 0	State: Wait.
+- PID: 819	Name: power-profiles-daemon.
+	- ThreadId: 819	Priority: 0	State: Wait.
+	- ThreadId: 840	Priority: 0	State: Wait.
+	- ThreadId: 878	Priority: 0	State: Wait.
+- PID: 820	Name: rtkit-daemon.
+	- ThreadId: 820	Priority: 1	State: Wait.
+	- ThreadId: 880	Priority: 0	State: Wait.
+	- ThreadId: 882	Priority: 1	State: Wait.
+- PID: 821	Name: accounts-daemon.
+	- ThreadId: 821	Priority: 0	State: Wait.
+	- ThreadId: 827	Priority: 0	State: Wait.
+	- ThreadId: 828	Priority: 0	State: Wait.
+	- ThreadId: 876	Priority: 0	State: Wait.
+- PID: 822	Name: switcheroo-control.
+	- ThreadId: 822	Priority: 0	State: Wait.
+	- ThreadId: 845	Priority: 0	State: Wait.
+	- ThreadId: 877	Priority: 0	State: Wait.
+- PID: 823	Name: systemd-homed.
+	- ThreadId: 823	Priority: 0	State: Wait.
+- PID: 826	Name: systemd-logind.
+	- ThreadId: 826	Priority: 0	State: Wait.
+- PID: 829	Name: systemd-machined.
+	- ThreadId: 829	Priority: 0	State: Wait.
+- PID: 831	Name: thermald.
+	- ThreadId: 831	Priority: 0	State: Wait.
+	- ThreadId: 924	Priority: 0	State: Wait.
+	- ThreadId: 925	Priority: 0	State: Wait.
+	- ThreadId: 926	Priority: 0	State: Wait.
+- PID: 832	Name: udisksd.
+	- ThreadId: 832	Priority: 0	State: Wait.
+	- ThreadId: 851	Priority: 0	State: Wait.
+	- ThreadId: 881	Priority: 0	State: Wait.
+	- ThreadId: 909	Priority: 0	State: Wait.
+	- ThreadId: 921	Priority: 0	State: Wait.
+- PID: 833	Name: upowerd.
+	- ThreadId: 833	Priority: 0	State: Wait.
+	- ThreadId: 859	Priority: 0	State: Wait.
+	- ThreadId: 884	Priority: 0	State: Wait.
+- PID: 834	Name: avahi-daemon: chroot helper.
+	- ThreadId: 834	Priority: 0	State: Wait.
+- PID: 838	Name: dbus-broker-launch.
+	- ThreadId: 838	Priority: 0	State: Wait.
+- PID: 849	Name: abrtd.
+	- ThreadId: 849	Priority: 0	State: Wait.
+	- ThreadId: 897	Priority: 0	State: Wait.
+	- ThreadId: 899	Priority: 0	State: Wait.
+- PID: 855	Name: chronyd.
+	- ThreadId: 855	Priority: 0	State: Wait.
+- PID: 875	Name: dbus-broker.
+	- ThreadId: 875	Priority: 0	State: Wait.
+- PID: 883	Name: psimon.
+	- ThreadId: 883	Priority: 0	State: Wait.
+- PID: 895	Name: alsactl.
+	- ThreadId: 895	Priority: 19	State: Wait.
+- PID: 901	Name: abrt-dump-journal-core.
+	- ThreadId: 901	Priority: 0	State: Wait.
+- PID: 903	Name: abrt-dump-journal-oops.
+	- ThreadId: 903	Priority: 0	State: Wait.
+- PID: 904	Name: abrt-dump-journal-xorg.
+	- ThreadId: 904	Priority: 0	State: Wait.
+- PID: 906	Name: ModemManager.
+	- ThreadId: 906	Priority: 0	State: Wait.
+	- ThreadId: 911	Priority: 0	State: Wait.
+	- ThreadId: 913	Priority: 0	State: Wait.
+	- ThreadId: 916	Priority: 0	State: Wait.
+- PID: 908	Name: firewalld.
+	- ThreadId: 908	Priority: 0	State: Wait.
+	- ThreadId: 1018	Priority: 0	State: Wait.
+- PID: 928	Name: NetworkManager.
+	- ThreadId: 928	Priority: 0	State: Wait.
+	- ThreadId: 931	Priority: 0	State: Wait.
+	- ThreadId: 932	Priority: 0	State: Wait.
+- PID: 935	Name: cupsd.
+	- ThreadId: 935	Priority: 0	State: Wait.
+- PID: 945	Name: gssproxy.
+	- ThreadId: 945	Priority: 0	State: Wait.
+	- ThreadId: 949	Priority: 0	State: Wait.
+	- ThreadId: 950	Priority: 0	State: Wait.
+	- ThreadId: 951	Priority: 0	State: Wait.
+	- ThreadId: 952	Priority: 0	State: Wait.
+	- ThreadId: 953	Priority: 0	State: Wait.
+- PID: 1023	Name: wpa_supplicant.
+	- ThreadId: 1023	Priority: 0	State: Wait.
+- PID: 1074	Name: atd.
+	- ThreadId: 1074	Priority: 0	State: Wait.
+- PID: 1077	Name: crond.
+	- ThreadId: 1077	Priority: 0	State: Wait.
+- PID: 1080	Name: gdm.
+	- ThreadId: 1080	Priority: 0	State: Wait.
+	- ThreadId: 1084	Priority: 0	State: Wait.
+	- ThreadId: 1085	Priority: 0	State: Wait.
+- PID: 1112	Name: uresourced.
+	- ThreadId: 1112	Priority: 0	State: Wait.
+	- ThreadId: 1114	Priority: 0	State: Wait.
+	- ThreadId: 1116	Priority: 0	State: Wait.
+- PID: 1233	Name: packagekitd.
+	- ThreadId: 1233	Priority: 0	State: Wait.
+	- ThreadId: 1244	Priority: 0	State: Wait.
+	- ThreadId: 1246	Priority: 0	State: Wait.
+- PID: 1426	Name: pcscd.
+	- ThreadId: 1426	Priority: 0	State: Wait.
+	- ThreadId: 1428	Priority: 0	State: Wait.
+	- ThreadId: 1432	Priority: 0	State: Wait.
+	- ThreadId: 1434	Priority: 0	State: Wait.
+	- ThreadId: 1435	Priority: 0	State: Wait.
+	- ThreadId: 1436	Priority: 0	State: Wait.
+	- ThreadId: 2236	Priority: 0	State: Wait.
+	- ThreadId: 3121	Priority: 0	State: Wait.
+	- ThreadId: 3171	Priority: 0	State: Wait.
+	- ThreadId: 7896	Priority: 0	State: Wait.
+- PID: 1453	Name: kworker/u16:11-btrfs-freespace-write.
+	- ThreadId: 1453	Priority: 0	State: Ready.
+- PID: 1474	Name: colord.
+	- ThreadId: 1474	Priority: 0	State: Wait.
+	- ThreadId: 1483	Priority: 0	State: Wait.
+	- ThreadId: 1484	Priority: 0	State: Wait.
+	- ThreadId: 1488	Priority: 0	State: Wait.
+- PID: 1526	Name: krfcommd.
+	- ThreadId: 1526	Priority: -10	State: Wait.
+- PID: 1597	Name: gdm-session-wor.
+	- ThreadId: 1597	Priority: 0	State: Wait.
+	- ThreadId: 1598	Priority: 0	State: Wait.
+	- ThreadId: 1599	Priority: 0	State: Wait.
+- PID: 1611	Name: systemd.
+	- ThreadId: 1611	Priority: 0	State: Wait.
+- PID: 1616	Name: (sd-pam).
+	- ThreadId: 1616	Priority: 0	State: Wait.
+- PID: 1643	Name: gnome-keyring-daemon.
+	- ThreadId: 1643	Priority: 0	State: Wait.
+	- ThreadId: 1644	Priority: 0	State: Wait.
+	- ThreadId: 1645	Priority: 0	State: Wait.
+	- ThreadId: 1852	Priority: 0	State: Wait.
+- PID: 1649	Name: gdm-x-session.
+	- ThreadId: 1649	Priority: 0	State: Wait.
+	- ThreadId: 1650	Priority: 0	State: Wait.
+	- ThreadId: 1743	Priority: 0	State: Wait.
+- PID: 1651	Name: Xorg.
+	- ThreadId: 1651	Priority: 0	State: Wait.
+	- ThreadId: 1674	Priority: 19	State: Wait.
+	- ThreadId: 1675	Priority: 0	State: Wait.
+	- ThreadId: 1676	Priority: 0	State: Wait.
+	- ThreadId: 1677	Priority: 0	State: Wait.
+	- ThreadId: 1678	Priority: 0	State: Wait.
+	- ThreadId: 1679	Priority: 0	State: Wait.
+	- ThreadId: 1680	Priority: 0	State: Wait.
+	- ThreadId: 1682	Priority: 0	State: Wait.
+	- ThreadId: 1690	Priority: 19	State: Wait.
+	- ThreadId: 1718	Priority: 19	State: Wait.
+	- ThreadId: 1719	Priority: 0	State: Wait.
+	- ThreadId: 1720	Priority: 0	State: Wait.
+	- ThreadId: 1721	Priority: 0	State: Wait.
+	- ThreadId: 1722	Priority: 0	State: Wait.
+	- ThreadId: 1723	Priority: 0	State: Wait.
+	- ThreadId: 1724	Priority: 0	State: Wait.
+	- ThreadId: 1738	Priority: 0	State: Wait.
+- PID: 1739	Name: dbus-broker-launch.
+	- ThreadId: 1739	Priority: 0	State: Wait.
+- PID: 1742	Name: dbus-broker.
+	- ThreadId: 1742	Priority: 0	State: Wait.
+- PID: 1744	Name: gnome-session-binary.
+	- ThreadId: 1744	Priority: 0	State: Wait.
+	- ThreadId: 1829	Priority: 0	State: Wait.
+	- ThreadId: 1830	Priority: 0	State: Wait.
+	- ThreadId: 1831	Priority: 0	State: Wait.
+- PID: 1780	Name: ssh-agent.
+	- ThreadId: 1780	Priority: 0	State: Wait.
+- PID: 1813	Name: at-spi-bus-launcher.
+	- ThreadId: 1813	Priority: 0	State: Wait.
+	- ThreadId: 1814	Priority: 0	State: Wait.
+	- ThreadId: 1815	Priority: 0	State: Wait.
+	- ThreadId: 1817	Priority: 0	State: Wait.
+- PID: 1818	Name: dbus-broker-launch.
+	- ThreadId: 1818	Priority: 0	State: Wait.
+- PID: 1819	Name: dbus-broker.
+	- ThreadId: 1819	Priority: 0	State: Wait.
+- PID: 1832	Name: gnome-session-ctl.
+	- ThreadId: 1832	Priority: 0	State: Wait.
+	- ThreadId: 1834	Priority: 0	State: Wait.
+- PID: 1833	Name: uresourced.
+	- ThreadId: 1833	Priority: 0	State: Wait.
+	- ThreadId: 1836	Priority: 0	State: Wait.
+	- ThreadId: 1837	Priority: 0	State: Wait.
+- PID: 1835	Name: gnome-session-binary.
+	- ThreadId: 1835	Priority: 0	State: Wait.
+	- ThreadId: 1838	Priority: 0	State: Wait.
+	- ThreadId: 1839	Priority: 0	State: Wait.
+	- ThreadId: 1841	Priority: 0	State: Wait.
+- PID: 1860	Name: gnome-shell.
+	- ThreadId: 1860	Priority: 0	State: Wait.
+	- ThreadId: 1862	Priority: 0	State: Wait.
+	- ThreadId: 1864	Priority: 0	State: Wait.
+	- ThreadId: 1865	Priority: 0	State: Wait.
+	- ThreadId: 1866	Priority: 19	State: Wait.
+	- ThreadId: 1867	Priority: 0	State: Wait.
+	- ThreadId: 1868	Priority: 0	State: Wait.
+	- ThreadId: 1869	Priority: 0	State: Wait.
+	- ThreadId: 1870	Priority: 0	State: Wait.
+	- ThreadId: 1871	Priority: 0	State: Wait.
+	- ThreadId: 1872	Priority: 0	State: Wait.
+	- ThreadId: 1874	Priority: 0	State: Wait.
+	- ThreadId: 1889	Priority: 0	State: Wait.
+	- ThreadId: 1890	Priority: 0	State: Wait.
+	- ThreadId: 1891	Priority: 0	State: Wait.
+	- ThreadId: 1892	Priority: 0	State: Wait.
+	- ThreadId: 1893	Priority: 0	State: Wait.
+	- ThreadId: 1894	Priority: 0	State: Wait.
+	- ThreadId: 1895	Priority: 0	State: Wait.
+	- ThreadId: 1896	Priority: 0	State: Wait.
+	- ThreadId: 1897	Priority: 19	State: Wait.
+	- ThreadId: 1898	Priority: 0	State: Wait.
+	- ThreadId: 1899	Priority: 0	State: Wait.
+	- ThreadId: 1900	Priority: 0	State: Wait.
+	- ThreadId: 1901	Priority: 0	State: Wait.
+	- ThreadId: 1902	Priority: 0	State: Wait.
+	- ThreadId: 1903	Priority: 0	State: Wait.
+	- ThreadId: 3844	Priority: 0	State: Wait.
+	- ThreadId: 3845	Priority: 0	State: Wait.
+	- ThreadId: 3846	Priority: 0	State: Wait.
+	- ThreadId: 3847	Priority: 0	State: Wait.
+	- ThreadId: 3848	Priority: 0	State: Wait.
+	- ThreadId: 3849	Priority: 0	State: Wait.
+	- ThreadId: 3850	Priority: 0	State: Wait.
+	- ThreadId: 3851	Priority: 0	State: Wait.
+- PID: 1875	Name: gvfsd.
+	- ThreadId: 1875	Priority: 0	State: Wait.
+	- ThreadId: 1876	Priority: 0	State: Wait.
+	- ThreadId: 1877	Priority: 0	State: Wait.
+- PID: 1880	Name: gvfsd-fuse.
+	- ThreadId: 1880	Priority: 0	State: Wait.
+	- ThreadId: 1882	Priority: 0	State: Wait.
+	- ThreadId: 1883	Priority: 0	State: Wait.
+	- ThreadId: 1884	Priority: 0	State: Wait.
+	- ThreadId: 1885	Priority: 0	State: Wait.
+	- ThreadId: 1887	Priority: 0	State: Wait.
+- PID: 1906	Name: ibus-daemon.
+	- ThreadId: 1906	Priority: 0	State: Wait.
+	- ThreadId: 1908	Priority: 0	State: Wait.
+	- ThreadId: 1910	Priority: 0	State: Wait.
+- PID: 1907	Name: xdg-permission-store.
+	- ThreadId: 1907	Priority: 0	State: Wait.
+	- ThreadId: 1909	Priority: 0	State: Wait.
+	- ThreadId: 1912	Priority: 0	State: Wait.
+- PID: 1913	Name: gnome-shell-calendar-server.
+	- ThreadId: 1913	Priority: 0	State: Wait.
+	- ThreadId: 1928	Priority: 0	State: Wait.
+	- ThreadId: 1930	Priority: 0	State: Wait.
+	- ThreadId: 1931	Priority: 0	State: Wait.
+	- ThreadId: 1932	Priority: 0	State: Wait.
+	- ThreadId: 1976	Priority: 0	State: Wait.
+- PID: 1915	Name: ibus-dconf.
+	- ThreadId: 1915	Priority: 0	State: Wait.
+	- ThreadId: 1917	Priority: 0	State: Wait.
+	- ThreadId: 1918	Priority: 0	State: Wait.
+	- ThreadId: 1922	Priority: 0	State: Wait.
+- PID: 1916	Name: ibus-extension-gtk3.
+	- ThreadId: 1916	Priority: 0	State: Wait.
+	- ThreadId: 1934	Priority: 0	State: Wait.
+	- ThreadId: 1935	Priority: 0	State: Wait.
+	- ThreadId: 1944	Priority: 0	State: Wait.
+- PID: 1920	Name: ibus-x11.
+	- ThreadId: 1920	Priority: 0	State: Wait.
+	- ThreadId: 1936	Priority: 0	State: Wait.
+	- ThreadId: 1937	Priority: 0	State: Wait.
+- PID: 1923	Name: ibus-portal.
+	- ThreadId: 1923	Priority: 0	State: Wait.
+	- ThreadId: 1924	Priority: 0	State: Wait.
+	- ThreadId: 1925	Priority: 0	State: Wait.
+- PID: 1933	Name: evolution-source-registry.
+	- ThreadId: 1933	Priority: 0	State: Wait.
+	- ThreadId: 1939	Priority: 0	State: Wait.
+	- ThreadId: 1940	Priority: 0	State: Wait.
+	- ThreadId: 1941	Priority: 0	State: Wait.
+- PID: 1938	Name: at-spi2-registryd.
+	- ThreadId: 1938	Priority: 0	State: Wait.
+	- ThreadId: 1942	Priority: 0	State: Wait.
+	- ThreadId: 1943	Priority: 0	State: Wait.
+- PID: 1945	Name: pipewire.
+	- ThreadId: 1945	Priority: -11	State: Wait.
+	- ThreadId: 1970	Priority: 0	State: Wait.
+- PID: 1946	Name: wireplumber.
+	- ThreadId: 1946	Priority: -11	State: Wait.
+	- ThreadId: 1968	Priority: 0	State: Wait.
+	- ThreadId: 1986	Priority: 0	State: Wait.
+	- ThreadId: 2012	Priority: 0	State: Wait.
+- PID: 1947	Name: pipewire-pulse.
+	- ThreadId: 1947	Priority: -11	State: Wait.
+	- ThreadId: 1973	Priority: 0	State: Wait.
+- PID: 1949	Name: goa-daemon.
+	- ThreadId: 1949	Priority: 0	State: Wait.
+	- ThreadId: 2039	Priority: 0	State: Wait.
+	- ThreadId: 2044	Priority: 0	State: Wait.
+	- ThreadId: 2047	Priority: 0	State: Wait.
+- PID: 1952	Name: dconf-service.
+	- ThreadId: 1952	Priority: 0	State: Wait.
+	- ThreadId: 1954	Priority: 0	State: Wait.
+	- ThreadId: 1955	Priority: 0	State: Wait.
+- PID: 1959	Name: gvfsd-metadata.
+	- ThreadId: 1959	Priority: 0	State: Wait.
+	- ThreadId: 1960	Priority: 0	State: Wait.
+	- ThreadId: 1962	Priority: 0	State: Wait.
+- PID: 1980	Name: evolution-calendar-factory.
+	- ThreadId: 1980	Priority: 0	State: Wait.
+	- ThreadId: 1983	Priority: 0	State: Wait.
+	- ThreadId: 1985	Priority: 0	State: Wait.
+	- ThreadId: 2006	Priority: 0	State: Wait.
+	- ThreadId: 2007	Priority: 0	State: Wait.
+	- ThreadId: 2010	Priority: 0	State: Wait.
+	- ThreadId: 2017	Priority: 0	State: Wait.
+	- ThreadId: 2021	Priority: 0	State: Wait.
+	- ThreadId: 2023	Priority: 0	State: Wait.
+	- ThreadId: 2027	Priority: 0	State: Wait.
+	- ThreadId: 2030	Priority: 0	State: Wait.
+	- ThreadId: 2311	Priority: 0	State: Wait.
+- PID: 1984	Name: gvfs-udisks2-volume-monitor.
+	- ThreadId: 1984	Priority: 0	State: Wait.
+	- ThreadId: 1989	Priority: 0	State: Wait.
+	- ThreadId: 1990	Priority: 0	State: Wait.
+	- ThreadId: 1993	Priority: 0	State: Wait.
+- PID: 1997	Name: gvfs-mtp-volume-monitor.
+	- ThreadId: 1997	Priority: 0	State: Wait.
+	- ThreadId: 2002	Priority: 0	State: Wait.
+	- ThreadId: 2004	Priority: 0	State: Wait.
+- PID: 2005	Name: gvfs-gphoto2-volume-monitor.
+	- ThreadId: 2005	Priority: 0	State: Wait.
+	- ThreadId: 2013	Priority: 0	State: Wait.
+	- ThreadId: 2016	Priority: 0	State: Wait.
+- PID: 2018	Name: gvfs-goa-volume-monitor.
+	- ThreadId: 2018	Priority: 0	State: Wait.
+	- ThreadId: 2024	Priority: 0	State: Wait.
+	- ThreadId: 2025	Priority: 0	State: Wait.
+- PID: 2028	Name: evolution-addressbook-factory.
+	- ThreadId: 2028	Priority: 0	State: Wait.
+	- ThreadId: 2031	Priority: 0	State: Wait.
+	- ThreadId: 2032	Priority: 0	State: Wait.
+	- ThreadId: 2034	Priority: 0	State: Wait.
+	- ThreadId: 2035	Priority: 0	State: Wait.
+	- ThreadId: 2037	Priority: 0	State: Wait.
+- PID: 2051	Name: goa-identity-service.
+	- ThreadId: 2051	Priority: 0	State: Wait.
+	- ThreadId: 2057	Priority: 0	State: Wait.
+	- ThreadId: 2058	Priority: 0	State: Wait.
+	- ThreadId: 2059	Priority: 0	State: Wait.
+- PID: 2056	Name: gvfs-afc-volume-monitor.
+	- ThreadId: 2056	Priority: 0	State: Wait.
+	- ThreadId: 2060	Priority: 0	State: Wait.
+	- ThreadId: 2061	Priority: 0	State: Wait.
+	- ThreadId: 2063	Priority: 0	State: Wait.
+- PID: 2075	Name: sssd_kcm.
+	- ThreadId: 2075	Priority: 0	State: Wait.
+- PID: 2079	Name: gjs.
+	- ThreadId: 2079	Priority: 0	State: Wait.
+	- ThreadId: 2081	Priority: 0	State: Wait.
+	- ThreadId: 2082	Priority: 0	State: Wait.
+	- ThreadId: 2083	Priority: 0	State: Wait.
+	- ThreadId: 2084	Priority: 0	State: Wait.
+	- ThreadId: 2085	Priority: 0	State: Wait.
+	- ThreadId: 2086	Priority: 0	State: Wait.
+	- ThreadId: 2087	Priority: 0	State: Wait.
+	- ThreadId: 2088	Priority: 0	State: Wait.
+	- ThreadId: 2089	Priority: 0	State: Wait.
+	- ThreadId: 2090	Priority: 0	State: Wait.
+- PID: 2094	Name: gsd-a11y-settings.
+	- ThreadId: 2094	Priority: 0	State: Wait.
+	- ThreadId: 2098	Priority: 0	State: Wait.
+	- ThreadId: 2100	Priority: 0	State: Wait.
+	- ThreadId: 2105	Priority: 0	State: Wait.
+- PID: 2095	Name: gsd-color.
+	- ThreadId: 2095	Priority: 0	State: Wait.
+	- ThreadId: 2208	Priority: 0	State: Wait.
+	- ThreadId: 2209	Priority: 0	State: Wait.
+	- ThreadId: 2210	Priority: 0	State: Wait.
+- PID: 2099	Name: gsd-datetime.
+	- ThreadId: 2099	Priority: 0	State: Wait.
+	- ThreadId: 2165	Priority: 0	State: Wait.
+	- ThreadId: 2169	Priority: 0	State: Wait.
+	- ThreadId: 2184	Priority: 0	State: Wait.
+- PID: 2102	Name: gsd-housekeeping.
+	- ThreadId: 2102	Priority: 0	State: Wait.
+	- ThreadId: 2109	Priority: 0	State: Wait.
+	- ThreadId: 2112	Priority: 0	State: Wait.
+	- ThreadId: 2129	Priority: 0	State: Wait.
+- PID: 2104	Name: gsd-keyboard.
+	- ThreadId: 2104	Priority: 0	State: Wait.
+	- ThreadId: 2175	Priority: 0	State: Wait.
+	- ThreadId: 2176	Priority: 0	State: Wait.
+	- ThreadId: 2179	Priority: 0	State: Wait.
+- PID: 2107	Name: gsd-media-keys.
+	- ThreadId: 2107	Priority: 0	State: Wait.
+	- ThreadId: 2203	Priority: 0	State: Wait.
+	- ThreadId: 2205	Priority: 0	State: Wait.
+	- ThreadId: 2241	Priority: 0	State: Wait.
+- PID: 2111	Name: gsd-power.
+	- ThreadId: 2111	Priority: 0	State: Wait.
+	- ThreadId: 2212	Priority: 0	State: Wait.
+	- ThreadId: 2216	Priority: 0	State: Wait.
+	- ThreadId: 2252	Priority: 0	State: Wait.
+- PID: 2113	Name: gsd-print-notifications.
+	- ThreadId: 2113	Priority: 0	State: Wait.
+	- ThreadId: 2146	Priority: 0	State: Wait.
+	- ThreadId: 2154	Priority: 0	State: Wait.
+- PID: 2115	Name: gsd-rfkill.
+	- ThreadId: 2115	Priority: 0	State: Wait.
+	- ThreadId: 2120	Priority: 0	State: Wait.
+	- ThreadId: 2122	Priority: 0	State: Wait.
+- PID: 2116	Name: gsd-screensaver-proxy.
+	- ThreadId: 2116	Priority: 0	State: Wait.
+	- ThreadId: 2150	Priority: 0	State: Wait.
+	- ThreadId: 2153	Priority: 0	State: Wait.
+- PID: 2117	Name: gsd-sharing.
+	- ThreadId: 2117	Priority: 0	State: Wait.
+	- ThreadId: 2137	Priority: 0	State: Wait.
+	- ThreadId: 2138	Priority: 0	State: Wait.
+	- ThreadId: 2147	Priority: 0	State: Wait.
+- PID: 2118	Name: gsd-smartcard.
+	- ThreadId: 2118	Priority: 0	State: Wait.
+	- ThreadId: 2158	Priority: 0	State: Wait.
+	- ThreadId: 2159	Priority: 0	State: Wait.
+	- ThreadId: 2200	Priority: 0	State: Wait.
+	- ThreadId: 2201	Priority: 0	State: Wait.
+	- ThreadId: 2415	Priority: 0	State: Wait.
+- PID: 2119	Name: gsd-sound.
+	- ThreadId: 2119	Priority: 0	State: Wait.
+	- ThreadId: 2124	Priority: 0	State: Wait.
+	- ThreadId: 2143	Priority: 0	State: Wait.
+	- ThreadId: 2197	Priority: 0	State: Wait.
+- PID: 2121	Name: gsd-usb-protection.
+	- ThreadId: 2121	Priority: 0	State: Wait.
+	- ThreadId: 2135	Priority: 0	State: Wait.
+	- ThreadId: 2149	Priority: 0	State: Wait.
+	- ThreadId: 2185	Priority: 0	State: Wait.
+- PID: 2125	Name: gsd-wacom.
+	- ThreadId: 2125	Priority: 0	State: Wait.
+	- ThreadId: 2219	Priority: 0	State: Wait.
+	- ThreadId: 2223	Priority: 0	State: Wait.
+- PID: 2126	Name: gsd-xsettings.
+	- ThreadId: 2126	Priority: 0	State: Wait.
+	- ThreadId: 2211	Priority: 0	State: Wait.
+	- ThreadId: 2215	Priority: 0	State: Wait.
+	- ThreadId: 2242	Priority: 0	State: Wait.
+- PID: 2162	Name: gsd-disk-utility-notify.
+	- ThreadId: 2162	Priority: 0	State: Wait.
+	- ThreadId: 2187	Priority: 0	State: Wait.
+	- ThreadId: 2199	Priority: 0	State: Wait.
+- PID: 2166	Name: gnome-software.
+	- ThreadId: 2166	Priority: 0	State: Wait.
+	- ThreadId: 2222	Priority: 0	State: Wait.
+	- ThreadId: 2224	Priority: 0	State: Wait.
+	- ThreadId: 2255	Priority: 0	State: Wait.
+- PID: 2170	Name: evolution-alarm-notify.
+	- ThreadId: 2170	Priority: 0	State: Wait.
+	- ThreadId: 2256	Priority: 0	State: Wait.
+	- ThreadId: 2257	Priority: 0	State: Wait.
+	- ThreadId: 2258	Priority: 0	State: Wait.
+	- ThreadId: 2259	Priority: 0	State: Wait.
+	- ThreadId: 2299	Priority: 0	State: Wait.
+- PID: 2172	Name: abrt-applet.
+	- ThreadId: 2172	Priority: 0	State: Wait.
+	- ThreadId: 2233	Priority: 0	State: Wait.
+	- ThreadId: 2234	Priority: 0	State: Wait.
+	- ThreadId: 2428	Priority: 0	State: Wait.
+- PID: 2202	Name: gjs.
+	- ThreadId: 2202	Priority: 0	State: Wait.
+	- ThreadId: 2217	Priority: 0	State: Wait.
+	- ThreadId: 2218	Priority: 0	State: Wait.
+	- ThreadId: 2225	Priority: 0	State: Wait.
+	- ThreadId: 2226	Priority: 0	State: Wait.
+	- ThreadId: 2227	Priority: 0	State: Wait.
+	- ThreadId: 2228	Priority: 0	State: Wait.
+	- ThreadId: 2229	Priority: 0	State: Wait.
+	- ThreadId: 2230	Priority: 0	State: Wait.
+	- ThreadId: 2231	Priority: 0	State: Wait.
+	- ThreadId: 2232	Priority: 0	State: Wait.
+- PID: 2333	Name: ibus-engine-simple.
+	- ThreadId: 2333	Priority: 0	State: Wait.
+	- ThreadId: 2337	Priority: 0	State: Wait.
+	- ThreadId: 2338	Priority: 0	State: Wait.
+- PID: 2354	Name: gsd-printer.
+	- ThreadId: 2354	Priority: 0	State: Wait.
+	- ThreadId: 2374	Priority: 0	State: Wait.
+	- ThreadId: 2375	Priority: 0	State: Wait.
+- PID: 2422	Name: abrt-dbus.
+	- ThreadId: 2422	Priority: 0	State: Wait.
+	- ThreadId: 2425	Priority: 0	State: Wait.
+	- ThreadId: 2426	Priority: 0	State: Wait.
+- PID: 2424	Name: fwupd.
+	- ThreadId: 2424	Priority: 0	State: Wait.
+	- ThreadId: 2431	Priority: 0	State: Wait.
+	- ThreadId: 2442	Priority: 0	State: Wait.
+	- ThreadId: 2443	Priority: 0	State: Wait.
+	- ThreadId: 2446	Priority: 0	State: Wait.
+- PID: 2655	Name: gpg-agent.
+	- ThreadId: 2655	Priority: 0	State: Wait.
+	- ThreadId: 2659	Priority: 0	State: Wait.
+- PID: 2657	Name: scdaemon.
+	- ThreadId: 2657	Priority: 0	State: Wait.
+	- ThreadId: 2658	Priority: 0	State: Wait.
+- PID: 2670	Name: gpg-agent.
+	- ThreadId: 2670	Priority: 0	State: Wait.
+	- ThreadId: 2674	Priority: 0	State: Wait.
+- PID: 2672	Name: scdaemon.
+	- ThreadId: 2672	Priority: 0	State: Wait.
+	- ThreadId: 2673	Priority: 0	State: Wait.
+- PID: 2734	Name: gnome-calendar.
+	- ThreadId: 2734	Priority: 0	State: Wait.
+	- ThreadId: 2786	Priority: 0	State: Wait.
+	- ThreadId: 2788	Priority: 0	State: Wait.
+	- ThreadId: 2797	Priority: 0	State: Wait.
+	- ThreadId: 2851	Priority: 0	State: Wait.
+	- ThreadId: 2859	Priority: 0	State: Wait.
+- PID: 2767	Name: gvfsd-trash.
+	- ThreadId: 2767	Priority: 0	State: Wait.
+	- ThreadId: 2769	Priority: 0	State: Wait.
+	- ThreadId: 2771	Priority: 0	State: Wait.
+- PID: 2777	Name: firefox.
+	- ThreadId: 2777	Priority: 0	State: Wait.
+	- ThreadId: 2889	Priority: 0	State: Wait.
+	- ThreadId: 2890	Priority: 0	State: Wait.
+	- ThreadId: 2901	Priority: 0	State: Wait.
+	- ThreadId: 2902	Priority: 0	State: Wait.
+	- ThreadId: 2903	Priority: 0	State: Wait.
+	- ThreadId: 2904	Priority: 0	State: Wait.
+	- ThreadId: 2905	Priority: 0	State: Wait.
+	- ThreadId: 2910	Priority: 0	State: Wait.
+	- ThreadId: 2936	Priority: 0	State: Wait.
+	- ThreadId: 2937	Priority: 0	State: Wait.
+	- ThreadId: 2938	Priority: 0	State: Wait.
+	- ThreadId: 2939	Priority: 0	State: Wait.
+	- ThreadId: 2940	Priority: 0	State: Wait.
+	- ThreadId: 2941	Priority: 0	State: Wait.
+	- ThreadId: 2942	Priority: 0	State: Wait.
+	- ThreadId: 2943	Priority: 0	State: Wait.
+	- ThreadId: 2944	Priority: 0	State: Wait.
+	- ThreadId: 2945	Priority: 0	State: Wait.
+	- ThreadId: 2950	Priority: 0	State: Wait.
+	- ThreadId: 3058	Priority: 19	State: Wait.
+	- ThreadId: 3059	Priority: 0	State: Wait.
+	- ThreadId: 3060	Priority: 0	State: Wait.
+	- ThreadId: 3061	Priority: 0	State: Wait.
+	- ThreadId: 3062	Priority: 0	State: Wait.
+	- ThreadId: 3063	Priority: 0	State: Wait.
+	- ThreadId: 3064	Priority: 0	State: Wait.
+	- ThreadId: 3065	Priority: 19	State: Wait.
+	- ThreadId: 3066	Priority: 0	State: Wait.
+	- ThreadId: 3067	Priority: 0	State: Wait.
+	- ThreadId: 3068	Priority: 0	State: Wait.
+	- ThreadId: 3069	Priority: 0	State: Wait.
+	- ThreadId: 3070	Priority: 0	State: Wait.
+	- ThreadId: 3071	Priority: 0	State: Wait.
+	- ThreadId: 3072	Priority: 0	State: Wait.
+	- ThreadId: 3073	Priority: 19	State: Wait.
+	- ThreadId: 3074	Priority: 0	State: Wait.
+	- ThreadId: 3075	Priority: 0	State: Wait.
+	- ThreadId: 3076	Priority: 0	State: Wait.
+	- ThreadId: 3077	Priority: 0	State: Wait.
+	- ThreadId: 3078	Priority: 0	State: Wait.
+	- ThreadId: 3079	Priority: 0	State: Wait.
+	- ThreadId: 3080	Priority: 0	State: Wait.
+	- ThreadId: 3081	Priority: 0	State: Running.
+	- ThreadId: 3082	Priority: 0	State: Wait.
+	- ThreadId: 3083	Priority: 0	State: Wait.
+	- ThreadId: 3084	Priority: 0	State: Wait.
+	- ThreadId: 3085	Priority: 0	State: Wait.
+	- ThreadId: 3086	Priority: 0	State: Wait.
+	- ThreadId: 3087	Priority: 0	State: Wait.
+	- ThreadId: 3088	Priority: 0	State: Wait.
+	- ThreadId: 3089	Priority: 0	State: Wait.
+	- ThreadId: 3090	Priority: 0	State: Wait.
+	- ThreadId: 3091	Priority: 0	State: Wait.
+	- ThreadId: 3092	Priority: 0	State: Wait.
+	- ThreadId: 3093	Priority: 0	State: Wait.
+	- ThreadId: 3094	Priority: 0	State: Wait.
+	- ThreadId: 3095	Priority: 0	State: Wait.
+	- ThreadId: 3096	Priority: 0	State: Wait.
+	- ThreadId: 3097	Priority: 0	State: Wait.
+	- ThreadId: 3098	Priority: 0	State: Wait.
+	- ThreadId: 3099	Priority: 19	State: Wait.
+	- ThreadId: 3100	Priority: 0	State: Wait.
+	- ThreadId: 3101	Priority: 0	State: Wait.
+	- ThreadId: 3102	Priority: 0	State: Wait.
+	- ThreadId: 3103	Priority: 0	State: Wait.
+	- ThreadId: 3104	Priority: 0	State: Wait.
+	- ThreadId: 3105	Priority: 0	State: Wait.
+	- ThreadId: 3106	Priority: 0	State: Wait.
+	- ThreadId: 3107	Priority: 0	State: Wait.
+	- ThreadId: 3108	Priority: 0	State: Wait.
+	- ThreadId: 3109	Priority: 0	State: Wait.
+	- ThreadId: 3110	Priority: 0	State: Wait.
+	- ThreadId: 3111	Priority: 0	State: Wait.
+	- ThreadId: 3115	Priority: 0	State: Wait.
+	- ThreadId: 3116	Priority: 0	State: Wait.
+	- ThreadId: 3123	Priority: 0	State: Wait.
+	- ThreadId: 3132	Priority: 0	State: Wait.
+	- ThreadId: 3135	Priority: 0	State: Wait.
+	- ThreadId: 3136	Priority: 0	State: Wait.
+	- ThreadId: 3137	Priority: 0	State: Wait.
+	- ThreadId: 3138	Priority: 0	State: Wait.
+	- ThreadId: 3139	Priority: 0	State: Wait.
+	- ThreadId: 3140	Priority: 0	State: Wait.
+	- ThreadId: 3141	Priority: 0	State: Wait.
+	- ThreadId: 3142	Priority: 0	State: Wait.
+	- ThreadId: 3143	Priority: 0	State: Running.
+	- ThreadId: 3144	Priority: 0	State: Wait.
+	- ThreadId: 3147	Priority: 0	State: Wait.
+	- ThreadId: 3148	Priority: 0	State: Wait.
+	- ThreadId: 3149	Priority: 0	State: Wait.
+	- ThreadId: 3175	Priority: 0	State: Wait.
+	- ThreadId: 3176	Priority: 0	State: Wait.
+	- ThreadId: 3180	Priority: 0	State: Wait.
+	- ThreadId: 3182	Priority: 0	State: Wait.
+	- ThreadId: 3247	Priority: 0	State: Wait.
+	- ThreadId: 3249	Priority: 0	State: Wait.
+	- ThreadId: 3280	Priority: 0	State: Wait.
+	- ThreadId: 3283	Priority: 0	State: Wait.
+	- ThreadId: 3285	Priority: 0	State: Wait.
+	- ThreadId: 3292	Priority: 0	State: Wait.
+	- ThreadId: 3293	Priority: 0	State: Wait.
+	- ThreadId: 3294	Priority: 0	State: Wait.
+	- ThreadId: 3295	Priority: 0	State: Wait.
+	- ThreadId: 3297	Priority: 0	State: Wait.
+	- ThreadId: 3321	Priority: 0	State: Wait.
+	- ThreadId: 3328	Priority: 0	State: Wait.
+	- ThreadId: 3336	Priority: 0	State: Wait.
+	- ThreadId: 3351	Priority: 0	State: Wait.
+	- ThreadId: 3354	Priority: 0	State: Wait.
+	- ThreadId: 3356	Priority: 0	State: Wait.
+	- ThreadId: 3358	Priority: 0	State: Wait.
+	- ThreadId: 3381	Priority: 0	State: Wait.
+	- ThreadId: 3389	Priority: 0	State: Wait.
+	- ThreadId: 3396	Priority: 0	State: Wait.
+	- ThreadId: 3423	Priority: 0	State: Wait.
+	- ThreadId: 3434	Priority: 0	State: Wait.
+	- ThreadId: 3464	Priority: 0	State: Wait.
+	- ThreadId: 3489	Priority: 0	State: Wait.
+	- ThreadId: 3600	Priority: 0	State: Wait.
+	- ThreadId: 3680	Priority: 0	State: Wait.
+	- ThreadId: 3700	Priority: 0	State: Wait.
+	- ThreadId: 3701	Priority: 0	State: Wait.
+	- ThreadId: 3702	Priority: 0	State: Wait.
+	- ThreadId: 3703	Priority: 0	State: Wait.
+	- ThreadId: 3704	Priority: 0	State: Wait.
+	- ThreadId: 3705	Priority: 0	State: Wait.
+	- ThreadId: 3976	Priority: 0	State: Wait.
+	- ThreadId: 4048	Priority: 0	State: Wait.
+	- ThreadId: 4297	Priority: 0	State: Wait.
+	- ThreadId: 4373	Priority: 0	State: Wait.
+	- ThreadId: 4803	Priority: 0	State: Wait.
+	- ThreadId: 4853	Priority: 0	State: Wait.
+	- ThreadId: 4854	Priority: 0	State: Wait.
+	- ThreadId: 4855	Priority: 0	State: Wait.
+	- ThreadId: 4856	Priority: 0	State: Wait.
+	- ThreadId: 4864	Priority: 0	State: Wait.
+	- ThreadId: 4867	Priority: 0	State: Wait.
+	- ThreadId: 4868	Priority: 0	State: Wait.
+	- ThreadId: 4869	Priority: 0	State: Wait.
+	- ThreadId: 4870	Priority: 0	State: Wait.
+	- ThreadId: 5167	Priority: 0	State: Wait.
+	- ThreadId: 5168	Priority: 0	State: Wait.
+	- ThreadId: 5169	Priority: 0	State: Wait.
+	- ThreadId: 5170	Priority: 0	State: Wait.
+	- ThreadId: 5266	Priority: 0	State: Wait.
+	- ThreadId: 8087	Priority: 0	State: Wait.
+	- ThreadId: 8277	Priority: 0	State: Wait.
+	- ThreadId: 8278	Priority: 0	State: Wait.
+	- ThreadId: 8279	Priority: 0	State: Wait.
+	- ThreadId: 8280	Priority: 0	State: Wait.
+	- ThreadId: 8366	Priority: 0	State: Wait.
+	- ThreadId: 8487	Priority: 0	State: Wait.
+	- ThreadId: 8488	Priority: 0	State: Wait.
+	- ThreadId: 8489	Priority: 0	State: Wait.
+	- ThreadId: 8490	Priority: 0	State: Wait.
+	- ThreadId: 8909	Priority: 0	State: Wait.
+	- ThreadId: 11063	Priority: 0	State: Wait.
+	- ThreadId: 17083	Priority: 0	State: Wait.
+	- ThreadId: 17136	Priority: 0	State: Wait.
+	- ThreadId: 17931	Priority: 0	State: Wait.
+	- ThreadId: 19032	Priority: 0	State: Wait.
+	- ThreadId: 19093	Priority: 0	State: Wait.
+	- ThreadId: 19094	Priority: 0	State: Wait.
+	- ThreadId: 19095	Priority: 0	State: Wait.
+	- ThreadId: 19096	Priority: 0	State: Wait.
+	- ThreadId: 19262	Priority: 0	State: Wait.
+	- ThreadId: 19962	Priority: 0	State: Wait.
+	- ThreadId: 20142	Priority: 0	State: Wait.
+	- ThreadId: 20218	Priority: 0	State: Wait.
+	- ThreadId: 20238	Priority: 0	State: Wait.
+- PID: 2841	Name: obexd.
+	- ThreadId: 2841	Priority: 0	State: Wait.
+- PID: 2866	Name: tracker-miner-fs-3.
+	- ThreadId: 2866	Priority: 19	State: Wait.
+	- ThreadId: 2875	Priority: 19	State: Wait.
+	- ThreadId: 2876	Priority: 19	State: Wait.
+	- ThreadId: 2878	Priority: 19	State: Wait.
+	- ThreadId: 2879	Priority: 19	State: Wait.
+	- ThreadId: 2900	Priority: 19	State: Wait.
+- PID: 2970	Name: xdg-desktop-portal.
+	- ThreadId: 2970	Priority: 0	State: Wait.
+	- ThreadId: 2972	Priority: 0	State: Wait.
+	- ThreadId: 2973	Priority: 0	State: Wait.
+	- ThreadId: 3024	Priority: 0	State: Wait.
+	- ThreadId: 3052	Priority: 0	State: Wait.
+	- ThreadId: 3053	Priority: 0	State: Wait.
+- PID: 2975	Name: xdg-document-portal.
+	- ThreadId: 2975	Priority: 0	State: Wait.
+	- ThreadId: 2980	Priority: 0	State: Wait.
+	- ThreadId: 2981	Priority: 0	State: Wait.
+	- ThreadId: 2986	Priority: 0	State: Wait.
+	- ThreadId: 2987	Priority: 0	State: Wait.
+	- ThreadId: 2988	Priority: 0	State: Wait.
+	- ThreadId: 2989	Priority: 0	State: Wait.
+- PID: 2983	Name: fusermount.
+	- ThreadId: 2983	Priority: 0	State: Wait.
+- PID: 2990	Name: xdg-desktop-portal-gnome.
+	- ThreadId: 2990	Priority: 0	State: Wait.
+	- ThreadId: 3008	Priority: 19	State: Wait.
+	- ThreadId: 3009	Priority: 0	State: Wait.
+	- ThreadId: 3010	Priority: 0	State: Wait.
+	- ThreadId: 3011	Priority: 0	State: Wait.
+	- ThreadId: 3012	Priority: 0	State: Wait.
+	- ThreadId: 3013	Priority: 0	State: Wait.
+	- ThreadId: 3014	Priority: 0	State: Wait.
+	- ThreadId: 3015	Priority: 0	State: Wait.
+	- ThreadId: 3016	Priority: 0	State: Wait.
+	- ThreadId: 3018	Priority: 0	State: Wait.
+	- ThreadId: 3019	Priority: 0	State: Wait.
+- PID: 3027	Name: xdg-desktop-portal-gtk.
+	- ThreadId: 3027	Priority: 0	State: Wait.
+	- ThreadId: 3042	Priority: 0	State: Wait.
+	- ThreadId: 3043	Priority: 0	State: Wait.
+	- ThreadId: 3051	Priority: 0	State: Wait.
+- PID: 3112	Name: Socket Process.
+	- ThreadId: 3112	Priority: 0	State: Wait.
+	- ThreadId: 3117	Priority: 0	State: Wait.
+	- ThreadId: 3119	Priority: 0	State: Wait.
+	- ThreadId: 3125	Priority: 0	State: Wait.
+	- ThreadId: 3126	Priority: 0	State: Wait.
+- PID: 3145	Name: Privileged Cont.
+	- ThreadId: 3145	Priority: 0	State: Wait.
+	- ThreadId: 3151	Priority: 0	State: Wait.
+	- ThreadId: 3152	Priority: 0	State: Wait.
+	- ThreadId: 3153	Priority: 0	State: Wait.
+	- ThreadId: 3154	Priority: 0	State: Wait.
+	- ThreadId: 3156	Priority: 0	State: Wait.
+	- ThreadId: 3157	Priority: 0	State: Wait.
+	- ThreadId: 3158	Priority: 0	State: Wait.
+	- ThreadId: 3159	Priority: 0	State: Wait.
+	- ThreadId: 3160	Priority: 0	State: Wait.
+	- ThreadId: 3161	Priority: 0	State: Wait.
+	- ThreadId: 3162	Priority: 0	State: Wait.
+	- ThreadId: 3163	Priority: 0	State: Wait.
+	- ThreadId: 3164	Priority: 0	State: Wait.
+	- ThreadId: 3165	Priority: 0	State: Wait.
+	- ThreadId: 3166	Priority: 0	State: Wait.
+	- ThreadId: 3167	Priority: 0	State: Wait.
+	- ThreadId: 3168	Priority: 0	State: Wait.
+	- ThreadId: 3169	Priority: 0	State: Wait.
+	- ThreadId: 3170	Priority: 0	State: Wait.
+	- ThreadId: 3279	Priority: 0	State: Wait.
+	- ThreadId: 3301	Priority: 0	State: Wait.
+	- ThreadId: 3302	Priority: 0	State: Wait.
+	- ThreadId: 3303	Priority: 0	State: Wait.
+	- ThreadId: 3304	Priority: 0	State: Wait.
+	- ThreadId: 3305	Priority: 0	State: Wait.
+	- ThreadId: 3306	Priority: 0	State: Wait.
+- PID: 3284	Name: WebExtensions.
+	- ThreadId: 3284	Priority: 0	State: Wait.
+	- ThreadId: 3288	Priority: 0	State: Wait.
+	- ThreadId: 3289	Priority: 0	State: Wait.
+	- ThreadId: 3291	Priority: 0	State: Wait.
+	- ThreadId: 3296	Priority: 0	State: Wait.
+	- ThreadId: 3299	Priority: 0	State: Wait.
+	- ThreadId: 3300	Priority: 0	State: Wait.
+	- ThreadId: 3307	Priority: 0	State: Wait.
+	- ThreadId: 3308	Priority: 0	State: Wait.
+	- ThreadId: 3309	Priority: 0	State: Wait.
+	- ThreadId: 3310	Priority: 0	State: Wait.
+	- ThreadId: 3311	Priority: 0	State: Wait.
+	- ThreadId: 3312	Priority: 0	State: Wait.
+	- ThreadId: 3313	Priority: 0	State: Wait.
+	- ThreadId: 3314	Priority: 0	State: Wait.
+	- ThreadId: 3315	Priority: 0	State: Wait.
+	- ThreadId: 3316	Priority: 0	State: Wait.
+	- ThreadId: 3317	Priority: 0	State: Wait.
+	- ThreadId: 3318	Priority: 0	State: Wait.
+	- ThreadId: 3319	Priority: 0	State: Wait.
+	- ThreadId: 3320	Priority: 0	State: Wait.
+	- ThreadId: 3322	Priority: 0	State: Wait.
+	- ThreadId: 3323	Priority: 0	State: Wait.
+	- ThreadId: 3324	Priority: 0	State: Wait.
+	- ThreadId: 3325	Priority: 0	State: Wait.
+	- ThreadId: 3326	Priority: 0	State: Wait.
+	- ThreadId: 3327	Priority: 0	State: Wait.
+- PID: 3371	Name: Isolated Servic.
+	- ThreadId: 3371	Priority: 0	State: Wait.
+	- ThreadId: 3393	Priority: 0	State: Wait.
+	- ThreadId: 3394	Priority: 0	State: Wait.
+	- ThreadId: 3395	Priority: 0	State: Wait.
+	- ThreadId: 3397	Priority: 0	State: Wait.
+	- ThreadId: 3398	Priority: 0	State: Wait.
+	- ThreadId: 3399	Priority: 0	State: Wait.
+	- ThreadId: 3400	Priority: 0	State: Wait.
+	- ThreadId: 3408	Priority: 0	State: Wait.
+	- ThreadId: 3409	Priority: 0	State: Wait.
+	- ThreadId: 3415	Priority: 0	State: Wait.
+	- ThreadId: 3417	Priority: 0	State: Wait.
+	- ThreadId: 3418	Priority: 0	State: Wait.
+	- ThreadId: 3640	Priority: 0	State: Wait.
+	- ThreadId: 3641	Priority: 0	State: Wait.
+	- ThreadId: 3642	Priority: 0	State: Wait.
+	- ThreadId: 3643	Priority: 0	State: Wait.
+	- ThreadId: 3644	Priority: 0	State: Wait.
+	- ThreadId: 3645	Priority: 0	State: Wait.
+	- ThreadId: 3646	Priority: 0	State: Wait.
+	- ThreadId: 3647	Priority: 0	State: Wait.
+	- ThreadId: 4296	Priority: 0	State: Wait.
+- PID: 3387	Name: Isolated Web Co.
+	- ThreadId: 3387	Priority: 0	State: Wait.
+	- ThreadId: 3402	Priority: 0	State: Wait.
+	- ThreadId: 3404	Priority: 0	State: Wait.
+	- ThreadId: 3407	Priority: 0	State: Wait.
+	- ThreadId: 3410	Priority: 0	State: Wait.
+	- ThreadId: 3419	Priority: 0	State: Wait.
+	- ThreadId: 3420	Priority: 0	State: Wait.
+	- ThreadId: 3426	Priority: 0	State: Wait.
+	- ThreadId: 3428	Priority: 0	State: Wait.
+	- ThreadId: 3431	Priority: 0	State: Wait.
+	- ThreadId: 3432	Priority: 0	State: Wait.
+	- ThreadId: 3433	Priority: 0	State: Wait.
+	- ThreadId: 3438	Priority: 0	State: Wait.
+	- ThreadId: 3448	Priority: 0	State: Wait.
+	- ThreadId: 3449	Priority: 0	State: Wait.
+	- ThreadId: 3450	Priority: 0	State: Wait.
+	- ThreadId: 3451	Priority: 0	State: Wait.
+	- ThreadId: 3452	Priority: 0	State: Wait.
+	- ThreadId: 3453	Priority: 0	State: Wait.
+	- ThreadId: 3454	Priority: 0	State: Wait.
+	- ThreadId: 3455	Priority: 0	State: Wait.
+	- ThreadId: 3478	Priority: 0	State: Wait.
+	- ThreadId: 3479	Priority: 0	State: Wait.
+	- ThreadId: 3480	Priority: 0	State: Wait.
+	- ThreadId: 3482	Priority: 0	State: Wait.
+	- ThreadId: 3483	Priority: 0	State: Wait.
+	- ThreadId: 3484	Priority: 0	State: Wait.
+- PID: 3461	Name: Isolated Web Co.
+	- ThreadId: 3461	Priority: 0	State: Wait.
+	- ThreadId: 3465	Priority: 0	State: Wait.
+	- ThreadId: 3466	Priority: 0	State: Wait.
+	- ThreadId: 3467	Priority: 0	State: Wait.
+	- ThreadId: 3468	Priority: 0	State: Wait.
+	- ThreadId: 3470	Priority: 0	State: Wait.
+	- ThreadId: 3471	Priority: 0	State: Wait.
+	- ThreadId: 3481	Priority: 0	State: Wait.
+	- ThreadId: 3485	Priority: 0	State: Wait.
+	- ThreadId: 3486	Priority: 0	State: Wait.
+	- ThreadId: 3487	Priority: 0	State: Wait.
+	- ThreadId: 3488	Priority: 0	State: Wait.
+	- ThreadId: 3490	Priority: 0	State: Wait.
+	- ThreadId: 3491	Priority: 0	State: Wait.
+	- ThreadId: 3492	Priority: 0	State: Wait.
+	- ThreadId: 3493	Priority: 0	State: Wait.
+	- ThreadId: 3494	Priority: 0	State: Wait.
+	- ThreadId: 3495	Priority: 0	State: Wait.
+	- ThreadId: 3496	Priority: 0	State: Wait.
+	- ThreadId: 3497	Priority: 0	State: Wait.
+	- ThreadId: 3498	Priority: 0	State: Wait.
+	- ThreadId: 3503	Priority: 0	State: Wait.
+	- ThreadId: 3504	Priority: 0	State: Wait.
+	- ThreadId: 3505	Priority: 0	State: Wait.
+	- ThreadId: 3506	Priority: 0	State: Wait.
+	- ThreadId: 3507	Priority: 0	State: Wait.
+	- ThreadId: 3508	Priority: 0	State: Wait.
+	- ThreadId: 3825	Priority: 0	State: Wait.
+	- ThreadId: 20334	Priority: 0	State: Wait.
+- PID: 3598	Name: Isolated Web Co.
+	- ThreadId: 3598	Priority: 0	State: Wait.
+	- ThreadId: 3602	Priority: 0	State: Wait.
+	- ThreadId: 3603	Priority: 0	State: Wait.
+	- ThreadId: 3604	Priority: 0	State: Wait.
+	- ThreadId: 3605	Priority: 0	State: Wait.
+	- ThreadId: 3607	Priority: 0	State: Wait.
+	- ThreadId: 3608	Priority: 0	State: Wait.
+	- ThreadId: 3609	Priority: 0	State: Wait.
+	- ThreadId: 3610	Priority: 0	State: Wait.
+	- ThreadId: 3611	Priority: 0	State: Wait.
+	- ThreadId: 3612	Priority: 0	State: Wait.
+	- ThreadId: 3613	Priority: 0	State: Wait.
+	- ThreadId: 3614	Priority: 0	State: Wait.
+	- ThreadId: 3615	Priority: 0	State: Wait.
+	- ThreadId: 3616	Priority: 0	State: Wait.
+	- ThreadId: 3617	Priority: 0	State: Wait.
+	- ThreadId: 3618	Priority: 0	State: Wait.
+	- ThreadId: 3619	Priority: 0	State: Wait.
+	- ThreadId: 3620	Priority: 0	State: Wait.
+	- ThreadId: 3621	Priority: 0	State: Wait.
+	- ThreadId: 3622	Priority: 0	State: Wait.
+	- ThreadId: 3626	Priority: 0	State: Wait.
+	- ThreadId: 3627	Priority: 0	State: Wait.
+	- ThreadId: 3628	Priority: 0	State: Wait.
+	- ThreadId: 3629	Priority: 0	State: Wait.
+	- ThreadId: 3630	Priority: 0	State: Wait.
+	- ThreadId: 3631	Priority: 0	State: Wait.
+	- ThreadId: 3649	Priority: 0	State: Wait.
+	- ThreadId: 3683	Priority: 0	State: Wait.
+	- ThreadId: 8148	Priority: 0	State: Wait.
+	- ThreadId: 8149	Priority: 0	State: Wait.
+	- ThreadId: 8171	Priority: 0	State: Wait.
+- PID: 3675	Name: RDD Process.
+	- ThreadId: 3675	Priority: 0	State: Wait.
+	- ThreadId: 3679	Priority: 0	State: Wait.
+	- ThreadId: 3681	Priority: 0	State: Wait.
+- PID: 3928	Name: bwrap.
+	- ThreadId: 3928	Priority: 0	State: Wait.
+- PID: 3932	Name: flatpak-session-helper.
+	- ThreadId: 3932	Priority: 0	State: Wait.
+	- ThreadId: 3933	Priority: 0	State: Wait.
+	- ThreadId: 3934	Priority: 0	State: Wait.
+- PID: 3936	Name: p11-kit-server.
+	- ThreadId: 3936	Priority: 0	State: Wait.
+- PID: 3939	Name: bwrap.
+	- ThreadId: 3939	Priority: 0	State: Wait.
+- PID: 3940	Name: xdg-dbus-proxy.
+	- ThreadId: 3940	Priority: 0	State: Wait.
+	- ThreadId: 3941	Priority: 0	State: Wait.
+- PID: 3942	Name: bwrap.
+	- ThreadId: 3942	Priority: 0	State: Wait.
+- PID: 3944	Name: discord.
+	- ThreadId: 3944	Priority: 0	State: Wait.
+- PID: 3945	Name: socat.
+	- ThreadId: 3945	Priority: 0	State: Wait.
+- PID: 3951	Name: Discord --enable-gpu-rasterization --enable-zero-copy --enable-gpu-compositing --enable-native-gpu-memory-buffers --enable-oop-rasterization --enable-features=UseSkiaRenderer,CanvasOopRasterization.
+	- ThreadId: 3951	Priority: 0	State: Wait.
+	- ThreadId: 3966	Priority: 0	State: Wait.
+	- ThreadId: 4040	Priority: 0	State: Wait.
+	- ThreadId: 4041	Priority: 0	State: Wait.
+	- ThreadId: 4042	Priority: 0	State: Wait.
+	- ThreadId: 4045	Priority: 0	State: Wait.
+	- ThreadId: 4046	Priority: 0	State: Wait.
+	- ThreadId: 4081	Priority: 0	State: Wait.
+	- ThreadId: 4082	Priority: 0	State: Wait.
+	- ThreadId: 4083	Priority: 0	State: Wait.
+	- ThreadId: 4084	Priority: 0	State: Wait.
+	- ThreadId: 4085	Priority: 0	State: Wait.
+	- ThreadId: 4089	Priority: 0	State: Wait.
+	- ThreadId: 4090	Priority: 0	State: Wait.
+	- ThreadId: 4091	Priority: 0	State: Wait.
+	- ThreadId: 4093	Priority: 0	State: Wait.
+	- ThreadId: 4095	Priority: 0	State: Wait.
+	- ThreadId: 4096	Priority: 0	State: Wait.
+	- ThreadId: 4097	Priority: 0	State: Wait.
+	- ThreadId: 4099	Priority: 0	State: Wait.
+	- ThreadId: 4100	Priority: 0	State: Wait.
+	- ThreadId: 4104	Priority: 0	State: Wait.
+	- ThreadId: 4105	Priority: 0	State: Wait.
+	- ThreadId: 4106	Priority: 0	State: Wait.
+	- ThreadId: 4107	Priority: 0	State: Wait.
+	- ThreadId: 4110	Priority: 0	State: Wait.
+	- ThreadId: 4111	Priority: 0	State: Wait.
+	- ThreadId: 4115	Priority: 0	State: Wait.
+	- ThreadId: 4116	Priority: 0	State: Wait.
+	- ThreadId: 4181	Priority: 0	State: Wait.
+	- ThreadId: 4216	Priority: 0	State: Wait.
+- PID: 3954	Name: cat.
+	- ThreadId: 3954	Priority: 0	State: Wait.
+- PID: 3955	Name: cat.
+	- ThreadId: 3955	Priority: 0	State: Wait.
+- PID: 3959	Name: flatpak-portal.
+	- ThreadId: 3959	Priority: 0	State: Wait.
+	- ThreadId: 3961	Priority: 0	State: Wait.
+	- ThreadId: 3962	Priority: 0	State: Wait.
+- PID: 3967	Name: Discord --type=zygote --no-zygote-sandbox.
+	- ThreadId: 3967	Priority: 0	State: Wait.
+- PID: 3969	Name: zypak-sandbox.
+	- ThreadId: 3969	Priority: 0	State: Wait.
+- PID: 3971	Name: bwrap.
+	- ThreadId: 3971	Priority: 0	State: Wait.
+- PID: 3975	Name: Isolated Web Co.
+	- ThreadId: 3975	Priority: 0	State: Wait.
+	- ThreadId: 3979	Priority: 0	State: Wait.
+	- ThreadId: 3980	Priority: 0	State: Wait.
+	- ThreadId: 3981	Priority: 0	State: Wait.
+	- ThreadId: 3982	Priority: 0	State: Wait.
+	- ThreadId: 3984	Priority: 0	State: Wait.
+	- ThreadId: 3985	Priority: 0	State: Wait.
+	- ThreadId: 3986	Priority: 0	State: Wait.
+	- ThreadId: 3987	Priority: 0	State: Wait.
+	- ThreadId: 3988	Priority: 0	State: Wait.
+	- ThreadId: 3989	Priority: 0	State: Wait.
+	- ThreadId: 3990	Priority: 0	State: Wait.
+	- ThreadId: 3991	Priority: 0	State: Wait.
+	- ThreadId: 3992	Priority: 0	State: Wait.
+	- ThreadId: 3993	Priority: 0	State: Wait.
+	- ThreadId: 3994	Priority: 0	State: Wait.
+	- ThreadId: 3995	Priority: 0	State: Wait.
+	- ThreadId: 3996	Priority: 0	State: Wait.
+	- ThreadId: 3997	Priority: 0	State: Wait.
+	- ThreadId: 3998	Priority: 0	State: Wait.
+	- ThreadId: 3999	Priority: 0	State: Wait.
+	- ThreadId: 4003	Priority: 0	State: Wait.
+	- ThreadId: 4004	Priority: 0	State: Wait.
+	- ThreadId: 4005	Priority: 0	State: Wait.
+	- ThreadId: 4006	Priority: 0	State: Wait.
+	- ThreadId: 4007	Priority: 0	State: Wait.
+	- ThreadId: 4008	Priority: 0	State: Wait.
+- PID: 4025	Name: bwrap.
+	- ThreadId: 4025	Priority: 0	State: Wait.
+- PID: 4034	Name: Discord --type=zygote.
+	- ThreadId: 4034	Priority: 0	State: Wait.
+- PID: 4047	Name: Isolated Web Co.
+	- ThreadId: 4047	Priority: 0	State: Wait.
+	- ThreadId: 4051	Priority: 0	State: Wait.
+	- ThreadId: 4052	Priority: 0	State: Wait.
+	- ThreadId: 4053	Priority: 0	State: Wait.
+	- ThreadId: 4054	Priority: 0	State: Wait.
+	- ThreadId: 4056	Priority: 0	State: Wait.
+	- ThreadId: 4057	Priority: 0	State: Wait.
+	- ThreadId: 4058	Priority: 0	State: Wait.
+	- ThreadId: 4059	Priority: 0	State: Wait.
+	- ThreadId: 4060	Priority: 0	State: Wait.
+	- ThreadId: 4061	Priority: 0	State: Wait.
+	- ThreadId: 4062	Priority: 0	State: Wait.
+	- ThreadId: 4063	Priority: 0	State: Wait.
+	- ThreadId: 4064	Priority: 0	State: Wait.
+	- ThreadId: 4065	Priority: 0	State: Wait.
+	- ThreadId: 4066	Priority: 0	State: Wait.
+	- ThreadId: 4067	Priority: 0	State: Wait.
+	- ThreadId: 4068	Priority: 0	State: Wait.
+	- ThreadId: 4069	Priority: 0	State: Wait.
+	- ThreadId: 4070	Priority: 0	State: Wait.
+	- ThreadId: 4071	Priority: 0	State: Wait.
+	- ThreadId: 4075	Priority: 0	State: Wait.
+	- ThreadId: 4076	Priority: 0	State: Wait.
+	- ThreadId: 4077	Priority: 0	State: Wait.
+	- ThreadId: 4078	Priority: 0	State: Wait.
+	- ThreadId: 4079	Priority: 0	State: Wait.
+	- ThreadId: 4080	Priority: 0	State: Wait.
+- PID: 4098	Name: Discord --type=gpu-process --field-trial-handle=12531360391013358232,1196727075616287288,131072 --enable-features=CanvasOopRasterization,UseSkiaRenderer --disable-features=CookiesWithoutSameSiteMustBeSecure,HardwareMediaKeyHandling,MediaSessionService,SameSiteByDefaultCookies,SpareRendererForSitePerProcess,WinRetrieveSuggestionsOnlyOnDemand --enable-gpu-rasterization --enable-crash-reporter=f9971e72-66fb-4ca8-8f3f-1eb230a9f4bd,no_channel --global-crash-keys=f9971e72-66fb-4ca8-8f3f-1eb230a9f4bd,no_channel,_companyName=Discord Inc.,_productName=Discord,_version=0.0.17 --gpu-preferences=UAAAAAAAAAAgAACQAAAAAAAAAAAAAAAAAABgAAAgAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAA= --shared-files.
+	- ThreadId: 4098	Priority: 0	State: Wait.
+	- ThreadId: 4150	Priority: 19	State: Wait.
+	- ThreadId: 4151	Priority: 0	State: Wait.
+	- ThreadId: 4152	Priority: 0	State: Wait.
+	- ThreadId: 4153	Priority: 0	State: Wait.
+	- ThreadId: 4154	Priority: 0	State: Wait.
+	- ThreadId: 4155	Priority: 0	State: Wait.
+	- ThreadId: 4156	Priority: 0	State: Wait.
+	- ThreadId: 4157	Priority: 0	State: Wait.
+	- ThreadId: 4159	Priority: 19	State: Wait.
+	- ThreadId: 4160	Priority: 0	State: Wait.
+	- ThreadId: 4161	Priority: 0	State: Wait.
+	- ThreadId: 4162	Priority: 0	State: Wait.
+	- ThreadId: 4163	Priority: 0	State: Wait.
+	- ThreadId: 4164	Priority: 0	State: Wait.
+	- ThreadId: 4165	Priority: 0	State: Wait.
+	- ThreadId: 4166	Priority: 0	State: Wait.
+	- ThreadId: 4167	Priority: 0	State: Wait.
+	- ThreadId: 4169	Priority: 0	State: Wait.
+	- ThreadId: 4170	Priority: 0	State: Wait.
+	- ThreadId: 4172	Priority: 0	State: Wait.
+	- ThreadId: 4176	Priority: 0	State: Wait.
+	- ThreadId: 20101	Priority: 0	State: Wait.
+- PID: 4112	Name: Discord --type=utility --utility-sub-type=network.mojom.NetworkService --field-trial-handle=12531360391013358232,1196727075616287288,131072 --enable-features=CanvasOopRasterization,UseSkiaRenderer --disable-features=CookiesWithoutSameSiteMustBeSecure,HardwareMediaKeyHandling,MediaSessionService,SameSiteByDefaultCookies,SpareRendererForSitePerProcess,WinRetrieveSuggestionsOnlyOnDemand --lang=en-US --service-sandbox-type=none --enable-crash-reporter=f9971e72-66fb-4ca8-8f3f-1eb230a9f4bd,no_channel --global-crash-keys=f9971e72-66fb-4ca8-8f3f-1eb230a9f4bd,no_channel,_companyName=Discord Inc.,_productName=Discord,_version=0.0.17 --shared-files=v8_context_snapshot_data:100.
+	- ThreadId: 4112	Priority: 0	State: Wait.
+	- ThreadId: 4119	Priority: 0	State: Wait.
+	- ThreadId: 4121	Priority: 0	State: Wait.
+	- ThreadId: 4124	Priority: 0	State: Wait.
+	- ThreadId: 19550	Priority: 0	State: Wait.
+	- ThreadId: 20275	Priority: 0	State: Wait.
+- PID: 4177	Name: p11-kit-remote.
+	- ThreadId: 4177	Priority: 0	State: Wait.
+- PID: 4179	Name: Discord.
+	- ThreadId: 4179	Priority: 0	State: Wait.
+	- ThreadId: 4182	Priority: 0	State: Wait.
+	- ThreadId: 4184	Priority: 0	State: Wait.
+	- ThreadId: 4186	Priority: 0	State: Wait.
+	- ThreadId: 4187	Priority: 0	State: Wait.
+	- ThreadId: 4188	Priority: 0	State: Wait.
+	- ThreadId: 4189	Priority: 0	State: Wait.
+	- ThreadId: 4190	Priority: 0	State: Wait.
+	- ThreadId: 4191	Priority: 0	State: Wait.
+	- ThreadId: 4192	Priority: 0	State: Wait.
+	- ThreadId: 4193	Priority: 10	State: Wait.
+	- ThreadId: 4194	Priority: 0	State: Wait.
+	- ThreadId: 4203	Priority: 0	State: Wait.
+	- ThreadId: 4204	Priority: 0	State: Wait.
+	- ThreadId: 4207	Priority: 0	State: Wait.
+	- ThreadId: 4208	Priority: 0	State: Wait.
+	- ThreadId: 4209	Priority: 0	State: Wait.
+	- ThreadId: 4210	Priority: 0	State: Wait.
+	- ThreadId: 4211	Priority: 0	State: Wait.
+	- ThreadId: 4212	Priority: 0	State: Wait.
+	- ThreadId: 4226	Priority: 0	State: Wait.
+	- ThreadId: 4228	Priority: 0	State: Wait.
+	- ThreadId: 4229	Priority: 0	State: Wait.
+	- ThreadId: 4231	Priority: 0	State: Wait.
+	- ThreadId: 4234	Priority: 0	State: Wait.
+	- ThreadId: 19710	Priority: 0	State: Wait.
+	- ThreadId: 19977	Priority: 0	State: Wait.
+- PID: 4213	Name: Discord --type=utility --utility-sub-type=audio.mojom.AudioService --field-trial-handle=12531360391013358232,1196727075616287288,131072 --enable-features=CanvasOopRasterization,UseSkiaRenderer --disable-features=CookiesWithoutSameSiteMustBeSecure,HardwareMediaKeyHandling,MediaSessionService,SameSiteByDefaultCookies,SpareRendererForSitePerProcess,WinRetrieveSuggestionsOnlyOnDemand --lang=en-US --service-sandbox-type=none --enable-crash-reporter=f9971e72-66fb-4ca8-8f3f-1eb230a9f4bd,no_channel --global-crash-keys=f9971e72-66fb-4ca8-8f3f-1eb230a9f4bd,no_channel,_companyName=Discord Inc.,_productName=Discord,_version=0.0.17 --shared-files=v8_context_snapshot_data:100.
+	- ThreadId: 4213	Priority: 0	State: Wait.
+	- ThreadId: 4217	Priority: 0	State: Wait.
+	- ThreadId: 4218	Priority: 0	State: Wait.
+	- ThreadId: 4219	Priority: 0	State: Wait.
+	- ThreadId: 4225	Priority: 0	State: Wait.
+- PID: 4802	Name: Isolated Web Co.
+	- ThreadId: 4802	Priority: 0	State: Wait.
+	- ThreadId: 4806	Priority: 0	State: Wait.
+	- ThreadId: 4807	Priority: 0	State: Wait.
+	- ThreadId: 4808	Priority: 0	State: Wait.
+	- ThreadId: 4809	Priority: 0	State: Wait.
+	- ThreadId: 4811	Priority: 0	State: Wait.
+	- ThreadId: 4812	Priority: 0	State: Wait.
+	- ThreadId: 4813	Priority: 0	State: Wait.
+	- ThreadId: 4814	Priority: 0	State: Wait.
+	- ThreadId: 4819	Priority: 0	State: Wait.
+	- ThreadId: 4821	Priority: 0	State: Wait.
+	- ThreadId: 4822	Priority: 0	State: Wait.
+	- ThreadId: 4825	Priority: 0	State: Wait.
+	- ThreadId: 4828	Priority: 0	State: Wait.
+	- ThreadId: 4829	Priority: 0	State: Wait.
+	- ThreadId: 4830	Priority: 0	State: Wait.
+	- ThreadId: 4831	Priority: 0	State: Wait.
+	- ThreadId: 4832	Priority: 0	State: Wait.
+	- ThreadId: 4833	Priority: 0	State: Wait.
+	- ThreadId: 4834	Priority: 0	State: Wait.
+	- ThreadId: 4835	Priority: 0	State: Wait.
+	- ThreadId: 4841	Priority: 0	State: Wait.
+	- ThreadId: 4842	Priority: 0	State: Wait.
+	- ThreadId: 4843	Priority: 0	State: Wait.
+	- ThreadId: 4844	Priority: 0	State: Wait.
+	- ThreadId: 4845	Priority: 0	State: Wait.
+	- ThreadId: 4846	Priority: 0	State: Wait.
+- PID: 4852	Name: kworker/4:0-events.
+	- ThreadId: 4852	Priority: 0	State: Ready.
+- PID: 7768	Name: code ..
+	- ThreadId: 7768	Priority: 0	State: Wait.
+	- ThreadId: 7769	Priority: 0	State: Wait.
+	- ThreadId: 7775	Priority: 0	State: Wait.
+	- ThreadId: 7776	Priority: 0	State: Wait.
+	- ThreadId: 7780	Priority: 0	State: Wait.
+	- ThreadId: 7781	Priority: 0	State: Wait.
+	- ThreadId: 7782	Priority: 0	State: Wait.
+	- ThreadId: 7783	Priority: 0	State: Wait.
+	- ThreadId: 7784	Priority: 0	State: Wait.
+	- ThreadId: 7785	Priority: 0	State: Wait.
+	- ThreadId: 7786	Priority: 0	State: Wait.
+	- ThreadId: 7787	Priority: 0	State: Wait.
+	- ThreadId: 7788	Priority: 0	State: Wait.
+	- ThreadId: 7790	Priority: 0	State: Wait.
+	- ThreadId: 7791	Priority: 0	State: Wait.
+	- ThreadId: 7792	Priority: 0	State: Wait.
+	- ThreadId: 7794	Priority: 0	State: Wait.
+	- ThreadId: 7796	Priority: 0	State: Wait.
+	- ThreadId: 7797	Priority: 0	State: Wait.
+	- ThreadId: 7798	Priority: 0	State: Wait.
+	- ThreadId: 7799	Priority: 0	State: Wait.
+	- ThreadId: 7800	Priority: 0	State: Wait.
+	- ThreadId: 7802	Priority: 0	State: Wait.
+	- ThreadId: 7803	Priority: 0	State: Wait.
+	- ThreadId: 7804	Priority: 0	State: Wait.
+	- ThreadId: 7805	Priority: 0	State: Wait.
+	- ThreadId: 7807	Priority: 0	State: Wait.
+	- ThreadId: 7809	Priority: 0	State: Wait.
+	- ThreadId: 7822	Priority: 0	State: Wait.
+	- ThreadId: 7823	Priority: 0	State: Wait.
+	- ThreadId: 7825	Priority: 0	State: Wait.
+	- ThreadId: 7826	Priority: 0	State: Wait.
+	- ThreadId: 18695	Priority: 0	State: Wait.
+	- ThreadId: 20226	Priority: 0	State: Wait.
+	- ThreadId: 20323	Priority: 0	State: Wait.
+- PID: 7771	Name: code --type=zygote --no-zygote-sandbox.
+	- ThreadId: 7771	Priority: 0	State: Wait.
+- PID: 7772	Name: code --type=zygote.
+	- ThreadId: 7772	Priority: 0	State: Wait.
+- PID: 7774	Name: code --type=zygote.
+	- ThreadId: 7774	Priority: 0	State: Wait.
+- PID: 7801	Name: Code --gpu-preferences=UAAAAAAAAAAgAAAQAAAAAAAAAAAAAAAAAABgAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAA= --shared-files.
+	- ThreadId: 7801	Priority: 0	State: Wait.
+	- ThreadId: 7844	Priority: 19	State: Wait.
+	- ThreadId: 7845	Priority: 0	State: Wait.
+	- ThreadId: 7846	Priority: 0	State: Wait.
+	- ThreadId: 7847	Priority: 0	State: Wait.
+	- ThreadId: 7848	Priority: 0	State: Wait.
+	- ThreadId: 7849	Priority: 0	State: Wait.
+	- ThreadId: 7850	Priority: 0	State: Wait.
+	- ThreadId: 7851	Priority: 0	State: Wait.
+	- ThreadId: 7853	Priority: 0	State: Wait.
+	- ThreadId: 7854	Priority: 0	State: Wait.
+	- ThreadId: 7855	Priority: 0	State: Wait.
+	- ThreadId: 7856	Priority: 0	State: Wait.
+	- ThreadId: 7858	Priority: 0	State: Wait.
+	- ThreadId: 20313	Priority: 0	State: Wait.
+- PID: 7808	Name: Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --shared-files=v8_context_snapshot_data:100.
+	- ThreadId: 7808	Priority: 0	State: Wait.
+	- ThreadId: 7810	Priority: 0	State: Wait.
+	- ThreadId: 7812	Priority: 0	State: Wait.
+	- ThreadId: 7814	Priority: 0	State: Wait.
+	- ThreadId: 18319	Priority: 0	State: Wait.
+	- ThreadId: 20225	Priority: 0	State: Wait.
+- PID: 7866	Name: code.
+	- ThreadId: 7866	Priority: 0	State: Wait.
+	- ThreadId: 7868	Priority: 0	State: Wait.
+	- ThreadId: 7870	Priority: 0	State: Wait.
+	- ThreadId: 7872	Priority: 0	State: Wait.
+	- ThreadId: 7873	Priority: 0	State: Wait.
+	- ThreadId: 7874	Priority: 0	State: Wait.
+	- ThreadId: 7875	Priority: 0	State: Wait.
+	- ThreadId: 7876	Priority: 0	State: Wait.
+	- ThreadId: 7877	Priority: 0	State: Wait.
+	- ThreadId: 7878	Priority: 0	State: Wait.
+	- ThreadId: 7879	Priority: 10	State: Wait.
+	- ThreadId: 7880	Priority: 0	State: Wait.
+	- ThreadId: 7900	Priority: 0	State: Wait.
+	- ThreadId: 7901	Priority: 0	State: Wait.
+	- ThreadId: 7902	Priority: 0	State: Wait.
+	- ThreadId: 7903	Priority: 0	State: Wait.
+	- ThreadId: 7919	Priority: 0	State: Wait.
+	- ThreadId: 7920	Priority: 0	State: Wait.
+	- ThreadId: 7952	Priority: 0	State: Wait.
+	- ThreadId: 20229	Priority: 0	State: Wait.
+- PID: 7899	Name: code.
+	- ThreadId: 7899	Priority: 0	State: Wait.
+	- ThreadId: 7904	Priority: 0	State: Wait.
+	- ThreadId: 7905	Priority: 0	State: Wait.
+	- ThreadId: 7906	Priority: 0	State: Wait.
+	- ThreadId: 7907	Priority: 0	State: Wait.
+	- ThreadId: 7908	Priority: 0	State: Wait.
+	- ThreadId: 7909	Priority: 0	State: Wait.
+	- ThreadId: 7910	Priority: 0	State: Wait.
+	- ThreadId: 7913	Priority: 0	State: Wait.
+	- ThreadId: 7914	Priority: 0	State: Wait.
+	- ThreadId: 7915	Priority: 0	State: Wait.
+	- ThreadId: 7916	Priority: 0	State: Wait.
+- PID: 8908	Name: Isolated Web Co.
+	- ThreadId: 8908	Priority: 0	State: Wait.
+	- ThreadId: 8912	Priority: 0	State: Wait.
+	- ThreadId: 8913	Priority: 0	State: Wait.
+	- ThreadId: 8914	Priority: 0	State: Wait.
+	- ThreadId: 8915	Priority: 0	State: Wait.
+	- ThreadId: 8917	Priority: 0	State: Wait.
+	- ThreadId: 8918	Priority: 0	State: Wait.
+	- ThreadId: 8919	Priority: 0	State: Wait.
+	- ThreadId: 8920	Priority: 0	State: Wait.
+	- ThreadId: 8921	Priority: 0	State: Wait.
+	- ThreadId: 8922	Priority: 0	State: Wait.
+	- ThreadId: 8923	Priority: 0	State: Wait.
+	- ThreadId: 8924	Priority: 0	State: Wait.
+	- ThreadId: 8925	Priority: 0	State: Wait.
+	- ThreadId: 8926	Priority: 0	State: Wait.
+	- ThreadId: 8927	Priority: 0	State: Wait.
+	- ThreadId: 8928	Priority: 0	State: Wait.
+	- ThreadId: 8929	Priority: 0	State: Wait.
+	- ThreadId: 8930	Priority: 0	State: Wait.
+	- ThreadId: 8931	Priority: 0	State: Wait.
+	- ThreadId: 8932	Priority: 0	State: Wait.
+	- ThreadId: 8936	Priority: 0	State: Wait.
+	- ThreadId: 8937	Priority: 0	State: Wait.
+	- ThreadId: 8938	Priority: 0	State: Wait.
+	- ThreadId: 8939	Priority: 0	State: Wait.
+	- ThreadId: 8940	Priority: 0	State: Wait.
+	- ThreadId: 8941	Priority: 0	State: Wait.
+	- ThreadId: 8942	Priority: 0	State: Wait.
+- PID: 9469	Name: kworker/0:1-inet_frag_wq.
+	- ThreadId: 9469	Priority: 0	State: Ready.
+- PID: 9935	Name: kworker/7:1-events.
+	- ThreadId: 9935	Priority: 0	State: Ready.
+- PID: 10149	Name: kworker/u16:14-btrfs-endio-write.
+	- ThreadId: 10149	Priority: 0	State: Ready.
+- PID: 10961	Name: bwrap.
+	- ThreadId: 10961	Priority: 0	State: Wait.
+- PID: 10969	Name: bwrap.
+	- ThreadId: 10969	Priority: 0	State: Wait.
+- PID: 10970	Name: xdg-dbus-proxy.
+	- ThreadId: 10970	Priority: 0	State: Wait.
+	- ThreadId: 10971	Priority: 0	State: Wait.
+- PID: 10972	Name: bwrap.
+	- ThreadId: 10972	Priority: 0	State: Wait.
+- PID: 10973	Name: flatpak-spawn.
+	- ThreadId: 10973	Priority: 0	State: Wait.
+	- ThreadId: 10974	Priority: 0	State: Wait.
+	- ThreadId: 10976	Priority: 0	State: Wait.
+- PID: 10978	Name: bwrap.
+	- ThreadId: 10978	Priority: 0	State: Wait.
+- PID: 10982	Name: bwrap.
+	- ThreadId: 10982	Priority: 0	State: Wait.
+- PID: 10983	Name: xdg-dbus-proxy.
+	- ThreadId: 10983	Priority: 0	State: Wait.
+	- ThreadId: 10984	Priority: 0	State: Wait.
+- PID: 10985	Name: bwrap.
+	- ThreadId: 10985	Priority: 0	State: Wait.
+- PID: 10986	Name: bash.
+	- ThreadId: 10986	Priority: 0	State: Wait.
+- PID: 16373	Name: steam.
+	- ThreadId: 16373	Priority: 0	State: Wait.
+	- ThreadId: 16374	Priority: 19	State: Wait.
+	- ThreadId: 16375	Priority: 0	State: Wait.
+	- ThreadId: 16376	Priority: 0	State: Wait.
+	- ThreadId: 16377	Priority: 0	State: Wait.
+	- ThreadId: 16378	Priority: 0	State: Wait.
+	- ThreadId: 16379	Priority: 0	State: Wait.
+	- ThreadId: 16380	Priority: 0	State: Wait.
+	- ThreadId: 16382	Priority: 0	State: Wait.
+	- ThreadId: 16385	Priority: 19	State: Wait.
+	- ThreadId: 16386	Priority: 0	State: Wait.
+	- ThreadId: 16387	Priority: 0	State: Wait.
+	- ThreadId: 16388	Priority: 0	State: Wait.
+	- ThreadId: 16389	Priority: 0	State: Wait.
+	- ThreadId: 16390	Priority: 0	State: Wait.
+	- ThreadId: 16391	Priority: 0	State: Wait.
+	- ThreadId: 16395	Priority: 0	State: Wait.
+	- ThreadId: 16408	Priority: 19	State: Wait.
+	- ThreadId: 16409	Priority: 0	State: Wait.
+	- ThreadId: 16410	Priority: 0	State: Wait.
+	- ThreadId: 16411	Priority: 0	State: Wait.
+	- ThreadId: 16412	Priority: 0	State: Wait.
+	- ThreadId: 16413	Priority: 0	State: Wait.
+	- ThreadId: 16414	Priority: 0	State: Wait.
+	- ThreadId: 16415	Priority: 0	State: Wait.
+	- ThreadId: 16416	Priority: 0	State: Wait.
+	- ThreadId: 16417	Priority: 0	State: Wait.
+	- ThreadId: 16420	Priority: 0	State: Wait.
+	- ThreadId: 16421	Priority: 0	State: Wait.
+	- ThreadId: 16422	Priority: 0	State: Wait.
+	- ThreadId: 16423	Priority: 0	State: Wait.
+	- ThreadId: 16424	Priority: 0	State: Wait.
+	- ThreadId: 16426	Priority: 0	State: Wait.
+	- ThreadId: 16427	Priority: 0	State: Wait.
+	- ThreadId: 16428	Priority: 0	State: Wait.
+	- ThreadId: 16429	Priority: 0	State: Wait.
+	- ThreadId: 16431	Priority: 0	State: Wait.
+	- ThreadId: 16432	Priority: 0	State: Wait.
+	- ThreadId: 16433	Priority: 0	State: Wait.
+	- ThreadId: 16434	Priority: 0	State: Wait.
+	- ThreadId: 16435	Priority: 0	State: Wait.
+	- ThreadId: 16445	Priority: 0	State: Wait.
+	- ThreadId: 16586	Priority: 0	State: Wait.
+	- ThreadId: 16707	Priority: 0	State: Wait.
+	- ThreadId: 16711	Priority: 0	State: Wait.
+	- ThreadId: 16712	Priority: 0	State: Wait.
+	- ThreadId: 16764	Priority: 0	State: Wait.
+	- ThreadId: 16765	Priority: 0	State: Wait.
+	- ThreadId: 16769	Priority: 19	State: Wait.
+	- ThreadId: 16770	Priority: 0	State: Wait.
+	- ThreadId: 16771	Priority: 0	State: Wait.
+	- ThreadId: 16772	Priority: 0	State: Wait.
+	- ThreadId: 16773	Priority: 0	State: Wait.
+	- ThreadId: 16774	Priority: 0	State: Wait.
+	- ThreadId: 16775	Priority: 0	State: Wait.
+	- ThreadId: 16798	Priority: 0	State: Wait.
+- PID: 16393	Name: steam.
+	- ThreadId: 16393	Priority: 0	State: Wait.
+- PID: 16394	Name: steamwebhelper.
+	- ThreadId: 16394	Priority: 0	State: Wait.
+	- ThreadId: 16638	Priority: 0	State: Wait.
+	- ThreadId: 16639	Priority: 0	State: Wait.
+	- ThreadId: 16642	Priority: 0	State: Wait.
+	- ThreadId: 16644	Priority: 0	State: Wait.
+	- ThreadId: 16645	Priority: 0	State: Wait.
+	- ThreadId: 16646	Priority: 0	State: Wait.
+	- ThreadId: 16650	Priority: 0	State: Wait.
+	- ThreadId: 16651	Priority: 0	State: Wait.
+	- ThreadId: 16652	Priority: 0	State: Wait.
+	- ThreadId: 16672	Priority: 0	State: Wait.
+	- ThreadId: 16673	Priority: 0	State: Wait.
+	- ThreadId: 16674	Priority: 0	State: Wait.
+	- ThreadId: 16675	Priority: 0	State: Wait.
+	- ThreadId: 16719	Priority: 0	State: Wait.
+	- ThreadId: 16720	Priority: 0	State: Wait.
+	- ThreadId: 16876	Priority: 0	State: Wait.
+- PID: 16640	Name: steamwebhelper.
+	- ThreadId: 16640	Priority: 0	State: Wait.
+- PID: 16641	Name: steamwebhelper.
+	- ThreadId: 16641	Priority: 0	State: Wait.
+- PID: 16653	Name: steamwebhelper.
+	- ThreadId: 16653	Priority: 0	State: Wait.
+	- ThreadId: 16655	Priority: 19	State: Wait.
+	- ThreadId: 16656	Priority: 0	State: Wait.
+	- ThreadId: 16657	Priority: 0	State: Wait.
+	- ThreadId: 16658	Priority: 0	State: Wait.
+	- ThreadId: 16659	Priority: 0	State: Wait.
+	- ThreadId: 16660	Priority: 0	State: Wait.
+	- ThreadId: 16661	Priority: 0	State: Wait.
+	- ThreadId: 16664	Priority: 0	State: Wait.
+	- ThreadId: 16665	Priority: 0	State: Wait.
+	- ThreadId: 16666	Priority: 0	State: Wait.
+	- ThreadId: 16667	Priority: 0	State: Wait.
+	- ThreadId: 16669	Priority: 0	State: Wait.
+	- ThreadId: 16671	Priority: 0	State: Wait.
+	- ThreadId: 16726	Priority: 0	State: Wait.
+	- ThreadId: 16755	Priority: 0	State: Wait.
+	- ThreadId: 16804	Priority: 0	State: Wait.
+	- ThreadId: 16808	Priority: 0	State: Wait.
+	- ThreadId: 16831	Priority: 0	State: Wait.
+	- ThreadId: 16841	Priority: 0	State: Wait.
+- PID: 16676	Name: steamwebhelper.
+	- ThreadId: 16676	Priority: 0	State: Wait.
+	- ThreadId: 16677	Priority: 0	State: Wait.
+	- ThreadId: 16679	Priority: 0	State: Wait.
+	- ThreadId: 16681	Priority: 0	State: Wait.
+	- ThreadId: 16932	Priority: 0	State: Wait.
+- PID: 16736	Name: steamwebhelper.
+	- ThreadId: 16736	Priority: 0	State: Wait.
+	- ThreadId: 16737	Priority: 0	State: Wait.
+	- ThreadId: 16739	Priority: 0	State: Wait.
+	- ThreadId: 16740	Priority: 0	State: Wait.
+	- ThreadId: 16742	Priority: 0	State: Wait.
+	- ThreadId: 16743	Priority: 0	State: Wait.
+	- ThreadId: 16744	Priority: 0	State: Wait.
+	- ThreadId: 16745	Priority: 0	State: Wait.
+	- ThreadId: 16746	Priority: 0	State: Wait.
+	- ThreadId: 16747	Priority: 0	State: Wait.
+	- ThreadId: 16748	Priority: 10	State: Wait.
+	- ThreadId: 16890	Priority: 0	State: Wait.
+- PID: 16777	Name: steamwebhelper.
+	- ThreadId: 16777	Priority: 0	State: Wait.
+	- ThreadId: 16778	Priority: 0	State: Wait.
+	- ThreadId: 16780	Priority: 0	State: Wait.
+	- ThreadId: 16781	Priority: 0	State: Wait.
+	- ThreadId: 16789	Priority: 0	State: Running.
+	- ThreadId: 16790	Priority: 0	State: Wait.
+	- ThreadId: 16791	Priority: 0	State: Wait.
+	- ThreadId: 16792	Priority: 0	State: Wait.
+	- ThreadId: 16793	Priority: 0	State: Wait.
+	- ThreadId: 16794	Priority: 0	State: Wait.
+	- ThreadId: 16795	Priority: 10	State: Wait.
+	- ThreadId: 16821	Priority: 0	State: Wait.
+	- ThreadId: 19953	Priority: 0	State: Wait.
+	- ThreadId: 20338	Priority: 0	State: Wait.
+- PID: 16783	Name: steamwebhelper.
+	- ThreadId: 16783	Priority: 0	State: Wait.
+	- ThreadId: 16784	Priority: 0	State: Wait.
+	- ThreadId: 16786	Priority: 0	State: Wait.
+	- ThreadId: 16787	Priority: 0	State: Wait.
+	- ThreadId: 16796	Priority: 0	State: Wait.
+	- ThreadId: 16797	Priority: 0	State: Wait.
+	- ThreadId: 16799	Priority: 0	State: Wait.
+	- ThreadId: 16800	Priority: 0	State: Wait.
+	- ThreadId: 16801	Priority: 0	State: Wait.
+	- ThreadId: 16802	Priority: 0	State: Wait.
+	- ThreadId: 16803	Priority: 10	State: Wait.
+	- ThreadId: 16830	Priority: 0	State: Wait.
+	- ThreadId: 17106	Priority: 0	State: Wait.
+- PID: 16816	Name: p11-kit-remote.
+	- ThreadId: 16816	Priority: 0	State: Wait.
+- PID: 16998	Name: kworker/1:0-events.
+	- ThreadId: 16998	Priority: 0	State: Ready.
+- PID: 17014	Name: kworker/6:1-events.
+	- ThreadId: 17014	Priority: 0	State: Ready.
+- PID: 17130	Name: kworker/3:2-mm_percpu_wq.
+	- ThreadId: 17130	Priority: 0	State: Ready.
+- PID: 17201	Name: kworker/u16:0-btrfs-endio.
+	- ThreadId: 17201	Priority: 0	State: Ready.
+- PID: 17203	Name: kworker/u16:1-btrfs-endio-write.
+	- ThreadId: 17203	Priority: 0	State: Ready.
+- PID: 17210	Name: alacritty.
+	- ThreadId: 17210	Priority: 0	State: Wait.
+	- ThreadId: 17211	Priority: 0	State: Wait.
+	- ThreadId: 17212	Priority: 0	State: Wait.
+	- ThreadId: 17213	Priority: 0	State: Wait.
+	- ThreadId: 17214	Priority: 0	State: Wait.
+	- ThreadId: 17215	Priority: 19	State: Wait.
+	- ThreadId: 17216	Priority: 0	State: Wait.
+	- ThreadId: 17217	Priority: 0	State: Wait.
+	- ThreadId: 17218	Priority: 0	State: Wait.
+	- ThreadId: 17219	Priority: 0	State: Wait.
+	- ThreadId: 17220	Priority: 0	State: Wait.
+	- ThreadId: 17221	Priority: 0	State: Wait.
+	- ThreadId: 17222	Priority: 0	State: Wait.
+	- ThreadId: 17224	Priority: 0	State: Wait.
+	- ThreadId: 17226	Priority: 0	State: Wait.
+	- ThreadId: 17228	Priority: 0	State: Wait.
+- PID: 17223	Name: bash.
+	- ThreadId: 17223	Priority: 0	State: Wait.
+- PID: 17258	Name: kworker/2:1-inet_frag_wq.
+	- ThreadId: 17258	Priority: 0	State: Ready.
+- PID: 17283	Name: kworker/1:1-events.
+	- ThreadId: 17283	Priority: 0	State: Ready.
+- PID: 17305	Name: kworker/u17:2-btrfs-worker-high.
+	- ThreadId: 17305	Priority: -20	State: Ready.
+- PID: 17792	Name: kworker/5:0-events.
+	- ThreadId: 17792	Priority: 0	State: Ready.
+- PID: 17794	Name: kworker/6:2-events.
+	- ThreadId: 17794	Priority: 0	State: Ready.
+- PID: 18097	Name: kworker/u16:3-flush-btrfs-1.
+	- ThreadId: 18097	Priority: 0	State: Ready.
+- PID: 18098	Name: kworker/u16:5-btrfs-endio-write.
+	- ThreadId: 18098	Priority: 0	State: Ready.
+- PID: 18099	Name: kworker/u16:6-btrfs-endio-write.
+	- ThreadId: 18099	Priority: 0	State: Ready.
+- PID: 18307	Name: kworker/4:2-events.
+	- ThreadId: 18307	Priority: 0	State: Ready.
+- PID: 18546	Name: kworker/7:2-events.
+	- ThreadId: 18546	Priority: 0	State: Ready.
+- PID: 18679	Name: code.
+	- ThreadId: 18679	Priority: 0	State: Wait.
+	- ThreadId: 18680	Priority: 0	State: Wait.
+	- ThreadId: 18682	Priority: 0	State: Wait.
+	- ThreadId: 18684	Priority: 0	State: Wait.
+	- ThreadId: 18685	Priority: 0	State: Wait.
+	- ThreadId: 18686	Priority: 0	State: Wait.
+	- ThreadId: 18687	Priority: 0	State: Wait.
+	- ThreadId: 18688	Priority: 0	State: Wait.
+	- ThreadId: 18689	Priority: 0	State: Wait.
+	- ThreadId: 18690	Priority: 0	State: Wait.
+	- ThreadId: 18691	Priority: 10	State: Wait.
+	- ThreadId: 18692	Priority: 0	State: Wait.
+	- ThreadId: 18735	Priority: 0	State: Wait.
+	- ThreadId: 18854	Priority: 0	State: Wait.
+	- ThreadId: 19458	Priority: 0	State: Wait.
+	- ThreadId: 20219	Priority: 0	State: Wait.
+	- ThreadId: 20221	Priority: 0	State: Wait.
+	- ThreadId: 20324	Priority: 0	State: Wait.
+	- ThreadId: 20325	Priority: 0	State: Wait.
+	- ThreadId: 20326	Priority: 0	State: Wait.
+	- ThreadId: 20327	Priority: 0	State: Wait.
+	- ThreadId: 20328	Priority: 0	State: Wait.
+- PID: 18703	Name: code.
+	- ThreadId: 18703	Priority: 0	State: Wait.
+	- ThreadId: 18706	Priority: 0	State: Wait.
+	- ThreadId: 18707	Priority: 0	State: Wait.
+	- ThreadId: 18708	Priority: 0	State: Wait.
+	- ThreadId: 18709	Priority: 0	State: Wait.
+	- ThreadId: 18710	Priority: 0	State: Wait.
+	- ThreadId: 18711	Priority: 0	State: Wait.
+	- ThreadId: 18712	Priority: 0	State: Wait.
+	- ThreadId: 18725	Priority: 0	State: Wait.
+	- ThreadId: 18726	Priority: 0	State: Wait.
+	- ThreadId: 18727	Priority: 0	State: Wait.
+	- ThreadId: 18728	Priority: 0	State: Wait.
+	- ThreadId: 18736	Priority: 0	State: Wait.
+- PID: 18704	Name: code.
+	- ThreadId: 18704	Priority: 0	State: Wait.
+	- ThreadId: 18713	Priority: 0	State: Wait.
+	- ThreadId: 18714	Priority: 0	State: Wait.
+	- ThreadId: 18715	Priority: 0	State: Wait.
+	- ThreadId: 18716	Priority: 0	State: Wait.
+	- ThreadId: 18717	Priority: 0	State: Wait.
+	- ThreadId: 18718	Priority: 0	State: Wait.
+	- ThreadId: 18719	Priority: 0	State: Wait.
+	- ThreadId: 18729	Priority: 0	State: Wait.
+	- ThreadId: 18730	Priority: 0	State: Wait.
+	- ThreadId: 18731	Priority: 0	State: Wait.
+	- ThreadId: 18732	Priority: 0	State: Wait.
+	- ThreadId: 18733	Priority: 0	State: Wait.
+	- ThreadId: 18734	Priority: 0	State: Wait.
+- PID: 18816	Name: bash.
+	- ThreadId: 18816	Priority: 0	State: Wait.
+- PID: 18821	Name: mono.
+	- ThreadId: 18821	Priority: 0	State: Wait.
+	- ThreadId: 18822	Priority: 0	State: Wait.
+	- ThreadId: 18824	Priority: 0	State: Wait.
+	- ThreadId: 18830	Priority: 0	State: Wait.
+	- ThreadId: 18831	Priority: 0	State: Wait.
+	- ThreadId: 18832	Priority: 0	State: Wait.
+	- ThreadId: 18833	Priority: 0	State: Wait.
+	- ThreadId: 18834	Priority: 0	State: Wait.
+	- ThreadId: 18835	Priority: 0	State: Wait.
+	- ThreadId: 18836	Priority: 0	State: Wait.
+	- ThreadId: 18849	Priority: 0	State: Wait.
+	- ThreadId: 18850	Priority: 0	State: Wait.
+	- ThreadId: 18853	Priority: 0	State: Wait.
+	- ThreadId: 18855	Priority: 0	State: Wait.
+	- ThreadId: 18856	Priority: 0	State: Wait.
+	- ThreadId: 18857	Priority: 0	State: Wait.
+	- ThreadId: 18858	Priority: 0	State: Wait.
+	- ThreadId: 18859	Priority: 0	State: Wait.
+	- ThreadId: 18860	Priority: 0	State: Wait.
+	- ThreadId: 18861	Priority: 0	State: Wait.
+	- ThreadId: 18864	Priority: 0	State: Wait.
+	- ThreadId: 18866	Priority: 0	State: Wait.
+	- ThreadId: 18867	Priority: 0	State: Wait.
+	- ThreadId: 18868	Priority: 0	State: Wait.
+	- ThreadId: 18869	Priority: 0	State: Wait.
+- PID: 18957	Name: kworker/u17:1-btrfs-worker-high.
+	- ThreadId: 18957	Priority: -20	State: Ready.
+- PID: 19017	Name: kworker/2:2-events.
+	- ThreadId: 19017	Priority: 0	State: Ready.
+- PID: 19031	Name: Isolated Web Co.
+	- ThreadId: 19031	Priority: 0	State: Wait.
+	- ThreadId: 19035	Priority: 0	State: Wait.
+	- ThreadId: 19036	Priority: 0	State: Wait.
+	- ThreadId: 19037	Priority: 0	State: Wait.
+	- ThreadId: 19038	Priority: 0	State: Wait.
+	- ThreadId: 19040	Priority: 0	State: Wait.
+	- ThreadId: 19041	Priority: 0	State: Wait.
+	- ThreadId: 19042	Priority: 0	State: Wait.
+	- ThreadId: 19043	Priority: 0	State: Wait.
+	- ThreadId: 19044	Priority: 0	State: Wait.
+	- ThreadId: 19045	Priority: 0	State: Wait.
+	- ThreadId: 19046	Priority: 0	State: Wait.
+	- ThreadId: 19047	Priority: 0	State: Wait.
+	- ThreadId: 19048	Priority: 0	State: Wait.
+	- ThreadId: 19049	Priority: 0	State: Wait.
+	- ThreadId: 19050	Priority: 0	State: Wait.
+	- ThreadId: 19051	Priority: 0	State: Wait.
+	- ThreadId: 19052	Priority: 0	State: Wait.
+	- ThreadId: 19053	Priority: 0	State: Wait.
+	- ThreadId: 19054	Priority: 0	State: Wait.
+	- ThreadId: 19058	Priority: 0	State: Wait.
+	- ThreadId: 19059	Priority: 0	State: Wait.
+	- ThreadId: 19060	Priority: 0	State: Wait.
+	- ThreadId: 19061	Priority: 0	State: Wait.
+	- ThreadId: 19062	Priority: 0	State: Wait.
+	- ThreadId: 19063	Priority: 0	State: Wait.
+	- ThreadId: 19064	Priority: 0	State: Wait.
+	- ThreadId: 19065	Priority: 0	State: Wait.
+	- ThreadId: 19066	Priority: 0	State: Wait.
+- PID: 19076	Name: gvfsd-network.
+	- ThreadId: 19076	Priority: 0	State: Wait.
+	- ThreadId: 19077	Priority: 0	State: Wait.
+	- ThreadId: 19078	Priority: 0	State: Wait.
+	- ThreadId: 19084	Priority: 0	State: Wait.
+- PID: 19091	Name: kworker/0:2-events.
+	- ThreadId: 19091	Priority: 0	State: Ready.
+- PID: 19206	Name: gvfsd-dnssd.
+	- ThreadId: 19206	Priority: 0	State: Wait.
+	- ThreadId: 19207	Priority: 0	State: Wait.
+	- ThreadId: 19208	Priority: 0	State: Wait.
+- PID: 19217	Name: alacritty.
+	- ThreadId: 19217	Priority: 0	State: Wait.
+	- ThreadId: 19218	Priority: 0	State: Wait.
+	- ThreadId: 19219	Priority: 0	State: Wait.
+	- ThreadId: 19220	Priority: 0	State: Wait.
+	- ThreadId: 19221	Priority: 0	State: Wait.
+	- ThreadId: 19222	Priority: 19	State: Wait.
+	- ThreadId: 19223	Priority: 0	State: Wait.
+	- ThreadId: 19224	Priority: 0	State: Wait.
+	- ThreadId: 19225	Priority: 0	State: Wait.
+	- ThreadId: 19226	Priority: 0	State: Wait.
+	- ThreadId: 19227	Priority: 0	State: Wait.
+	- ThreadId: 19228	Priority: 0	State: Wait.
+	- ThreadId: 19229	Priority: 0	State: Wait.
+	- ThreadId: 19231	Priority: 0	State: Wait.
+	- ThreadId: 19233	Priority: 0	State: Wait.
+	- ThreadId: 19235	Priority: 0	State: Wait.
+- PID: 19230	Name: bash.
+	- ThreadId: 19230	Priority: 0	State: Wait.
+- PID: 19305	Name: evince.
+	- ThreadId: 19305	Priority: 0	State: Wait.
+	- ThreadId: 19306	Priority: 0	State: Wait.
+	- ThreadId: 19307	Priority: 0	State: Wait.
+	- ThreadId: 19316	Priority: 0	State: Wait.
+	- ThreadId: 19326	Priority: 0	State: Wait.
+- PID: 19311	Name: evinced.
+	- ThreadId: 19311	Priority: 0	State: Wait.
+	- ThreadId: 19312	Priority: 0	State: Wait.
+	- ThreadId: 19313	Priority: 0	State: Wait.
+- PID: 19344	Name: kworker/5:1-events.
+	- ThreadId: 19344	Priority: 0	State: Ready.
+- PID: 19633	Name: kworker/1:2-events.
+	- ThreadId: 19633	Priority: 0	State: Ready.
+- PID: 19638	Name: kworker/3:0-events.
+	- ThreadId: 19638	Priority: 0	State: Ready.
+- PID: 19749	Name: kworker/7:0-events.
+	- ThreadId: 19749	Priority: 0	State: Ready.
+- PID: 19753	Name: kworker/u17:0+i915_flip.
+	- ThreadId: 19753	Priority: -20	State: Wait.
+- PID: 19754	Name: kworker/u16:2-flush-btrfs-1.
+	- ThreadId: 19754	Priority: 0	State: Ready.
+- PID: 19886	Name: kworker/0:0-events.
+	- ThreadId: 19886	Priority: 0	State: Ready.
+- PID: 19965	Name: kworker/4:1-events.
+	- ThreadId: 19965	Priority: 0	State: Ready.
+- PID: 19968	Name: kworker/6:0-events.
+	- ThreadId: 19968	Priority: 0	State: Ready.
+- PID: 19974	Name: kworker/5:2-events.
+	- ThreadId: 19974	Priority: 0	State: Ready.
+- PID: 20053	Name: systemd-userwork.
+	- ThreadId: 20053	Priority: 0	State: Wait.
+- PID: 20063	Name: kworker/u16:4-btrfs-endio-write.
+	- ThreadId: 20063	Priority: 0	State: Ready.
+- PID: 20106	Name: kworker/1:3-events.
+	- ThreadId: 20106	Priority: 0	State: Ready.
+- PID: 20120	Name: kworker/2:0-events.
+	- ThreadId: 20120	Priority: 0	State: Ready.
+- PID: 20162	Name: systemd-userwork.
+	- ThreadId: 20162	Priority: 0	State: Wait.
+- PID: 20163	Name: systemd-userwork.
+	- ThreadId: 20163	Priority: 0	State: Wait.
+- PID: 20237	Name: Isolated Web Co.
+	- ThreadId: 20237	Priority: 0	State: Wait.
+	- ThreadId: 20241	Priority: 0	State: Wait.
+	- ThreadId: 20242	Priority: 0	State: Wait.
+	- ThreadId: 20243	Priority: 0	State: Wait.
+	- ThreadId: 20244	Priority: 0	State: Wait.
+	- ThreadId: 20245	Priority: 0	State: Wait.
+	- ThreadId: 20246	Priority: 0	State: Wait.
+	- ThreadId: 20247	Priority: 0	State: Wait.
+	- ThreadId: 20248	Priority: 0	State: Wait.
+	- ThreadId: 20249	Priority: 0	State: Wait.
+	- ThreadId: 20250	Priority: 0	State: Wait.
+	- ThreadId: 20251	Priority: 0	State: Wait.
+	- ThreadId: 20252	Priority: 0	State: Wait.
+	- ThreadId: 20253	Priority: 0	State: Wait.
+	- ThreadId: 20254	Priority: 0	State: Wait.
+	- ThreadId: 20255	Priority: 0	State: Wait.
+	- ThreadId: 20256	Priority: 0	State: Wait.
+	- ThreadId: 20257	Priority: 0	State: Wait.
+	- ThreadId: 20258	Priority: 0	State: Wait.
+	- ThreadId: 20259	Priority: 0	State: Wait.
+	- ThreadId: 20260	Priority: 0	State: Wait.
+	- ThreadId: 20261	Priority: 0	State: Wait.
+	- ThreadId: 20265	Priority: 0	State: Wait.
+	- ThreadId: 20266	Priority: 0	State: Wait.
+	- ThreadId: 20267	Priority: 0	State: Wait.
+	- ThreadId: 20268	Priority: 0	State: Wait.
+	- ThreadId: 20269	Priority: 0	State: Wait.
+	- ThreadId: 20270	Priority: 0	State: Wait.
+- PID: 20310	Name: kworker/u16:8-btrfs-delalloc.
+	- ThreadId: 20310	Priority: 0	State: Ready.
+- PID: 20311	Name: kworker/u16:9.
+	- ThreadId: 20311	Priority: 0	State: Ready.
+- PID: 20339	Name: kworker/3:1.
+	- ThreadId: 20339	Priority: 0	State: Ready.
+- PID: 20352	Name: dotnet.
+	- ThreadId: 20352	Priority: 0	State: Wait.
+	- ThreadId: 20353	Priority: 0	State: Wait.
+	- ThreadId: 20354	Priority: 0	State: Wait.
+	- ThreadId: 20355	Priority: 0	State: Wait.
+	- ThreadId: 20356	Priority: 0	State: Wait.
+	- ThreadId: 20357	Priority: 0	State: Wait.
+	- ThreadId: 20358	Priority: 0	State: Wait.
+	- ThreadId: 20359	Priority: 0	State: Wait.
+	- ThreadId: 20360	Priority: 0	State: Wait.
+	- ThreadId: 20361	Priority: 0	State: Wait.
+	- ThreadId: 20362	Priority: 0	State: Wait.
+	- ThreadId: 20363	Priority: 0	State: Wait.
+	- ThreadId: 20364	Priority: 0	State: Wait.
+	- ThreadId: 20365	Priority: 0	State: Wait.
+	- ThreadId: 20366	Priority: 0	State: Wait.
+	- ThreadId: 20367	Priority: 0	State: Wait.
+	- ThreadId: 20368	Priority: 0	State: Wait.
+	- ThreadId: 20369	Priority: 0	State: Wait.
+	- ThreadId: 20370	Priority: 0	State: Wait.
+	- ThreadId: 20371	Priority: 0	State: Wait.
+	- ThreadId: 20372	Priority: 0	State: Wait.
+	- ThreadId: 20373	Priority: 0	State: Wait.
+	- ThreadId: 20374	Priority: 0	State: Wait.
+	- ThreadId: 20375	Priority: 0	State: Wait.
+	- ThreadId: 20380	Priority: 0	State: Wait.
+	- ThreadId: 20406	Priority: 0	State: Wait.
+	- ThreadId: 20410	Priority: 0	State: Wait.
+- PID: 20376	Name: dotnet.
+	- ThreadId: 20376	Priority: 0	State: Wait.
+	- ThreadId: 20377	Priority: 0	State: Wait.
+	- ThreadId: 20378	Priority: 0	State: Wait.
+	- ThreadId: 20379	Priority: 0	State: Wait.
+	- ThreadId: 20381	Priority: 0	State: Wait.
+	- ThreadId: 20382	Priority: 0	State: Wait.
+	- ThreadId: 20383	Priority: 0	State: Wait.
+	- ThreadId: 20384	Priority: 0	State: Wait.
+	- ThreadId: 20385	Priority: 0	State: Wait.
+	- ThreadId: 20386	Priority: 0	State: Wait.
+	- ThreadId: 20387	Priority: 0	State: Wait.
+	- ThreadId: 20388	Priority: 0	State: Wait.
+	- ThreadId: 20389	Priority: 0	State: Wait.
+	- ThreadId: 20390	Priority: 0	State: Wait.
+	- ThreadId: 20391	Priority: 0	State: Wait.
+	- ThreadId: 20392	Priority: 0	State: Wait.
+	- ThreadId: 20393	Priority: 0	State: Wait.
+	- ThreadId: 20394	Priority: 0	State: Wait.
+	- ThreadId: 20395	Priority: 0	State: Wait.
+	- ThreadId: 20396	Priority: 0	State: Wait.
+	- ThreadId: 20397	Priority: 0	State: Wait.
+	- ThreadId: 20398	Priority: 0	State: Wait.
+	- ThreadId: 20399	Priority: 0	State: Wait.
+	- ThreadId: 20400	Priority: 0	State: Wait.
+	- ThreadId: 20401	Priority: 0	State: Wait.
+	- ThreadId: 20402	Priority: 0	State: Wait.
+	- ThreadId: 20403	Priority: 0	State: Wait.
+	- ThreadId: 20404	Priority: 0	State: Wait.
+	- ThreadId: 20405	Priority: 0	State: Wait.
+- PID: 20411	Name: process.thread.
+	- ThreadId: 20411	Priority: 0	State: Running.
+	- ThreadId: 20412	Priority: 0	State: Wait.
+	- ThreadId: 20413	Priority: 0	State: Wait.
+	- ThreadId: 20414	Priority: 0	State: Wait.
+	- ThreadId: 20415	Priority: 0	State: Wait.
+	- ThreadId: 20416	Priority: 0	State: Wait.
+	- ThreadId: 20417	Priority: 0	State: Wait.
+	- ThreadId: 20418	Priority: 0	State: Wait.
+	- ThreadId: 20419	Priority: 0	State: Wait.
