@@ -18,19 +18,19 @@ namespace TPP.Laboratory.Functional.Lab08 {
 
         static void Main(string[] args) {
             Query query = new Query();
-            /*query.Query2a();
+            query.Query2a();
             query.Query2b();
             query.Query2c();
             query.Query3();
             query.Query4a();
             query.Query4b();
             query.Query4c();
-            query.Query5();*/
-            //query.Query6();
-            /*query.Homework1();
+            query.Query5();
+            query.Query6();
+            query.Homework1();
             query.Homework2();
             query.Homework3();
-            query.Homework4();*/
+            query.Homework4();
             query.Homework5();
         }
 

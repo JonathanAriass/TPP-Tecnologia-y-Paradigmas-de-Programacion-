@@ -1,8 +1,0 @@
-C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 8\model\bin\Debug\netstandard2.0\model.deps.json
-C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 8\model\bin\Debug\netstandard2.0\model.dll
-C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 8\model\bin\Debug\netstandard2.0\model.pdb
-C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 8\model\obj\Debug\netstandard2.0\model.csproj.AssemblyReference.cache
-C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 8\model\obj\Debug\netstandard2.0\model.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 8\model\obj\Debug\netstandard2.0\model.csproj.CoreCompileInputs.cache
-C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 8\model\obj\Debug\netstandard2.0\model.dll
-C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 8\model\obj\Debug\netstandard2.0\model.pdb
