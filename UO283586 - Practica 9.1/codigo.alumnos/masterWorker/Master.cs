@@ -9,12 +9,15 @@ namespace masterWorker
 
         private int numberOfThreads;
 
-        public Master(short[] vector, int numberOfThreads)
+        private int minVal;
+
+        public Master(short[] vector, int numberOfThreads, int minVal)
         {
             if (numberOfThreads < 1 || numberOfThreads > vector.Length)
                 throw new ArgumentException("The number of threads must be lower or equal to the number of elements in the vector.");
             this.vector = vector;
             this.numberOfThreads = numberOfThreads;
+            this.minVal = minVal;
         }
 
         public double ComputeModulus()
@@ -30,7 +33,7 @@ namespace masterWorker
             Thread[] threads = new Thread[workers.Length];
             for (int i = 0; i < workers.Length; i++)
             {
-                threads[i] = new Thread(workers[i].Compute);
+                threads[i] = new Thread(workers[i].Compute(minVal));
                 threads[i].Name = "Worker Vector Modulus " + (i + 1);
                 threads[i].Priority = ThreadPriority.BelowNormal;
                 threads[i].Start();
@@ -47,7 +50,7 @@ namespace masterWorker
             {
                 result += worker.Result;
             }
-            return Math.Sqrt(result);
+            return result;
         }
 
     }

@@ -19,6 +19,8 @@ namespace Lab09
 
             var numberOfThreads = Convert.ToInt32(args[0]);
             Master master = new Master(data, numberOfThreads);
+            var result = master.ComputeModulus();
+            Console.WriteLine($"Result: {result}");
         }
     }
 }

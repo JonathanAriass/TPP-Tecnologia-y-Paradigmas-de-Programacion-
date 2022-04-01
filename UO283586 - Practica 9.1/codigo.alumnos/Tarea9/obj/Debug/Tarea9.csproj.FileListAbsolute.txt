@@ -1,6 +1,0 @@
-C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 9.1\codigo.alumnos\Tarea9\bin\Debug\Practica9.exe.config
-C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 9.1\codigo.alumnos\Tarea9\bin\Debug\Practica9.exe
-C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 9.1\codigo.alumnos\Tarea9\bin\Debug\Practica9.pdb
-C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 9.1\codigo.alumnos\Tarea9\obj\Debug\Tarea9.csproj.CoreCompileInputs.cache
-C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 9.1\codigo.alumnos\Tarea9\obj\Debug\Practica9.exe
-C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 9.1\codigo.alumnos\Tarea9\obj\Debug\Practica9.pdb

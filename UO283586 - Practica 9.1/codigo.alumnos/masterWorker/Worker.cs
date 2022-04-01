@@ -25,11 +25,13 @@ namespace masterWorker
             this.toIndex = toIndex;
         }
 
-        internal void Compute()
+        internal async void Compute(int minVal)
         {
             this.result = 0;
             for (int i = this.fromIndex; i <= this.toIndex; i++)
-                this.result += this.vector[i] * this.vector[i];
+                if (this.vector[i] > minVal) {
+                    this.result++;
+                }
         }
 
     }
