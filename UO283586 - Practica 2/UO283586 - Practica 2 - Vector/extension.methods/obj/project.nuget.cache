@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "n0KICMR3zb3U/XY3MTnLyJLnJU03C6rrSW+38Gj1mu3J4UN14eGpm4ozMDQFT3U8T6KP0oQ9Swpjbj36KEl/YQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\byjon\\Desktop\\UNI\\2-cuatri\\TPP\\Practica\\Repo Github\\UO283586 - Practica 2\\UO283586 - Practica 2 - Vector\\extension.methods\\extension.methods.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\byjon\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\byjon\\.nuget\\packages\\system.data.datasetextensions\\4.5.0\\system.data.datasetextensions.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
