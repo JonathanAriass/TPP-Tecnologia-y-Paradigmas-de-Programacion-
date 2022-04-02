@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Lab09
+namespace Practica9
 {
     public class BitcoinValueData
     {
