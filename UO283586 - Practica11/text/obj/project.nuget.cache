@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "KTiP02HwAtB5llnM5y71cGzP2pV0DW8nQBx3XK0XBseI/eVOjHwgAU2v/tDE0iP3in/ccpTmMV15wriHUu3/MQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\byjon\\Desktop\\UNI\\2-cuatri\\TPP\\Practica\\Repo Github\\UO283586 - Practica11\\text\\text.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\byjon\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\byjon\\.nuget\\packages\\system.data.datasetextensions\\4.5.0\\system.data.datasetextensions.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
