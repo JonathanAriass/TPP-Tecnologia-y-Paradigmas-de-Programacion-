@@ -1,0 +1,11 @@
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 10\accounts\bin\Debug\netcoreapp3.1\TPP.Laboratory.Concurrency.Lab10.exe
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 10\accounts\bin\Debug\netcoreapp3.1\TPP.Laboratory.Concurrency.Lab10.deps.json
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 10\accounts\bin\Debug\netcoreapp3.1\TPP.Laboratory.Concurrency.Lab10.runtimeconfig.json
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 10\accounts\bin\Debug\netcoreapp3.1\TPP.Laboratory.Concurrency.Lab10.runtimeconfig.dev.json
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 10\accounts\bin\Debug\netcoreapp3.1\TPP.Laboratory.Concurrency.Lab10.dll
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 10\accounts\bin\Debug\netcoreapp3.1\TPP.Laboratory.Concurrency.Lab10.pdb
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 10\accounts\obj\Debug\netcoreapp3.1\accounts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 10\accounts\obj\Debug\netcoreapp3.1\accounts.csproj.CoreCompileInputs.cache
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 10\accounts\obj\Debug\netcoreapp3.1\TPP.Laboratory.Concurrency.Lab10.dll
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 10\accounts\obj\Debug\netcoreapp3.1\TPP.Laboratory.Concurrency.Lab10.pdb
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 10\accounts\obj\Debug\netcoreapp3.1\accounts.genruntimeconfig.cache

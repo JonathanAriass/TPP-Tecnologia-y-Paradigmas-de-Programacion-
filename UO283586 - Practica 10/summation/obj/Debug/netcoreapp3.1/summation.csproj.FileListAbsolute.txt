@@ -1,0 +1,12 @@
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 10\summation\bin\Debug\netcoreapp3.1\summation.exe
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 10\summation\bin\Debug\netcoreapp3.1\summation.deps.json
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 10\summation\bin\Debug\netcoreapp3.1\summation.runtimeconfig.json
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 10\summation\bin\Debug\netcoreapp3.1\summation.runtimeconfig.dev.json
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 10\summation\bin\Debug\netcoreapp3.1\summation.dll
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 10\summation\bin\Debug\netcoreapp3.1\summation.pdb
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 10\summation\obj\Debug\netcoreapp3.1\summation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 10\summation\obj\Debug\netcoreapp3.1\summation.csproj.CoreCompileInputs.cache
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 10\summation\obj\Debug\netcoreapp3.1\summation.dll
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 10\summation\obj\Debug\netcoreapp3.1\summation.pdb
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 10\summation\obj\Debug\netcoreapp3.1\summation.genruntimeconfig.cache
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 10\summation\obj\Debug\netcoreapp3.1\summation.csproj.AssemblyReference.cache

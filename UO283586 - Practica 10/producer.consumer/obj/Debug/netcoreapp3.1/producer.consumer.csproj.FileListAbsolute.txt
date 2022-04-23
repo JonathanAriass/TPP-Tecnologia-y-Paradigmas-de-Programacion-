@@ -1,0 +1,13 @@
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 10\producer.consumer\bin\Debug\netcoreapp3.1\producer.consumer.exe
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 10\producer.consumer\bin\Debug\netcoreapp3.1\producer.consumer.dll.config
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 10\producer.consumer\bin\Debug\netcoreapp3.1\producer.consumer.deps.json
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 10\producer.consumer\bin\Debug\netcoreapp3.1\producer.consumer.runtimeconfig.json
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 10\producer.consumer\bin\Debug\netcoreapp3.1\producer.consumer.runtimeconfig.dev.json
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 10\producer.consumer\bin\Debug\netcoreapp3.1\producer.consumer.dll
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 10\producer.consumer\bin\Debug\netcoreapp3.1\producer.consumer.pdb
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 10\producer.consumer\obj\Debug\netcoreapp3.1\producer.consumer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 10\producer.consumer\obj\Debug\netcoreapp3.1\producer.consumer.csproj.CoreCompileInputs.cache
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 10\producer.consumer\obj\Debug\netcoreapp3.1\producer.consumer.dll
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 10\producer.consumer\obj\Debug\netcoreapp3.1\producer.consumer.pdb
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 10\producer.consumer\obj\Debug\netcoreapp3.1\producer.consumer.genruntimeconfig.cache
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 10\producer.consumer\obj\Debug\netcoreapp3.1\producer.consumer.csproj.AssemblyReference.cache

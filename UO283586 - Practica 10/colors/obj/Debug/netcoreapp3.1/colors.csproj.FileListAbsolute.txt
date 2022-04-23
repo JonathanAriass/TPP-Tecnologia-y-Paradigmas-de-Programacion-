@@ -1,0 +1,11 @@
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 10\colors\bin\Debug\netcoreapp3.1\colors.exe
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 10\colors\bin\Debug\netcoreapp3.1\colors.deps.json
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 10\colors\bin\Debug\netcoreapp3.1\colors.runtimeconfig.json
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 10\colors\bin\Debug\netcoreapp3.1\colors.runtimeconfig.dev.json
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 10\colors\bin\Debug\netcoreapp3.1\colors.dll
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 10\colors\bin\Debug\netcoreapp3.1\colors.pdb
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 10\colors\obj\Debug\netcoreapp3.1\colors.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 10\colors\obj\Debug\netcoreapp3.1\colors.csproj.CoreCompileInputs.cache
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 10\colors\obj\Debug\netcoreapp3.1\colors.dll
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 10\colors\obj\Debug\netcoreapp3.1\colors.pdb
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 10\colors\obj\Debug\netcoreapp3.1\colors.genruntimeconfig.cache
