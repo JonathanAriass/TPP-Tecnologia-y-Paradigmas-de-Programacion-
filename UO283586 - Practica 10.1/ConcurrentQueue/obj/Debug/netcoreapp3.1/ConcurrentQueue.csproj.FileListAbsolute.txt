@@ -1,0 +1,13 @@
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 10.1\ConcurrentQueue\bin\Debug\netcoreapp3.1\ConcurrentQueue.deps.json
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 10.1\ConcurrentQueue\bin\Debug\netcoreapp3.1\ConcurrentQueue.dll
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 10.1\ConcurrentQueue\bin\Debug\netcoreapp3.1\ConcurrentQueue.pdb
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 10.1\ConcurrentQueue\bin\Debug\netcoreapp3.1\ListaEnlazada.dll
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 10.1\ConcurrentQueue\bin\Debug\netcoreapp3.1\ListaEnlazada.pdb
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 10.1\ConcurrentQueue\obj\Debug\netcoreapp3.1\ConcurrentQueue.csproj.AssemblyReference.cache
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 10.1\ConcurrentQueue\obj\Debug\netcoreapp3.1\ConcurrentQueue.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 10.1\ConcurrentQueue\obj\Debug\netcoreapp3.1\ConcurrentQueue.AssemblyInfoInputs.cache
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 10.1\ConcurrentQueue\obj\Debug\netcoreapp3.1\ConcurrentQueue.AssemblyInfo.cs
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 10.1\ConcurrentQueue\obj\Debug\netcoreapp3.1\ConcurrentQueue.csproj.CoreCompileInputs.cache
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 10.1\ConcurrentQueue\obj\Debug\netcoreapp3.1\ConcurrentQueue.csproj.CopyComplete
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 10.1\ConcurrentQueue\obj\Debug\netcoreapp3.1\ConcurrentQueue.dll
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 10.1\ConcurrentQueue\obj\Debug\netcoreapp3.1\ConcurrentQueue.pdb
