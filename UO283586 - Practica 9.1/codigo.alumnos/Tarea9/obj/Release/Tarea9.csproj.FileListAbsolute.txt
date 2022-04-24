@@ -1,0 +1,7 @@
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 9.1\codigo.alumnos\Tarea9\bin\Release\Practica9.exe.config
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 9.1\codigo.alumnos\Tarea9\bin\Release\Practica9.exe
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 9.1\codigo.alumnos\Tarea9\bin\Release\Practica9.pdb
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 9.1\codigo.alumnos\Tarea9\obj\Release\Tarea9.csproj.AssemblyReference.cache
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 9.1\codigo.alumnos\Tarea9\obj\Release\Tarea9.csproj.CoreCompileInputs.cache
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 9.1\codigo.alumnos\Tarea9\obj\Release\Practica9.exe
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 9.1\codigo.alumnos\Tarea9\obj\Release\Practica9.pdb
