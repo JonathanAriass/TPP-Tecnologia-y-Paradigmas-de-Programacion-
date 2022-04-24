@@ -1,4 +1,5 @@
-﻿using System;
+﻿using colors;
+using System;
 using System.Threading;
 
 namespace TPP.Laboratory.Concurrency.Lab10
@@ -20,6 +21,7 @@ namespace TPP.Laboratory.Concurrency.Lab10
                     };
 
         static void Main() {
+            Console.WriteLine($"Version sin sincronizar\n");
             Thread[] threads = new Thread[colors.Length];
             for (int i = 0; i < colors.Length; i++) {
                 Color color = new Color(colors[i]);
@@ -27,6 +29,22 @@ namespace TPP.Laboratory.Concurrency.Lab10
             }
             foreach (Thread thread in threads)
                 thread.Start();
+
+            foreach (Thread thread in threads)
+                thread.Join();
+
+            Console.WriteLine($"\n\n\nVersion sincronizada\n");
+
+            Thread[] threadsSincronizado = new Thread[colors.Length];
+            for (int i = 0; i < colors.Length; i++)
+            {
+                ColorSincronizado color = new ColorSincronizado(colors[i]);
+                threadsSincronizado[i] = new Thread(color.Show);
+            }
+            foreach (Thread thread in threadsSincronizado)
+                thread.Start();
+            foreach (Thread thread in threads)
+                thread.Join();
         }
 
     }

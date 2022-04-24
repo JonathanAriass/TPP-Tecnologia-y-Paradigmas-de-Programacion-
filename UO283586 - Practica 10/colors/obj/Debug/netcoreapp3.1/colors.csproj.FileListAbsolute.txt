@@ -9,3 +9,4 @@ C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica
 C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 10\colors\obj\Debug\netcoreapp3.1\colors.dll
 C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 10\colors\obj\Debug\netcoreapp3.1\colors.pdb
 C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 10\colors\obj\Debug\netcoreapp3.1\colors.genruntimeconfig.cache
+C:\Users\byjon\Desktop\UNI\2-cuatri\TPP\Practica\Repo Github\UO283586 - Practica 10\colors\obj\Debug\netcoreapp3.1\colors.csproj.AssemblyReference.cache

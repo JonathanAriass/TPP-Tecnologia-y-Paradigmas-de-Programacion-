@@ -15,12 +15,12 @@ namespace TPP.Laboratory.Concurrency.Lab10
         // Hay que usar un lock para que los valores no se cambien entre hilos
         // En el Lock se tiene que pasar por referencia el objeto compartido
         virtual public void Show() {
-            lock (Console.Out) {
+            //lock (Console.Out) {
                 ConsoleColor previousColor = Console.ForegroundColor;
                 Console.ForegroundColor = this.color;
                 Console.Write("{0}\t", this.color);
                 Console.ForegroundColor = previousColor;
-            }
+            //}
         }
 
     }
