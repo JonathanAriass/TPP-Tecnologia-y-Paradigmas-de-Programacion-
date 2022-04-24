@@ -25,12 +25,12 @@ namespace Practica9
             for (int numeroHilos = 1; numeroHilos <= maximoHilos; numeroHilos++)
             {
                 Master master = new Master(Utils.GetBitcoinData(), numeroHilos, 7000);
-                DateTime antes = DateTime.Now;
+                //DateTime antes = DateTime.Now;
                 crono.Start();
                 double resultado = master.ComputeModulus();
                 crono.Stop();
-                DateTime despues = DateTime.Now;
-                MostrarLinea(Console.Out, numeroHilos, (despues - antes).Ticks, resultado);
+                //DateTime despues = DateTime.Now;
+                //MostrarLinea(Console.Out, numeroHilos, (despues - antes).Ticks, resultado);
                 Console.WriteLine("\nElapsed time: {0:N} milliseconds.", crono.ElapsedMilliseconds);
 
                 GC.Collect();
@@ -42,10 +42,15 @@ namespace Practica9
 
             double min = 7000;
 
+            crono.Reset();
+
+            crono.Start();
             Parallel.ForEach(data, n =>
             {
                 ContarNumeros(min, data);
             });
+            crono.Stop();
+            Console.WriteLine("\nElapsed time: {0:N} milliseconds.", crono.ElapsedMilliseconds);
 
             var result = data.AsParallel().Aggregate(new int(), (res, n) =>
             {
@@ -68,7 +73,7 @@ namespace Practica9
             //MostrarLinea(Console.Out, (despues2 - antes2).Ticks, result2);
 
             Console.WriteLine("\nElapsed time: {0:N} milliseconds.", crono.ElapsedMilliseconds);
-            Console.Write($"Resultado: {result2}");
+            Console.Write($"Resultado: {result2}\n\n");
 
 
         }
