@@ -28,7 +28,7 @@ Hay dos tipos claros de paradigmas, los imperativos y los declarativos:
 Los principales paradigmas son los siguientes:
 <details>
 <summary>Estructurado basado en procedimientos</summary>
-<br>	
+	
 Test de ejemplo.
 </details>
  
