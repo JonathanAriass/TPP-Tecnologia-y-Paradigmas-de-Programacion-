@@ -49,7 +49,7 @@ Hay los llamados lenguajes funcionales puros que no utilizan ni la asignación n
  
 Paradigma declarativo basado en la programación de ordenadores mediante lógica matemática. El programador describe, por tanto, un conocimiento mediante reglas lógicas y axiomas (hechos). El lenguaje de programación lógica por excelencia es Prolog.
 </details>
-=======
+
 <details>
 <summary>Estructurado basado en procedimientos</summary>
 	
