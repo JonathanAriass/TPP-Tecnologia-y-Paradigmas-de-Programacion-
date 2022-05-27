@@ -26,10 +26,25 @@ Hay dos tipos claros de paradigmas, los imperativos y los declarativos:
 
 
 Los principales paradigmas son los siguientes:
-* <details>
- <summary>Estructurado basado en procedimientos</summary>
- Test de ejemplo.
- </details>
-* Orientado a objetos
-* Funcional
-* Lógico
+
+<details>
+<summary>Estructurado basado en procedimientos</summary>
+ 
+Este paradigma es llamado simplemente imperativo. Define el procedimiento o subrutina como el primer mecanismo de descomposicion (lista ordenada de instrucciones), como puede ser Algol, Ada, Pascal, C.
+</details>
+<details>
+<summary>Orientado a objetos</summary>
+ 
+Utiliza los objetos, union de datos y metodos, ocmo principal abstraccion, definiendo programas como interacciones entre objetos. Se basa en la idea de modelar objetos reales mediante la codificacion de objetos software. Tipicamente es un paradigma imperativo y se basa en clases y prototipos. Hay lenguajes OO puros como Ruby o Eiffel.
+</details>
+<details>
+<summary>Funcional</summary>
+ 
+Paradigma declarativo basado en la utilizacion de funciones que manejan datos inmutables. Un programa se define mediante un conjunto de funciones invocándose entre sí. Las funciones no generan efectos colaterales. También cabe destacar que se hace uso de la recursividad, en lugar de la iteración.
+Hay los llamados lenguajes funcionales puros que no utilizan ni la asignación ni la secuencia de instrucciones. Algunos de estos lenguajes son: Scheme, Lisp, Erlang.
+</details>
+<details>
+<summary>Lógico</summary>
+ 
+Paradigma declarativo basado en la programación de ordenadores mediante lógica matemática. El programador describe, por tanto, un conocimiento mediante reglas lógicas y axiomas (hechos). El lenguaje de programación lógica por excelencia es Prolog.
+</details>
