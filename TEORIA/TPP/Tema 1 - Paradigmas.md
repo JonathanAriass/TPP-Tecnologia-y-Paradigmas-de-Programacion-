@@ -31,6 +31,7 @@ Los principales paradigmas son los siguientes:
 	
  Test de ejemplo.
  </details>
+ 
 * Orientado a objetos
 * Funcional
 * Lógico
