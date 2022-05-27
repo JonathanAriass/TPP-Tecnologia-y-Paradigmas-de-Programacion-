@@ -1,0 +1,95 @@
+{
+  "main": {
+    "id": "c5df5ab0b8e0491c",
+    "type": "split",
+    "children": [
+      {
+        "id": "65cc45f24ce7c6b6",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Tema 1 - Paradigmas.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "953dcd22bf6cd068",
+    "type": "split",
+    "children": [
+      {
+        "id": "8d873ef36429ab5e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ba5701dfc4f64964",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "d1026acc479c378e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "13f62d85c290ec15",
+    "type": "split",
+    "children": [
+      {
+        "id": "98da1eb61e2c63f2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0472b0ef35f1ffc8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Tema 1 - Paradigmas.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "65cc45f24ce7c6b6",
+  "lastOpenFiles": [
+    "Tema 1 - Paradigmas.md"
+  ]
+}
