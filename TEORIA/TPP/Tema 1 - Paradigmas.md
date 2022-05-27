@@ -26,6 +26,7 @@ Hay dos tipos claros de paradigmas, los imperativos y los declarativos:
 
 
 Los principales paradigmas son los siguientes:
+<<<<<<< HEAD
 
 <details>
 <summary>Estructurado basado en procedimientos</summary>
@@ -48,3 +49,14 @@ Hay los llamados lenguajes funcionales puros que no utilizan ni la asignación n
  
 Paradigma declarativo basado en la programación de ordenadores mediante lógica matemática. El programador describe, por tanto, un conocimiento mediante reglas lógicas y axiomas (hechos). El lenguaje de programación lógica por excelencia es Prolog.
 </details>
+=======
+<details>
+<summary>Estructurado basado en procedimientos</summary>
+	
+Test de ejemplo.
+</details>
+ 
+* Orientado a objetos
+* Funcional
+* Lógico
+>>>>>>> 9a1017f19d9c55a39e96e6ce9ddc003379b61833
