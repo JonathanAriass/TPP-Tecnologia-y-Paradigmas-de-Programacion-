@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Tema 1 - Paradigmas.md",
+            "file": "Tema 2 - Paradigma orientado a objetos.md",
             "mode": "source",
             "source": false
           }
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tema 1 - Paradigmas.md",
+                "file": "Tema 2 - Paradigma orientado a objetos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,6 +90,7 @@
   },
   "active": "65cc45f24ce7c6b6",
   "lastOpenFiles": [
+    "Tema 2 - Paradigma orientado a objetos.md",
     "Tema 1 - Paradigmas.md"
   ]
 }
