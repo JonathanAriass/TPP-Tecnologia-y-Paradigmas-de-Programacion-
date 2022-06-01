@@ -75,3 +75,69 @@ public class Master {
 
 </details>
 
+<details>
+<summary>Clase Worker.cs</summary>
+
+```csharp
+internal class Worker {
+        private short[] vector;
+        private int fromIndex, toIndex;
+        private long result;
+
+        internal long Result {
+            get { return this.result; }
+        }
+
+        internal Worker(short[] vector, int fromIndex, int toIndex) {
+            this.vector = vector;
+            this.fromIndex = fromIndex;
+            this.toIndex = toIndex;
+        }
+        
+        internal void Compute() {
+            this.result = 0;
+            for(int i= this.fromIndex; i<=this.toIndex; i++)
+                this.result += this.vector[i] * this.vector[i];
+        }
+    }
+```
+
+</details>
+
+
+<details>
+<summary>Clase Main.cs</summary>
+
+```csharp
+public class VectorModulusProgram {
+
+        static void Main(string[] args) {
+            short[] vector = CreateRandomVector(100000, -100, 100);
+
+            double result = 0;
+            foreach (short element in vector)
+                result += element * element;
+            Console.WriteLine($"Result: {Math.Sqrt(result)}");
+
+            // * Computation with four threads
+            master = new Master(vector, 4);
+            before = DateTime.Now;
+            result = master.ComputeModulus();
+            after = DateTime.Now;
+            Console.WriteLine("The result obtained with four threads is: {0:N2}.", result);
+            Console.WriteLine("Elapsed time: {0:N0} ticks.",
+                (after - before).Ticks);
+        }
+
+        public static short[] CreateRandomVector(int numberOfElements, short lowest, short greatest) {
+            short[] vector = new short[numberOfElements];
+            Random random = new Random();
+            for (int i = 0; i < numberOfElements; i++)
+                vector[i] = (short)random.Next(lowest, greatest + 1);
+            return vector;
+        }
+
+    }
+```
+</details>
+
