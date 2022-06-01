@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Tema 4 - Programación concurrente y paralela.md",
+            "file": "SEMINARIOS.md",
             "mode": "source",
             "source": false
           }
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tema 4 - Programación concurrente y paralela.md",
+                "file": "SEMINARIOS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,6 +90,7 @@
   },
   "active": "65cc45f24ce7c6b6",
   "lastOpenFiles": [
+    "SEMINARIOS.md",
     "Tema 4 - Programación concurrente y paralela.md",
     "Tema 3 - Fundametos del paradigma funcional.md",
     "Tema 1 - Paradigmas.md",
