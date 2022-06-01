@@ -380,7 +380,7 @@ public static IEnumerable<TDomain> Filter<TDomain>(this IEnumerable<TDomain> lis
 }
 ```
 
-</details>
+#</details>
 
 <details><summary>Map</summary>
 	

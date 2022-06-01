@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#arquitecturas",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,6 +93,7 @@
     "Tema 4 - Programación concurrente y paralela.md",
     "Tema 3 - Fundametos del paradigma funcional.md",
     "Tema 1 - Paradigmas.md",
+    "Master-Worker.png",
     "Tema 2 - Paradigma orientado a objetos.md"
   ]
 }
