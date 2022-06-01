@@ -134,6 +134,7 @@ public class VectorModulusProgram {
 
     }
 ```
+						 
 </details>
 
 Podemos por tanto hacer un diagrama de la solución a este problema con varios hilos de ejecución:
