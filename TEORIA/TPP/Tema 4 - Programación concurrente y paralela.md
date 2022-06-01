@@ -69,7 +69,7 @@ public class Master {
                 result += worker.Result;
             return Math.Sqrt(result);
         }
-    }
+}
 ```
 
 </details>
@@ -365,6 +365,76 @@ static void Main() {
 	foreach (Thread hilo in hilos) hilo.Start();  
 	foreach (Thread hilo in hilos) hilo.Join();  
 	Console.WriteLine(valor);  
+}
+```
+
+## Interbloque
+Se produce un interbloque (deadlock) entre un conjunto de tareas si todas y cada una de ellas están esperando por un evento que sólo otra puede causar. Todas las tareas se bloquean de forma permanentemente. Un ejemplo de esto puede ser el siguiente:
+```csharp
+public class Cuenta {  
+	private decimal saldo;  
+	public bool Retirar(decimal cantidad) {  
+		if (this.saldo < cantidad) return false;  
+		saldo -= cantidad;  
+		return true;  
+	}  
+	public void Ingresar(decimal cantidad) {  
+		saldo += cantidad;  
+	}  
+	public bool Transferir(Cuenta cuentaDestino, decimal cantidad) {  
+		lock (this) {  
+			lock (cuentaDestino) {  
+				if (this.Retirar(cantidad)) {  
+					cuentaDestino.Ingresar(cantidad);  
+					return true;  
+				}  
+				else return false;  
+	} } }
+```
+
+En caso de que se quiera ejecutar la siguiente combinacion concurrentemente ¿que sucede?
+1. cuentaA.transferir(cuentaB, imp);
+2. cuentaB.transferir(cuentaA, imp);
+
+Como la cuentaB estará siendo usada en el primer caso la segunda transferencia tendrá que esperar a que la primera instrucción finalice de ejecutar.
+
+Una forma de solucionar este intrebloqueo será lockeando this en los metodos Retirar e Ingresar de la siguiente forma:
+```charp
+	public bool Retirar(decimal cantidad) {  
+		lock (this) {
+			if (this.saldo < cantidad) return false;  
+			saldo -= cantidad;  
+			return true;  
+		}
+	}  
+	
+	public void Ingresar(decimal cantidad) {  
+		lock (this) {
+			saldo += cantidad;
+		}
+	}  
+```
+
+De esta forma podemos liberar el método Transferir quedando tal que:
+```csharp
+	public bool Transferir(Cuenta cuentaDestino, decimal cantidad) {  
+		if (this.Retirar(cantidad)) {  
+			cuentaDestino.Ingresar(cantidad);  
+			return true;  
+		}  
+		else return false;  
+	}
+```
+
+## Estructuras de datos Thread-Safe
+Para implementar una estructura de datos Thread-Safe lo que podemos hacer es utilizar un bloqueador creado fuera del metodo de la siguiente manera:
+```csharp
+class ListaThreadSafe {
+	public object bloqueador = new Object();
+	public void Add(Object obj) {
+		lock (bloqueador)
+			// Sección crítica
+	}
 }
 ```
 
