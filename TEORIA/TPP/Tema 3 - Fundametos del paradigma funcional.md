@@ -348,3 +348,37 @@ La utilización de introspección para este escenario posee dos incovenientes:
 **Pregunta: En C# ¿cuál es la técnica más apropiada para obtener los beneficios de pattern matching de tipos (como en el ejemplo anterior)?**
 Con el polimorfismo, es decir, redefinir el método para cada tipo.
 
+
+## Función de Orden Superior
+Recordemos que una función de orden superior es una función que:
+* O recibe una función como parámetro
+* O retorna una función como resultado
+
+Las funciones de orden superior más tipicas son:
+* Filter: aplica un predicado a todos los elementos de una colección
+* Map: aplica una función a todos los elementos de una colección devolviendo una nueva colección
+* Reduce: aplica una función a todos los elementos de una colección, dado un orden, devolviendo un valor
+
+Veamos ahora el código para estas tres funciones.
+
+<details><summary>Filter</summary><br/>
+
+Método completo
+```csharp
+public static IEnumerable<TDomain> Filter<TDomain>(this IEnumerable<TDomain> list, Predicate<TDomain> function)
+{
+	var aux = new TDomain[list.Count()];
+	int i = 0;
+	foreach (var a in list)
+	{
+		if (function(a)) {
+			aux[i] = a;
+			i++;
+		}
+	}
+	Array.Resize(ref aux, i);
+	return aux;
+}
+```
+
+</details>
