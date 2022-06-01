@@ -361,9 +361,8 @@ Las funciones de orden superior más tipicas son:
 
 Veamos ahora el código para estas tres funciones.
 
-<details><summary>Filter</summary><br/>
-
-Método completo
+<details><summary>Filter</summary>
+	
 ```csharp
 public static IEnumerable<TDomain> Filter<TDomain>(this IEnumerable<TDomain> list, Predicate<TDomain> function)
 {
@@ -383,9 +382,8 @@ public static IEnumerable<TDomain> Filter<TDomain>(this IEnumerable<TDomain> lis
 
 </details>
 
-<details><summary>Map</summary><br/>
-
-Método completo
+<details><summary>Map</summary>
+	
 ```csharp
 public static IEnumerable<TCD> Map<TD, TCD>(this IEnumerable<TD> list, Func<TD, TCD> func)
 {
@@ -400,9 +398,8 @@ public static IEnumerable<TCD> Map<TD, TCD>(this IEnumerable<TD> list, Func<TD, 
 
 </details>
 
-<details><summary>Reduce (con semilla)</summary><br/>
+<details><summary>Reduce (con semilla)</summary>
 
-Método completo
 ```csharp
 public static TCD Reduce<TD, TCD>(this IEnumerable<TD> list, Func<TCD, TD, TCD> func, TCD acc = default(TCD))
 {
