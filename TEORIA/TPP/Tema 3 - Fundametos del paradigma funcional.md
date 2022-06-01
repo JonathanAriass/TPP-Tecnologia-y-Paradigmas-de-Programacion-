@@ -382,3 +382,36 @@ public static IEnumerable<TDomain> Filter<TDomain>(this IEnumerable<TDomain> lis
 ```
 
 </details>
+
+<details><summary>Map</summary><br/>
+
+Método completo
+```csharp
+public static IEnumerable<TCD> Map<TD, TCD>(this IEnumerable<TD> list, Func<TD, TCD> func)
+{
+	IList<TCD> res = new List<TCD>();
+	foreach (TD obj in list)
+	{
+		res.Add(func(obj));
+	}
+	return res;
+}
+```
+
+</details>
+
+<details><summary>Reduce (con semilla)</summary><br/>
+
+Método completo
+```csharp
+public static TCD Reduce<TD, TCD>(this IEnumerable<TD> list, Func<TCD, TD, TCD> func, TCD acc = default(TCD))
+{
+	foreach (TD obj in list)
+	{
+		acc = func(acc, obj);
+	}
+	return acc;
+}
+```
+
+</details>
