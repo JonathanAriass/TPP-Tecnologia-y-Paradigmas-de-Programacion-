@@ -34,8 +34,7 @@ hilo.Start(); // Se lanza el hilo secundario
 
 Ahora vamos a paralelizar un problema por datos: calcular el módulo de un vector de n dimensiones. Para resolver este problema vamos a usar la técnica de master/worker, por lo tanto necesitamos crear esas clases.
 
-<details>
-<summary>Clase Master.cs</summary>
+<details><summary>Clase Master.cs</summary>
 
 ```csharp
 public class Master {
@@ -54,7 +53,7 @@ public class Master {
             Worker[] workers = new Worker[this.numberOfThreads];
             int elementsPerThread = this.vector.Length/numberOfThreads;
             for(int i=0; i < this.numberOfThreads; i++) {
-                workers[i] = new Worker(this.vector,  i*elementsPerThread, (i<this.numberOfThreads-1) ? (i+1)*elementsPerThread-1: this.vector.Length-1);
+                workers[i] = new Worker(this.vector,  i*elementsPerThread,(i<this.numberOfThreads-1) ? (i+1)*elementsPerThread-1: this.vector.Length-1);
 			}
             Thread[] threads = new Thread[workers.Length];
             for(int i=0;i<workers.Length;i++) {
@@ -75,8 +74,7 @@ public class Master {
 
 </details>
 
-<details>
-<summary>Clase Worker.cs</summary>
+<details><summary>Clase Worker.cs</summary>
 
 ```csharp
 internal class Worker {
@@ -105,8 +103,7 @@ internal class Worker {
 </details>
 
 
-<details>
-<summary>Clase Main.cs</summary>
+<details><summary>Clase Main.cs</summary>
 
 ```csharp
 public class VectorModulusProgram {
@@ -125,8 +122,7 @@ public class VectorModulusProgram {
             result = master.ComputeModulus();
             after = DateTime.Now;
             Console.WriteLine("The result obtained with four threads is: {0:N2}.", result);
-            Console.WriteLine("Elapsed time: {0:N0} ticks.",
-                (after - before).Ticks);
+            Console.WriteLine("Elapsed time: {0:N0} ticks.", (after - before).Ticks);
         }
 
         public static short[] CreateRandomVector(int numberOfElements, short lowest, short greatest) {
@@ -144,3 +140,29 @@ public class VectorModulusProgram {
 Podemos por tanto hacer un diagrama de la solución a este problema con varios hilos de ejecución:
 ![Master/Worker](Master-Worker.png)
 
+
+## Thread.Join
+Cuando se llama a Join, el hilo qu erealiza la llamada se bloquea (duerme) hasta que finaliza la ejecución del Thread que recibió el mensaje. Asi nos ahorramos las condiciones de carrera que puede acarrear el paralelizar un problema por datos que dependen de una variable (orden de ejecución).
+
+Todo esto se puede resumir en las condiciones de carrera que significa que el resultado depende del orden de ejecución de la aplicación y de los hilos. Las condiciones de carrera son un foco de errores en programas y sistemas concurrentes.
+
+## Parámetros
+Si se prefiere utilizar una aproximación más funcional, se pueden pasar parámetros a los hilos, como por ejemplo:
+```csharp
+static void Show10Numbers(object from) {
+    int? fromInt = from as int?;
+    if (!fromInt.HasValue)
+        throw new ArgumentException("The parameter \"from\" must be an integer");
+    for (int i = fromInt.Value; i < 10 + fromInt; i++) {
+        Console.WriteLine(i);
+        Thread.Sleep(1000); // Sleeps one second
+    }
+}
+
+static void Main() {
+    Thread thread = new Thread(Show10Numbers);
+    thread.Start(7); // Pasamos parametro al hilo -> delegado
+}
+```
+
+Asi podemos pasar desde que numero queremos empezar al delegado (función) para que ejecute el código.
