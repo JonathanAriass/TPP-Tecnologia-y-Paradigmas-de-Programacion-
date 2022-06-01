@@ -104,6 +104,7 @@ internal class Worker {
 
 
 <details><summary>Clase Main.cs</summary>
+	
 ```csharp
 public class VectorModulusProgram {
 
